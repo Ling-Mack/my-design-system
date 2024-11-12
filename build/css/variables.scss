@@ -930,51 +930,51 @@ $buttons-button-radius-md: $radius-md !default;
 $buttons-button-radius-lg: $radius-md !default;
 $buttons-button-radius-xl: $radius-md !default;
 $buttons-button-radius-2xl: $radius-lg !default;
-$buttons-button-default-sm-gap: $gap-xs !default;
-$buttons-button-default-sm-padding-x: $padding-lg !default;
-$buttons-button-default-sm-padding-y: $padding-md !default;
-$buttons-button-default-md-gap: $gap-xs !default;
-$buttons-button-default-md-padding-x: $padding-2xl !default;
-$buttons-button-default-md-padding-y: $padding-lg !default;
-$buttons-button-default-lg-gap: $gap-sm !default;
-$buttons-button-default-lg-padding-x: $padding-3xl !default;
-$buttons-button-default-lg-padding-y: $padding-lg !default;
-$buttons-button-default-xl-gap: $gap-sm !default;
-$buttons-button-default-xl-padding-x: $padding-4xl !default;
-$buttons-button-default-xl-padding-y: $padding-xl !default;
-$buttons-button-default-2xl-gap: $gap-lg !default;
-$buttons-button-default-2xl-padding-x: $padding-6xl !default;
-$buttons-button-default-button-2xl-padding-y: $padding-3xl !default;
-$buttons-button-dot-leading-sm-gap: $gap-md !default;
-$buttons-button-dot-leading-sm-padding-x: $padding-2xl !default;
-$buttons-button-dot-leading-sm-padding-y: $padding-md !default;
-$buttons-button-dot-leading-md-gap: $gap-md !default;
-$buttons-button-dot-leading-md-padding-x: $padding-3xl !default;
-$buttons-button-dot-leading-md-padding-y: $padding-lg !default;
-$buttons-button-dot-leading-lg-gap: $gap-md !default;
-$buttons-button-dot-leading-lg-padding-x: $padding-4xl !default;
-$buttons-button-dot-leading-lg-padding-y: $padding-lg !default;
-$buttons-button-dot-leading-xl-gap: $gap-md !default;
-$buttons-button-dot-leading-xl-padding-x: $padding-5xl !default;
-$buttons-button-dot-leading-xl-padding-y: $padding-xl !default;
-$buttons-button-dot-leading-2xl-gap: $gap-xl !default;
-$buttons-button-dot-leading-2xl-padding-x: $padding-7xl !default;
-$buttons-button-dot-leading-2xl-padding-y: $padding-3xl !default;
-$buttons-button-icon-only-sm-padding: $padding-md !default;
-$buttons-button-icon-only-md-padding: $padding-lg !default;
-$buttons-button-icon-only-lg-padding: $padding-xl !default;
-$buttons-button-icon-only-xl-padding: $padding-2xl !default;
-$buttons-button-icon-only-2xl-padding: $padding-3xl !default;
-$buttons-link-default-sm-gap: $gap-sm !default;
-$buttons-link-default-md-gap: $gap-sm !default;
-$buttons-link-default-lg-gap: $gap-md !default;
-$buttons-link-default-xl-gap: $gap-md !default;
-$buttons-link-default-2xl-gap: $gap-xl !default;
-$buttons-link-dot-leading-sm-gap: $gap-md !default;
-$buttons-link-dot-leading-md-gap: $gap-md !default;
-$buttons-link-dot-leading-lg-gap: $gap-md !default;
-$buttons-link-dot-leading-xl-gap: $gap-md !default;
-$buttons-link-dot-leading-2xl-gap: $gap-xl !default;
+$buttons-button-default-gap-sm: $gap-xs !default;
+$buttons-button-default-gap-md: $gap-xs !default;
+$buttons-button-default-gap-lg: $gap-sm !default;
+$buttons-button-default-gap-xl: $gap-sm !default;
+$buttons-button-default-gap-2xl: $gap-lg !default;
+$buttons-button-default-padding-sm-x: $padding-lg !default;
+$buttons-button-default-padding-sm-y: $padding-md !default;
+$buttons-button-default-padding-md-x: $padding-2xl !default;
+$buttons-button-default-padding-md-y: $padding-lg !default;
+$buttons-button-default-padding-lg-x: $padding-3xl !default;
+$buttons-button-default-padding-lg-y: $padding-lg !default;
+$buttons-button-default-padding-xl-x: $padding-4xl !default;
+$buttons-button-default-padding-xl-y: $padding-xl !default;
+$buttons-button-default-padding-2xl-x: $padding-6xl !default;
+$buttons-button-default-padding-2xl-y: $padding-3xl !default;
+$buttons-button-dot-leading-gap-sm: $gap-md !default;
+$buttons-button-dot-leading-gap-md: $gap-md !default;
+$buttons-button-dot-leading-gap-lg: $gap-md !default;
+$buttons-button-dot-leading-gap-xl: $gap-md !default;
+$buttons-button-dot-leading-gap-2xl: $gap-xl !default;
+$buttons-button-dot-leading-padding-sm-x: $padding-2xl !default;
+$buttons-button-dot-leading-padding-sm-y: $padding-md !default;
+$buttons-button-dot-leading-padding-md-x: $padding-3xl !default;
+$buttons-button-dot-leading-padding-md-y: $padding-lg !default;
+$buttons-button-dot-leading-padding-lg-x: $padding-4xl !default;
+$buttons-button-dot-leading-padding-lg-y: $padding-lg !default;
+$buttons-button-dot-leading-padding-xl-x: $padding-5xl !default;
+$buttons-button-dot-leading-padding-xl-y: $padding-xl !default;
+$buttons-button-dot-leading-padding-2xl-x: $padding-7xl !default;
+$buttons-button-dot-leading-padding-2xl-y: $padding-3xl !default;
+$buttons-button-icon-only-padding-sm: $padding-md !default;
+$buttons-button-icon-only-padding-md: $padding-lg !default;
+$buttons-button-icon-only-padding-lg: $padding-xl !default;
+$buttons-button-icon-only-padding-xl: $padding-2xl !default;
+$buttons-button-icon-only-padding-2xl: $padding-3xl !default;
+$buttons-link-default-gap-sm: $gap-sm !default;
+$buttons-link-default-gap-md: $gap-sm !default;
+$buttons-link-default-gap-lg: $gap-md !default;
+$buttons-link-default-gap-xl: $gap-md !default;
+$buttons-link-default-gap-2xl: $gap-xl !default;
+$buttons-link-dot-leading-gap-sm: $gap-md !default;
+$buttons-link-dot-leading-gap-md: $gap-md !default;
+$buttons-link-dot-leading-gap-lg: $gap-md !default;
+$buttons-link-dot-leading-gap-xl: $gap-md !default;
+$buttons-link-dot-leading-gap-2xl: $gap-xl !default;
 $buttons-link-radius-sm: $radius-xs !default;
 $buttons-link-radius-md: $radius-xs !default;
 $buttons-link-radius-lg: $radius-xs !default;
@@ -1130,58 +1130,58 @@ $badges-rectangle-radius-sm: $radius-sm !default;
 $badges-rectangle-radius-md: $radius-sm !default;
 $badges-rectangle-radius-lg: $radius-md !default;
 $badges-rectangle-radius-pill: $radius-full !default;
-$badges-rectangle-dafault-sm-padding-x: $padding-sm !default;
-$badges-rectangle-dafault-sm-padding-y: $padding-3xs !default;
-$badges-rectangle-dafault-md-padding-x: $padding-md !default;
-$badges-rectangle-dafault-md-padding-y: $padding-3xs !default;
-$badges-rectangle-dafault-lg-padding-x: $padding-lg !default;
-$badges-rectangle-dafault-lg-padding-y: $padding-xs !default;
-$badges-rectangle-dot-leading-sm-padding-y: $padding-3xs !default;
-$badges-rectangle-dot-leading-sm-gap: $gap-xs !default;
-$badges-rectangle-dot-leading-sm-padding-x: $padding-sm !default;
-$badges-rectangle-dot-leading-md-gap: $gap-sm !default;
-$badges-rectangle-dot-leading-md-padding-x: $padding-md !default;
-$badges-rectangle-dot-leading-md-padding-y: $padding-3xs !default;
-$badges-rectangle-dot-leading-lg-gap: $gap-sm !default;
-$badges-rectangle-dot-leading-lg-padding-x: $padding-lg !default;
-$badges-rectangle-dot-leading-lg-padding-y: $padding-xs !default;
-$badges-rectangle-x-close-sm-gap: $gap-xxs !default;
-$badges-rectangle-x-close-sm-padding-left: $padding-sm !default;
-$badges-rectangle-x-close-sm-padding-right: $padding-xs !default;
-$badges-rectangle-x-close-sm-padding-y: $padding-3xs !default;
-$badges-rectangle-x-close-md-gap: $gap-xxs !default;
-$badges-rectangle-x-close-md-padding-left: $padding-md !default;
-$badges-rectangle-x-close-md-padding-right: $padding-xs !default;
-$badges-rectangle-x-close-md-padding-y: $padding-3xs !default;
-$badges-rectangle-x-close-lg-gap: $gap-xxs !default;
-$badges-rectangle-x-close-lg-padding-left: $padding-lg !default;
-$badges-rectangle-x-close-lg-padding-right: $padding-sm !default;
-$badges-rectangle-x-close-lg-padding-y: $padding-xs !default;
-$badges-rectangle-x-close-button-padding: $padding-3xs !default;
-$badges-rectangle-icon-trailing-sm-gap: $gap-xs !default;
-$badges-rectangle-icon-trailing-sm-padding-left: $padding-sm !default;
-$badges-rectangle-icon-trailing-sm-padding-right: $padding-xs !default;
-$badges-rectangle-icon-trailing-sm-padding-y: $padding-3xs !default;
-$badges-rectangle-icon-trailing-md-gap: $gap-xs !default;
-$badges-rectangle-icon-trailing-md-padding-left: $padding-md !default;
-$badges-rectangle-icon-trailing-md-padding-right: $padding-sm !default;
-$badges-rectangle-icon-trailing-md-padding-y: $padding-3xs !default;
-$badges-rectangle-icon-trailing-lg-gap: $gap-xs !default;
-$badges-rectangle-icon-trailing-lg-padding-left: $padding-lg !default;
-$badges-rectangle-icon-trailing-lg-padding-right: $padding-md !default;
-$badges-rectangle-icon-trailing-lg-padding-y: $padding-xs !default;
-$badges-rectangle-icon-leading-sm-gap: $gap-xs !default;
-$badges-rectangle-icon-leading-sm-padding-left: $padding-xs !default;
-$badges-rectangle-icon-leading-sm-padding-right: $padding-sm !default;
-$badges-rectangle-icon-leading-sm-padding-y: $padding-3xs !default;
-$badges-rectangle-icon-leading-md-gap: $gap-xs !default;
-$badges-rectangle-icon-leading-md-padding-left: $padding-sm !default;
-$badges-rectangle-icon-leading-md-padding-right: $padding-md !default;
-$badges-rectangle-icon-leading-md-padding-y: $padding-3xs !default;
-$badges-rectangle-icon-leading-lg-gap: $gap-xs !default;
-$badges-rectangle-icon-leading-lg-padding-left: $padding-md !default;
-$badges-rectangle-icon-leading-lg-padding-right: $padding-lg !default;
-$badges-rectangle-icon-leading-lg-padding-y: $padding-xs !default;
+$badges-rectangle-dafault-padding-sm-x: $padding-sm !default;
+$badges-rectangle-dafault-padding-sm-y: $padding-3xs !default;
+$badges-rectangle-dafault-padding-md-x: $padding-md !default;
+$badges-rectangle-dafault-padding-md-y: $padding-3xs !default;
+$badges-rectangle-dafault-padding-lg-x: $padding-lg !default;
+$badges-rectangle-dafault-padding-lg-y: $padding-xs !default;
+$badges-rectangle-dot-leading-padding-sm-y: $padding-3xs !default;
+$badges-rectangle-dot-leading-padding-sm-x: $padding-sm !default;
+$badges-rectangle-dot-leading-padding-md-x: $padding-md !default;
+$badges-rectangle-dot-leading-padding-md-y: $padding-3xs !default;
+$badges-rectangle-dot-leading-padding-lg-x: $padding-lg !default;
+$badges-rectangle-dot-leading-padding-lg-y: $padding-xs !default;
+$badges-rectangle-dot-leading-gap-sm: $gap-xs !default;
+$badges-rectangle-dot-leading-gap-md: $gap-sm !default;
+$badges-rectangle-dot-leading-gap-lg: $gap-sm !default;
+$badges-rectangle-x-close-gap-sm: $gap-xxs !default;
+$badges-rectangle-x-close-gap-md: $gap-xxs !default;
+$badges-rectangle-x-close-gap-lg: $gap-xxs !default;
+$badges-rectangle-x-close-padding-sm-left: $padding-sm !default;
+$badges-rectangle-x-close-padding-sm-right: $padding-xs !default;
+$badges-rectangle-x-close-padding-sm-y: $padding-3xs !default;
+$badges-rectangle-x-close-padding-md-left: $padding-md !default;
+$badges-rectangle-x-close-padding-md-right: $padding-xs !default;
+$badges-rectangle-x-close-padding-md-y: $padding-3xs !default;
+$badges-rectangle-x-close-padding-lg-left: $padding-lg !default;
+$badges-rectangle-x-close-padding-lg-right: $padding-sm !default;
+$badges-rectangle-x-close-padding-lg-y: $padding-xs !default;
+$badges-rectangle-x-close-padding-close-icon: $padding-3xs !default;
+$badges-rectangle-icon-trailing-gap-sm: $gap-xs !default;
+$badges-rectangle-icon-trailing-gap-md: $gap-xs !default;
+$badges-rectangle-icon-trailing-gap-lg: $gap-xs !default;
+$badges-rectangle-icon-trailing-padding-sm-left: $padding-sm !default;
+$badges-rectangle-icon-trailing-padding-sm-right: $padding-xs !default;
+$badges-rectangle-icon-trailing-padding-sm-y: $padding-3xs !default;
+$badges-rectangle-icon-trailing-padding-md-left: $padding-md !default;
+$badges-rectangle-icon-trailing-padding-md-right: $padding-sm !default;
+$badges-rectangle-icon-trailing-padding-md-y: $padding-3xs !default;
+$badges-rectangle-icon-trailing-padding-lg-left: $padding-lg !default;
+$badges-rectangle-icon-trailing-padding-lg-right: $padding-md !default;
+$badges-rectangle-icon-trailing-padding-lg-y: $padding-xs !default;
+$badges-rectangle-icon-leading-gap-sm: $gap-xs !default;
+$badges-rectangle-icon-leading-gap-md: $gap-xs !default;
+$badges-rectangle-icon-leading-gap-lg: $gap-xs !default;
+$badges-rectangle-icon-leading-padding-sm-left: $padding-xs !default;
+$badges-rectangle-icon-leading-padding-sm-right: $padding-sm !default;
+$badges-rectangle-icon-leading-padding-sm-y: $padding-3xs !default;
+$badges-rectangle-icon-leading-padding-md-left: $padding-sm !default;
+$badges-rectangle-icon-leading-padding-md-right: $padding-md !default;
+$badges-rectangle-icon-leading-padding-md-y: $padding-3xs !default;
+$badges-rectangle-icon-leading-padding-lg-left: $padding-md !default;
+$badges-rectangle-icon-leading-padding-lg-right: $padding-lg !default;
+$badges-rectangle-icon-leading-padding-lg-y: $padding-xs !default;
 $badges-rectangle-icon-only-sm-width: $width-3xs !default;
 $badges-rectangle-icon-only-sm-height: $height-3xs !default;
 $badges-rectangle-icon-only-md-width: $width-2xs !default;
@@ -1190,48 +1190,48 @@ $badges-rectangle-icon-only-lg-width: $width-xs !default;
 $badges-rectangle-icon-only-lg-height: $height-xs !default;
 $badges-pill-radius-radius: $radius-xs !default;
 $badges-pill-radius-pill-button: $radius-full !default;
-$badges-pill-default-sm-padding-x: $padding-md !default;
-$badges-pill-default-sm-padding-y: $padding-3xs !default;
-$badges-pill-default-md-padding-x: $padding-lg !default;
-$badges-pill-default-md-padding-y: $padding-3xs !default;
-$badges-pill-default-lg-padding-x: $padding-xl !default;
-$badges-pill-default-lg-padding-y: $padding-xs !default;
-$badges-pill-dot-leading-sm-padding-left: $padding-sm !default;
-$badges-pill-dot-leading-sm-padding-right: $padding-md !default;
-$badges-pill-dot-leading-sm-padding-y: $padding-3xs !default;
-$badges-pill-dot-leading-md-padding-left: $padding-md !default;
-$badges-pill-dot-leading-md-padding-right: $padding-lg !default;
-$badges-pill-dot-leading-md-padding-y: $padding-3xs !default;
-$badges-pill-dot-leading-lg-padding-left: $padding-lg !default;
-$badges-pill-dot-leading-lg-padding-right: $padding-xl !default;
-$badges-pill-dot-leading-badge-pill-dot-leading-lg-padding-y: $padding-xs !default;
-$badges-pill-x-close-sm-padding-left: $padding-md !default;
-$badges-pill-x-close-sm-padding-right: $padding-xs !default;
-$badges-pill-x-close-sm-padding-y: $padding-3xs !default;
-$badges-pill-x-close-md-padding-left: $padding-lg !default;
-$badges-pill-x-close-md-padding-right: $padding-xs !default;
-$badges-pill-x-close-md-padding-y: $padding-3xs !default;
-$badges-pill-x-close-lg-padding-left: $padding-xl !default;
-$badges-pill-x-close-lg-padding-right: $padding-sm !default;
-$badges-pill-x-close-badge-pill-x-close-lg-padding-y: $padding-xs !default;
-$badges-pill-icon-trailing-sm-padding-left: $padding-md !default;
-$badges-pill-icon-trailing-sm-padding-right: $padding-sm !default;
-$badges-pill-icon-trailing-sm-padding-y: $padding-3xs !default;
-$badges-pill-icon-trailing-md-padding-left: $padding-lg !default;
-$badges-pill-icon-trailing-md-padding-right: $padding-md !default;
-$badges-pill-icon-trailing-md-padding-y: $padding-3xs !default;
-$badges-pill-icon-trailing-lg-padding-left: $padding-xl !default;
-$badges-pill-icon-trailing-lg-padding-right: $padding-lg !default;
-$badges-pill-icon-trailing-badge-icon-trailing-lg-padding-y: $padding-xs !default;
-$badges-pill-icon-leading-sm-padding-left: $padding-sm !default;
-$badges-pill-icon-leading-sm-padding-right: $padding-md !default;
-$badges-pill-icon-leading-sm-padding-y: $padding-3xs !default;
-$badges-pill-icon-leading-md-padding-left: $padding-md !default;
-$badges-pill-icon-leading-md-padding-right: $padding-lg !default;
-$badges-pill-icon-leading-md-padding-y: $padding-3xs !default;
-$badges-pill-icon-leading-lg-padding-left: $padding-lg !default;
-$badges-pill-icon-leading-lg-padding-right: $padding-xl !default;
-$badges-pill-icon-leading-badge-icon-leading-lg-padding-y: $padding-xs !default;
+$badges-pill-default-padding-sm-x: $padding-md !default;
+$badges-pill-default-padding-sm-y: $padding-3xs !default;
+$badges-pill-default-padding-md-x: $padding-lg !default;
+$badges-pill-default-padding-md-y: $padding-3xs !default;
+$badges-pill-default-padding-lg-x: $padding-xl !default;
+$badges-pill-default-padding-lg-y: $padding-xs !default;
+$badges-pill-dot-leading-padding-sm-left: $padding-sm !default;
+$badges-pill-dot-leading-padding-sm-right: $padding-md !default;
+$badges-pill-dot-leading-padding-sm-y: $padding-3xs !default;
+$badges-pill-dot-leading-padding-md-left: $padding-md !default;
+$badges-pill-dot-leading-padding-md-right: $padding-lg !default;
+$badges-pill-dot-leading-padding-md-y: $padding-3xs !default;
+$badges-pill-dot-leading-padding-lg-left: $padding-lg !default;
+$badges-pill-dot-leading-padding-lg-right: $padding-xl !default;
+$badges-pill-dot-leading-padding-lg-y: $padding-xs !default;
+$badges-pill-x-close-padding-sm-left: $padding-md !default;
+$badges-pill-x-close-padding-sm-right: $padding-xs !default;
+$badges-pill-x-close-padding-sm-y: $padding-3xs !default;
+$badges-pill-x-close-padding-md-left: $padding-lg !default;
+$badges-pill-x-close-padding-md-right: $padding-xs !default;
+$badges-pill-x-close-padding-md-y: $padding-3xs !default;
+$badges-pill-x-close-padding-lg-left: $padding-xl !default;
+$badges-pill-x-close-padding-lg-right: $padding-sm !default;
+$badges-pill-x-close-padding-lg-y: $padding-xs !default;
+$badges-pill-icon-trailing-padding-sm-left: $padding-md !default;
+$badges-pill-icon-trailing-padding-sm-right: $padding-sm !default;
+$badges-pill-icon-trailing-padding-sm-y: $padding-3xs !default;
+$badges-pill-icon-trailing-padding-md-left: $padding-lg !default;
+$badges-pill-icon-trailing-padding-md-right: $padding-md !default;
+$badges-pill-icon-trailing-padding-md-y: $padding-3xs !default;
+$badges-pill-icon-trailing-padding-lg-left: $padding-xl !default;
+$badges-pill-icon-trailing-padding-lg-right: $padding-lg !default;
+$badges-pill-icon-trailing-padding-lg-y: $padding-xs !default;
+$badges-pill-icon-leading-padding-sm-left: $padding-sm !default;
+$badges-pill-icon-leading-padding-sm-right: $padding-md !default;
+$badges-pill-icon-leading-padding-sm-y: $padding-3xs !default;
+$badges-pill-icon-leading-padding-md-left: $padding-md !default;
+$badges-pill-icon-leading-padding-md-right: $padding-lg !default;
+$badges-pill-icon-leading-padding-md-y: $padding-3xs !default;
+$badges-pill-icon-leading-padding-lg-left: $padding-lg !default;
+$badges-pill-icon-leading-padding-lg-right: $padding-xl !default;
+$badges-pill-icon-leading-padding-lg-y: $padding-xs !default;
 $badges-pill-icon-only-sm-width: $width-3xs !default;
 $badges-pill-icon-only-sm-height: $height-3xs !default;
 $badges-pill-icon-only-md-width: $width-2xs !default;
@@ -1390,15 +1390,15 @@ $tabs-line-border-stoke: $stoke-sm !default;
 $tabs-text-button-radius-sm: $radius-sm !default;
 $tabs-text-button-radius-md: $radius-sm !default;
 $tabs-text-button-radius-xs: $radius-xs !default;
-$tabs-text-button-button-spacing-sm-padding-x: $padding-xl !default;
-$tabs-text-button-button-spacing-sm-padding-y: $padding-sm !default;
-$tabs-text-button-button-spacing-md-padding-x: $padding-3xl !default;
-$tabs-text-button-button-spacing-md-padding-y: $padding-lg !default;
-$tabs-text-button-button-spacing-sm-gap: $gap-xs !default;
-$tabs-text-button-button-spacing-md-gap: $gap-xs !default;
-$tabs-text-button-button-spacing-xs-padding-x: $padding-md !default;
-$tabs-text-button-button-spacing-xs-padding-y: $padding-2xs !default;
-$tabs-text-button-button-spacing-xs-gap: $gap-xs !default;
+$tabs-text-button-button-spacing-padding-sm-x: $padding-xl !default;
+$tabs-text-button-button-spacing-padding-sm-y: $padding-sm !default;
+$tabs-text-button-button-spacing-padding-md-x: $padding-3xl !default;
+$tabs-text-button-button-spacing-padding-md-y: $padding-lg !default;
+$tabs-text-button-button-spacing-padding-xs-x: $padding-md !default;
+$tabs-text-button-button-spacing-padding-xs-y: $padding-2xs !default;
+$tabs-text-button-button-spacing-gap-sm: $gap-xs !default;
+$tabs-text-button-button-spacing-gap-md: $gap-xs !default;
+$tabs-text-button-button-spacing-gap-xs: $gap-xs !default;
 $tabs-text-button-icon-only-xs-width: $width-xs !default;
 $tabs-text-button-icon-only-xs-height: $height-xs !default;
 $tabs-text-button-icon-only-sm-width: $width-sm !default;
@@ -1410,24 +1410,24 @@ $tabs-outlined-button-radius-md: $radius-md !default;
 $tabs-outlined-button-radius-minimal-sm: $radius-lg !default;
 $tabs-outlined-button-radius-minimal-md: $radius-lg !default;
 $tabs-outlined-button-radius-xs: $radius-sm !default;
-$tabs-outlined-button-button-spacing-sm-padding-x: $padding-xl !default;
-$tabs-outlined-button-button-spacing-sm-padding-y: $padding-sm !default;
-$tabs-outlined-button-button-spacing-md-padding-x: $padding-3xl !default;
-$tabs-outlined-button-button-spacing-md-padding-y: $padding-md !default;
-$tabs-outlined-button-button-spacing-xs-padding-x: $padding-md !default;
-$tabs-outlined-button-button-spacing-xs-padding-y: $padding-2xs !default;
-$tabs-outlined-button-default-sm-padding-x: $padding-xs !default;
-$tabs-outlined-button-default-sm-padding-y: $padding-xs !default;
-$tabs-outlined-button-default-sm-gap: $gap-xs !default;
-$tabs-outlined-button-default-md-gap: $gap-xs !default;
-$tabs-outlined-button-default-md-padding-x: $padding-sm !default;
-$tabs-outlined-button-default-md-padding-y: $padding-sm !default;
-$tabs-outlined-button-default-xs-gap: $gap-xs !default;
-$tabs-outlined-button-default-xs-padding-x: $padding-xs !default;
-$tabs-outlined-button-default-xs-padding-y: $padding-xs !default;
-$tabs-outlined-button-minimal-sm-gap: $gap-xxs !default;
-$tabs-outlined-button-minimal-md-gap: $gap-xxs !default;
-$tabs-outlined-button-minimal-xs-gap: $gap-xxs !default;
+$tabs-outlined-button-button-spacing-padding-sm-x: $padding-xl !default;
+$tabs-outlined-button-button-spacing-padding-sm-y: $padding-sm !default;
+$tabs-outlined-button-button-spacing-padding-md-x: $padding-3xl !default;
+$tabs-outlined-button-button-spacing-padding-md-y: $padding-md !default;
+$tabs-outlined-button-button-spacing-padding-xs-x: $padding-md !default;
+$tabs-outlined-button-button-spacing-padding-xs-y: $padding-2xs !default;
+$tabs-outlined-button-default-padding-sm-x: $padding-xs !default;
+$tabs-outlined-button-default-padding-sm-y: $padding-xs !default;
+$tabs-outlined-button-default-padding-md-x: $padding-sm !default;
+$tabs-outlined-button-default-padding-md-y: $padding-sm !default;
+$tabs-outlined-button-default-padding-xs-x: $padding-xs !default;
+$tabs-outlined-button-default-padding-xs-y: $padding-xs !default;
+$tabs-outlined-button-default-gap-sm: $gap-xs !default;
+$tabs-outlined-button-default-gap-md: $gap-xs !default;
+$tabs-outlined-button-default-gap-xs: $gap-xs !default;
+$tabs-outlined-button-minimal-gap-sm: $gap-xxs !default;
+$tabs-outlined-button-minimal-gap-md: $gap-xxs !default;
+$tabs-outlined-button-minimal-gap-xs: $gap-xxs !default;
 $tabs-content-gap-with-badge-sm: $gap-md !default;
 $tabs-content-gap-with-badge-md: $gap-md !default;
 $tabs-content-gap-with-badge-xs: $gap-md !default;
@@ -1437,27 +1437,27 @@ $tabs-content-gap-with-icon-xs: $gap-xs !default;
 $tabs-content-gap-with-tag-sm: $gap-xs !default;
 $tabs-content-gap-with-tag-md: $gap-xs !default;
 $tabs-content-gap-with-tag-xs: $gap-xs !default;
-$tabs-underline-button-button-spacing-sm-padding-x: $padding-xl !default;
-$tabs-underline-button-button-spacing-sm-padding-bottom: $padding-xl !default;
-$tabs-underline-button-button-spacing-md-padding-x: $padding-3xl !default;
-$tabs-underline-button-button-spacing-md-padding-bottom: $padding-2xl !default;
-$tabs-underline-button-button-spacing-xs-padding-x: $padding-md !default;
-$tabs-underline-button-button-spacing-xs-padding-bottom: $padding-md !default;
-$tabs-underline-button-sm-gap: $gap-md !default;
-$tabs-underline-button-md-gap: $gap-md !default;
-$tabs-underline-button-xs-gap: $gap-md !default;
-$tabs-vertical-line-button-sm-gap: $gap-xs !default;
-$tabs-vertical-line-button-md-gap: $gap-xs !default;
-$tabs-vertical-line-button-button-spacing-sm-gap: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-sm-padding-x: $padding-xl !default;
-$tabs-vertical-line-button-button-spacing-sm-padding-y: $padding-sm !default;
-$tabs-vertical-line-button-button-spacing-md-gap: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-md-padding-x: $padding-2xl !default;
-$tabs-vertical-line-button-button-spacing-md-padding-y: $padding-md !default;
-$tabs-vertical-line-button-button-spacing-xs-gap: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-xs-padding-x: $padding-md !default;
-$tabs-vertical-line-button-button-spacing-xs-padding-y: $padding-2xs !default;
-$tabs-vertical-line-button-xs-gap: $gap-xs !default;
+$tabs-underline-button-button-spacing-padding-sm-x: $padding-xl !default;
+$tabs-underline-button-button-spacing-padding-sm-bottom: $padding-xl !default;
+$tabs-underline-button-button-spacing-padding-md-x: $padding-3xl !default;
+$tabs-underline-button-button-spacing-padding-md-bottom: $padding-2xl !default;
+$tabs-underline-button-button-spacing-padding-xs-x: $padding-md !default;
+$tabs-underline-button-button-spacing-padding-xs-bottom: $padding-md !default;
+$tabs-underline-button-gap-sm: $gap-md !default;
+$tabs-underline-button-gap-md: $gap-md !default;
+$tabs-underline-button-gap-xs: $gap-md !default;
+$tabs-vertical-line-button-gap-sm: $gap-xs !default;
+$tabs-vertical-line-button-gap-md: $gap-xs !default;
+$tabs-vertical-line-button-gap-xs: $gap-xs !default;
+$tabs-vertical-line-button-button-spacing-gap-sm: $gap-md !default;
+$tabs-vertical-line-button-button-spacing-gap-md: $gap-md !default;
+$tabs-vertical-line-button-button-spacing-gap-xs: $gap-md !default;
+$tabs-vertical-line-button-button-spacing-padding-sm-x: $padding-xl !default;
+$tabs-vertical-line-button-button-spacing-padding-sm-y: $padding-sm !default;
+$tabs-vertical-line-button-button-spacing-padding-md-x: $padding-2xl !default;
+$tabs-vertical-line-button-button-spacing-padding-md-y: $padding-md !default;
+$tabs-vertical-line-button-button-spacing-padding-xs-x: $padding-md !default;
+$tabs-vertical-line-button-button-spacing-padding-xs-y: $padding-2xs !default;
 $dropdown-list-item-bg-hover: $background-primary-hover !default;
 $dropdown-list-item-fg: $foreground-quaternary !default;
 $dropdown-list-item-text: $text-secondary !default;
@@ -2556,61 +2556,75 @@ $tokens: (
         '2xl': $buttons-button-radius-2xl
       ),
       'default': (
-        'sm_gap': $buttons-button-default-sm-gap,
-        'sm_padding-x': $buttons-button-default-sm-padding-x,
-        'sm_padding-y': $buttons-button-default-sm-padding-y,
-        'md_gap': $buttons-button-default-md-gap,
-        'md_padding-x': $buttons-button-default-md-padding-x,
-        'md_padding-y': $buttons-button-default-md-padding-y,
-        'lg_gap': $buttons-button-default-lg-gap,
-        'lg_padding-x': $buttons-button-default-lg-padding-x,
-        'lg_padding-y': $buttons-button-default-lg-padding-y,
-        'xl_gap': $buttons-button-default-xl-gap,
-        'xl_padding-x': $buttons-button-default-xl-padding-x,
-        'xl_padding-y': $buttons-button-default-xl-padding-y,
-        '2xl_gap': $buttons-button-default-2xl-gap,
-        '2xl_padding-x': $buttons-button-default-2xl-padding-x,
-        'button_2xl_padding-y': $buttons-button-default-button-2xl-padding-y
+        'gap': (
+          'sm': $buttons-button-default-gap-sm,
+          'md': $buttons-button-default-gap-md,
+          'lg': $buttons-button-default-gap-lg,
+          'xl': $buttons-button-default-gap-xl,
+          '2xl': $buttons-button-default-gap-2xl
+        ),
+        'padding': (
+          'sm-x': $buttons-button-default-padding-sm-x,
+          'sm-y': $buttons-button-default-padding-sm-y,
+          'md-x': $buttons-button-default-padding-md-x,
+          'md-y': $buttons-button-default-padding-md-y,
+          'lg-x': $buttons-button-default-padding-lg-x,
+          'lg-y': $buttons-button-default-padding-lg-y,
+          'xl-x': $buttons-button-default-padding-xl-x,
+          'xl-y': $buttons-button-default-padding-xl-y,
+          '2xl-x': $buttons-button-default-padding-2xl-x,
+          '2xl-y': $buttons-button-default-padding-2xl-y
+        )
       ),
       'dot-leading': (
-        'sm_gap': $buttons-button-dot-leading-sm-gap,
-        'sm_padding-x': $buttons-button-dot-leading-sm-padding-x,
-        'sm_padding-y': $buttons-button-dot-leading-sm-padding-y,
-        'md_gap': $buttons-button-dot-leading-md-gap,
-        'md_padding-x': $buttons-button-dot-leading-md-padding-x,
-        'md_padding-y': $buttons-button-dot-leading-md-padding-y,
-        'lg_gap': $buttons-button-dot-leading-lg-gap,
-        'lg_padding-x': $buttons-button-dot-leading-lg-padding-x,
-        'lg_padding-y': $buttons-button-dot-leading-lg-padding-y,
-        'xl_gap': $buttons-button-dot-leading-xl-gap,
-        'xl_padding-x': $buttons-button-dot-leading-xl-padding-x,
-        'xl_padding-y': $buttons-button-dot-leading-xl-padding-y,
-        '2xl_gap': $buttons-button-dot-leading-2xl-gap,
-        '2xl_padding-x': $buttons-button-dot-leading-2xl-padding-x,
-        '2xl_padding-y': $buttons-button-dot-leading-2xl-padding-y
+        'gap': (
+          'sm': $buttons-button-dot-leading-gap-sm,
+          'md': $buttons-button-dot-leading-gap-md,
+          'lg': $buttons-button-dot-leading-gap-lg,
+          'xl': $buttons-button-dot-leading-gap-xl,
+          '2xl': $buttons-button-dot-leading-gap-2xl
+        ),
+        'padding': (
+          'sm-x': $buttons-button-dot-leading-padding-sm-x,
+          'sm-y': $buttons-button-dot-leading-padding-sm-y,
+          'md-x': $buttons-button-dot-leading-padding-md-x,
+          'md-y': $buttons-button-dot-leading-padding-md-y,
+          'lg-x': $buttons-button-dot-leading-padding-lg-x,
+          'lg-y': $buttons-button-dot-leading-padding-lg-y,
+          'xl-x': $buttons-button-dot-leading-padding-xl-x,
+          'xl-y': $buttons-button-dot-leading-padding-xl-y,
+          '2xl-x': $buttons-button-dot-leading-padding-2xl-x,
+          '2xl-y': $buttons-button-dot-leading-padding-2xl-y
+        )
       ),
       'icon-only': (
-        'sm_padding': $buttons-button-icon-only-sm-padding,
-        'md_padding': $buttons-button-icon-only-md-padding,
-        'lg_padding': $buttons-button-icon-only-lg-padding,
-        'xl_padding': $buttons-button-icon-only-xl-padding,
-        '2xl_padding': $buttons-button-icon-only-2xl-padding
+        'padding': (
+          'sm': $buttons-button-icon-only-padding-sm,
+          'md': $buttons-button-icon-only-padding-md,
+          'lg': $buttons-button-icon-only-padding-lg,
+          'xl': $buttons-button-icon-only-padding-xl,
+          '2xl': $buttons-button-icon-only-padding-2xl
+        )
       )
     ),
     'link': (
       'default': (
-        'sm_gap': $buttons-link-default-sm-gap,
-        'md_gap': $buttons-link-default-md-gap,
-        'lg_gap': $buttons-link-default-lg-gap,
-        'xl_gap': $buttons-link-default-xl-gap,
-        '2xl_gap': $buttons-link-default-2xl-gap
+        'gap': (
+          'sm': $buttons-link-default-gap-sm,
+          'md': $buttons-link-default-gap-md,
+          'lg': $buttons-link-default-gap-lg,
+          'xl': $buttons-link-default-gap-xl,
+          '2xl': $buttons-link-default-gap-2xl
+        )
       ),
       'dot_leading': (
-        'sm_gap': $buttons-link-dot-leading-sm-gap,
-        'md_gap': $buttons-link-dot-leading-md-gap,
-        'lg_gap': $buttons-link-dot-leading-lg-gap,
-        'xl_gap': $buttons-link-dot-leading-xl-gap,
-        '2xl_gap': $buttons-link-dot-leading-2xl-gap
+        'gap': (
+          'sm': $buttons-link-dot-leading-gap-sm,
+          'md': $buttons-link-dot-leading-gap-md,
+          'lg': $buttons-link-dot-leading-gap-lg,
+          'xl': $buttons-link-dot-leading-gap-xl,
+          '2xl': $buttons-link-dot-leading-gap-2xl
+        )
       ),
       'radius': (
         'sm': $buttons-link-radius-sm,
@@ -2824,66 +2838,84 @@ $tokens: (
         'pill': $badges-rectangle-radius-pill
       ),
       'dafault': (
-        'sm-padding-x': $badges-rectangle-dafault-sm-padding-x,
-        'sm-padding-y': $badges-rectangle-dafault-sm-padding-y,
-        'md-padding-x': $badges-rectangle-dafault-md-padding-x,
-        'md-padding-y': $badges-rectangle-dafault-md-padding-y,
-        'lg-padding-x': $badges-rectangle-dafault-lg-padding-x,
-        'lg-padding-y': $badges-rectangle-dafault-lg-padding-y
+        'padding': (
+          'sm-x': $badges-rectangle-dafault-padding-sm-x,
+          'sm-y': $badges-rectangle-dafault-padding-sm-y,
+          'md-x': $badges-rectangle-dafault-padding-md-x,
+          'md-y': $badges-rectangle-dafault-padding-md-y,
+          'lg-x': $badges-rectangle-dafault-padding-lg-x,
+          'lg-y': $badges-rectangle-dafault-padding-lg-y
+        )
       ),
       'dot-leading': (
-        'sm-padding-y': $badges-rectangle-dot-leading-sm-padding-y,
-        'sm-gap': $badges-rectangle-dot-leading-sm-gap,
-        'sm-padding-x': $badges-rectangle-dot-leading-sm-padding-x,
-        'md-gap': $badges-rectangle-dot-leading-md-gap,
-        'md-padding-x': $badges-rectangle-dot-leading-md-padding-x,
-        'md-padding-y': $badges-rectangle-dot-leading-md-padding-y,
-        'lg-gap': $badges-rectangle-dot-leading-lg-gap,
-        'lg-padding-x': $badges-rectangle-dot-leading-lg-padding-x,
-        'lg-padding-y': $badges-rectangle-dot-leading-lg-padding-y
+        'padding': (
+          'sm-y': $badges-rectangle-dot-leading-padding-sm-y,
+          'sm-x': $badges-rectangle-dot-leading-padding-sm-x,
+          'md-x': $badges-rectangle-dot-leading-padding-md-x,
+          'md-y': $badges-rectangle-dot-leading-padding-md-y,
+          'lg-x': $badges-rectangle-dot-leading-padding-lg-x,
+          'lg-y': $badges-rectangle-dot-leading-padding-lg-y
+        ),
+        'gap': (
+          'sm': $badges-rectangle-dot-leading-gap-sm,
+          'md': $badges-rectangle-dot-leading-gap-md,
+          'lg': $badges-rectangle-dot-leading-gap-lg
+        )
       ),
       'x-close': (
-        'sm-gap': $badges-rectangle-x-close-sm-gap,
-        'sm-padding-left': $badges-rectangle-x-close-sm-padding-left,
-        'sm-padding-right': $badges-rectangle-x-close-sm-padding-right,
-        'sm-padding-y': $badges-rectangle-x-close-sm-padding-y,
-        'md-gap': $badges-rectangle-x-close-md-gap,
-        'md-padding-left': $badges-rectangle-x-close-md-padding-left,
-        'md-padding-right': $badges-rectangle-x-close-md-padding-right,
-        'md-padding-y': $badges-rectangle-x-close-md-padding-y,
-        'lg-gap': $badges-rectangle-x-close-lg-gap,
-        'lg-padding-left': $badges-rectangle-x-close-lg-padding-left,
-        'lg-padding-right': $badges-rectangle-x-close-lg-padding-right,
-        'lg-padding-y': $badges-rectangle-x-close-lg-padding-y,
-        'button-padding': $badges-rectangle-x-close-button-padding
+        'gap': (
+          'sm': $badges-rectangle-x-close-gap-sm,
+          'md': $badges-rectangle-x-close-gap-md,
+          'lg': $badges-rectangle-x-close-gap-lg
+        ),
+        'padding': (
+          'sm-left': $badges-rectangle-x-close-padding-sm-left,
+          'sm-right': $badges-rectangle-x-close-padding-sm-right,
+          'sm-y': $badges-rectangle-x-close-padding-sm-y,
+          'md-left': $badges-rectangle-x-close-padding-md-left,
+          'md-right': $badges-rectangle-x-close-padding-md-right,
+          'md-y': $badges-rectangle-x-close-padding-md-y,
+          'lg-left': $badges-rectangle-x-close-padding-lg-left,
+          'lg-right': $badges-rectangle-x-close-padding-lg-right,
+          'lg-y': $badges-rectangle-x-close-padding-lg-y,
+          'close-icon': $badges-rectangle-x-close-padding-close-icon
+        )
       ),
       'icon-trailing': (
-        'sm-gap': $badges-rectangle-icon-trailing-sm-gap,
-        'sm-padding-left': $badges-rectangle-icon-trailing-sm-padding-left,
-        'sm-padding-right': $badges-rectangle-icon-trailing-sm-padding-right,
-        'sm-padding-y': $badges-rectangle-icon-trailing-sm-padding-y,
-        'md-gap': $badges-rectangle-icon-trailing-md-gap,
-        'md-padding-left': $badges-rectangle-icon-trailing-md-padding-left,
-        'md-padding-right': $badges-rectangle-icon-trailing-md-padding-right,
-        'md-padding-y': $badges-rectangle-icon-trailing-md-padding-y,
-        'lg-gap': $badges-rectangle-icon-trailing-lg-gap,
-        'lg-padding-left': $badges-rectangle-icon-trailing-lg-padding-left,
-        'lg-padding-right': $badges-rectangle-icon-trailing-lg-padding-right,
-        'lg-padding-y': $badges-rectangle-icon-trailing-lg-padding-y
+        'gap': (
+          'sm': $badges-rectangle-icon-trailing-gap-sm,
+          'md': $badges-rectangle-icon-trailing-gap-md,
+          'lg': $badges-rectangle-icon-trailing-gap-lg
+        ),
+        'padding': (
+          'sm-left': $badges-rectangle-icon-trailing-padding-sm-left,
+          'sm-right': $badges-rectangle-icon-trailing-padding-sm-right,
+          'sm-y': $badges-rectangle-icon-trailing-padding-sm-y,
+          'md-left': $badges-rectangle-icon-trailing-padding-md-left,
+          'md-right': $badges-rectangle-icon-trailing-padding-md-right,
+          'md-y': $badges-rectangle-icon-trailing-padding-md-y,
+          'lg-left': $badges-rectangle-icon-trailing-padding-lg-left,
+          'lg-right': $badges-rectangle-icon-trailing-padding-lg-right,
+          'lg-y': $badges-rectangle-icon-trailing-padding-lg-y
+        )
       ),
       'icon-leading': (
-        'sm-gap': $badges-rectangle-icon-leading-sm-gap,
-        'sm-padding-left': $badges-rectangle-icon-leading-sm-padding-left,
-        'sm-padding-right': $badges-rectangle-icon-leading-sm-padding-right,
-        'sm-padding-y': $badges-rectangle-icon-leading-sm-padding-y,
-        'md-gap': $badges-rectangle-icon-leading-md-gap,
-        'md-padding-left': $badges-rectangle-icon-leading-md-padding-left,
-        'md-padding-right': $badges-rectangle-icon-leading-md-padding-right,
-        'md-padding-y': $badges-rectangle-icon-leading-md-padding-y,
-        'lg-gap': $badges-rectangle-icon-leading-lg-gap,
-        'lg-padding-left': $badges-rectangle-icon-leading-lg-padding-left,
-        'lg-padding-right': $badges-rectangle-icon-leading-lg-padding-right,
-        'lg-padding-y': $badges-rectangle-icon-leading-lg-padding-y
+        'gap': (
+          'sm': $badges-rectangle-icon-leading-gap-sm,
+          'md': $badges-rectangle-icon-leading-gap-md,
+          'lg': $badges-rectangle-icon-leading-gap-lg
+        ),
+        'padding': (
+          'sm-left': $badges-rectangle-icon-leading-padding-sm-left,
+          'sm-right': $badges-rectangle-icon-leading-padding-sm-right,
+          'sm-y': $badges-rectangle-icon-leading-padding-sm-y,
+          'md-left': $badges-rectangle-icon-leading-padding-md-left,
+          'md-right': $badges-rectangle-icon-leading-padding-md-right,
+          'md-y': $badges-rectangle-icon-leading-padding-md-y,
+          'lg-left': $badges-rectangle-icon-leading-padding-lg-left,
+          'lg-right': $badges-rectangle-icon-leading-padding-lg-right,
+          'lg-y': $badges-rectangle-icon-leading-padding-lg-y
+        )
       ),
       'icon-only': (
         'sm-width': $badges-rectangle-icon-only-sm-width,
@@ -2900,56 +2932,66 @@ $tokens: (
         'pill-button': $badges-pill-radius-pill-button
       ),
       'default': (
-        'sm-padding-x': $badges-pill-default-sm-padding-x,
-        'sm-padding-y': $badges-pill-default-sm-padding-y,
-        'md-padding-x': $badges-pill-default-md-padding-x,
-        'md-padding-y': $badges-pill-default-md-padding-y,
-        'lg-padding-x': $badges-pill-default-lg-padding-x,
-        'lg-padding-y': $badges-pill-default-lg-padding-y
+        'padding': (
+          'sm-x': $badges-pill-default-padding-sm-x,
+          'sm-y': $badges-pill-default-padding-sm-y,
+          'md-x': $badges-pill-default-padding-md-x,
+          'md-y': $badges-pill-default-padding-md-y,
+          'lg-x': $badges-pill-default-padding-lg-x,
+          'lg-y': $badges-pill-default-padding-lg-y
+        )
       ),
       'dot-leading': (
-        'sm-padding-left': $badges-pill-dot-leading-sm-padding-left,
-        'sm-padding-right': $badges-pill-dot-leading-sm-padding-right,
-        'sm-padding-y': $badges-pill-dot-leading-sm-padding-y,
-        'md-padding-left': $badges-pill-dot-leading-md-padding-left,
-        'md-padding-right': $badges-pill-dot-leading-md-padding-right,
-        'md-padding-y': $badges-pill-dot-leading-md-padding-y,
-        'lg-padding-left': $badges-pill-dot-leading-lg-padding-left,
-        'lg-padding-right': $badges-pill-dot-leading-lg-padding-right,
-        'badge-pill-dot-leading-lg-padding-y': $badges-pill-dot-leading-badge-pill-dot-leading-lg-padding-y
+        'padding': (
+          'sm-left': $badges-pill-dot-leading-padding-sm-left,
+          'sm-right': $badges-pill-dot-leading-padding-sm-right,
+          'sm-y': $badges-pill-dot-leading-padding-sm-y,
+          'md-left': $badges-pill-dot-leading-padding-md-left,
+          'md-right': $badges-pill-dot-leading-padding-md-right,
+          'md-y': $badges-pill-dot-leading-padding-md-y,
+          'lg-left': $badges-pill-dot-leading-padding-lg-left,
+          'lg-right': $badges-pill-dot-leading-padding-lg-right,
+          'lg-y': $badges-pill-dot-leading-padding-lg-y
+        )
       ),
       'x-close': (
-        'sm-padding-left': $badges-pill-x-close-sm-padding-left,
-        'sm-padding-right': $badges-pill-x-close-sm-padding-right,
-        'sm-padding-y': $badges-pill-x-close-sm-padding-y,
-        'md-padding-left': $badges-pill-x-close-md-padding-left,
-        'md-padding-right': $badges-pill-x-close-md-padding-right,
-        'md-padding-y': $badges-pill-x-close-md-padding-y,
-        'lg-padding-left': $badges-pill-x-close-lg-padding-left,
-        'lg-padding-right': $badges-pill-x-close-lg-padding-right,
-        'badge-pill-x-close-lg-padding-y': $badges-pill-x-close-badge-pill-x-close-lg-padding-y
+        'padding': (
+          'sm-left': $badges-pill-x-close-padding-sm-left,
+          'sm-right': $badges-pill-x-close-padding-sm-right,
+          'sm-y': $badges-pill-x-close-padding-sm-y,
+          'md-left': $badges-pill-x-close-padding-md-left,
+          'md-right': $badges-pill-x-close-padding-md-right,
+          'md-y': $badges-pill-x-close-padding-md-y,
+          'lg-left': $badges-pill-x-close-padding-lg-left,
+          'lg-right': $badges-pill-x-close-padding-lg-right,
+          'lg-y': $badges-pill-x-close-padding-lg-y
+        )
       ),
       'icon-trailing': (
-        'sm-padding-left': $badges-pill-icon-trailing-sm-padding-left,
-        'sm-padding-right': $badges-pill-icon-trailing-sm-padding-right,
-        'sm-padding-y': $badges-pill-icon-trailing-sm-padding-y,
-        'md-padding-left': $badges-pill-icon-trailing-md-padding-left,
-        'md-padding-right': $badges-pill-icon-trailing-md-padding-right,
-        'md-padding-y': $badges-pill-icon-trailing-md-padding-y,
-        'lg-padding-left': $badges-pill-icon-trailing-lg-padding-left,
-        'lg-padding-right': $badges-pill-icon-trailing-lg-padding-right,
-        'badge-icon-trailing-lg-padding-y': $badges-pill-icon-trailing-badge-icon-trailing-lg-padding-y
+        'padding': (
+          'sm-left': $badges-pill-icon-trailing-padding-sm-left,
+          'sm-right': $badges-pill-icon-trailing-padding-sm-right,
+          'sm-y': $badges-pill-icon-trailing-padding-sm-y,
+          'md-left': $badges-pill-icon-trailing-padding-md-left,
+          'md-right': $badges-pill-icon-trailing-padding-md-right,
+          'md-y': $badges-pill-icon-trailing-padding-md-y,
+          'lg-left': $badges-pill-icon-trailing-padding-lg-left,
+          'lg-right': $badges-pill-icon-trailing-padding-lg-right,
+          'lg-y': $badges-pill-icon-trailing-padding-lg-y
+        )
       ),
       'icon-leading': (
-        'sm-padding-left': $badges-pill-icon-leading-sm-padding-left,
-        'sm-padding-right': $badges-pill-icon-leading-sm-padding-right,
-        'sm-padding-y': $badges-pill-icon-leading-sm-padding-y,
-        'md-padding-left': $badges-pill-icon-leading-md-padding-left,
-        'md-padding-right': $badges-pill-icon-leading-md-padding-right,
-        'md-padding-y': $badges-pill-icon-leading-md-padding-y,
-        'lg-padding-left': $badges-pill-icon-leading-lg-padding-left,
-        'lg-padding-right': $badges-pill-icon-leading-lg-padding-right,
-        'badge-icon-leading-lg-padding-y': $badges-pill-icon-leading-badge-icon-leading-lg-padding-y
+        'padding': (
+          'sm-left': $badges-pill-icon-leading-padding-sm-left,
+          'sm-right': $badges-pill-icon-leading-padding-sm-right,
+          'sm-y': $badges-pill-icon-leading-padding-sm-y,
+          'md-left': $badges-pill-icon-leading-padding-md-left,
+          'md-right': $badges-pill-icon-leading-padding-md-right,
+          'md-y': $badges-pill-icon-leading-padding-md-y,
+          'lg-left': $badges-pill-icon-leading-padding-lg-left,
+          'lg-right': $badges-pill-icon-leading-padding-lg-right,
+          'lg-y': $badges-pill-icon-leading-padding-lg-y
+        )
       ),
       'icon-only': (
         'sm-width': $badges-pill-icon-only-sm-width,
@@ -3178,15 +3220,19 @@ $tokens: (
         'xs': $tabs-text-button-radius-xs
       ),
       'button-spacing': (
-        'sm-padding-x': $tabs-text-button-button-spacing-sm-padding-x,
-        'sm-padding-y': $tabs-text-button-button-spacing-sm-padding-y,
-        'md-padding-x': $tabs-text-button-button-spacing-md-padding-x,
-        'md-padding-y': $tabs-text-button-button-spacing-md-padding-y,
-        'sm-gap': $tabs-text-button-button-spacing-sm-gap,
-        'md-gap': $tabs-text-button-button-spacing-md-gap,
-        'xs-padding-x': $tabs-text-button-button-spacing-xs-padding-x,
-        'xs-padding-y': $tabs-text-button-button-spacing-xs-padding-y,
-        'xs-gap': $tabs-text-button-button-spacing-xs-gap
+        'padding': (
+          'sm-x': $tabs-text-button-button-spacing-padding-sm-x,
+          'sm-y': $tabs-text-button-button-spacing-padding-sm-y,
+          'md-x': $tabs-text-button-button-spacing-padding-md-x,
+          'md-y': $tabs-text-button-button-spacing-padding-md-y,
+          'xs-x': $tabs-text-button-button-spacing-padding-xs-x,
+          'xs-y': $tabs-text-button-button-spacing-padding-xs-y
+        ),
+        'gap': (
+          'sm': $tabs-text-button-button-spacing-gap-sm,
+          'md': $tabs-text-button-button-spacing-gap-md,
+          'xs': $tabs-text-button-button-spacing-gap-xs
+        )
       ),
       'icon-only': (
         'xs-width': $tabs-text-button-icon-only-xs-width,
@@ -3206,28 +3252,36 @@ $tokens: (
         'xs': $tabs-outlined-button-radius-xs
       ),
       'button-spacing': (
-        'sm-padding-x': $tabs-outlined-button-button-spacing-sm-padding-x,
-        'sm-padding-y': $tabs-outlined-button-button-spacing-sm-padding-y,
-        'md-padding-x': $tabs-outlined-button-button-spacing-md-padding-x,
-        'md-padding-y': $tabs-outlined-button-button-spacing-md-padding-y,
-        'xs-padding-x': $tabs-outlined-button-button-spacing-xs-padding-x,
-        'xs-padding-y': $tabs-outlined-button-button-spacing-xs-padding-y
+        'padding': (
+          'sm-x': $tabs-outlined-button-button-spacing-padding-sm-x,
+          'sm-y': $tabs-outlined-button-button-spacing-padding-sm-y,
+          'md-x': $tabs-outlined-button-button-spacing-padding-md-x,
+          'md-y': $tabs-outlined-button-button-spacing-padding-md-y,
+          'xs-x': $tabs-outlined-button-button-spacing-padding-xs-x,
+          'xs-y': $tabs-outlined-button-button-spacing-padding-xs-y
+        )
       ),
       'default': (
-        'sm-padding-x': $tabs-outlined-button-default-sm-padding-x,
-        'sm-padding-y': $tabs-outlined-button-default-sm-padding-y,
-        'sm-gap': $tabs-outlined-button-default-sm-gap,
-        'md-gap': $tabs-outlined-button-default-md-gap,
-        'md-padding-x': $tabs-outlined-button-default-md-padding-x,
-        'md-padding-y': $tabs-outlined-button-default-md-padding-y,
-        'xs-gap': $tabs-outlined-button-default-xs-gap,
-        'xs-padding-x': $tabs-outlined-button-default-xs-padding-x,
-        'xs-padding-y': $tabs-outlined-button-default-xs-padding-y
+        'padding': (
+          'sm-x': $tabs-outlined-button-default-padding-sm-x,
+          'sm-y': $tabs-outlined-button-default-padding-sm-y,
+          'md-x': $tabs-outlined-button-default-padding-md-x,
+          'md-y': $tabs-outlined-button-default-padding-md-y,
+          'xs-x': $tabs-outlined-button-default-padding-xs-x,
+          'xs-y': $tabs-outlined-button-default-padding-xs-y
+        ),
+        'gap': (
+          'sm': $tabs-outlined-button-default-gap-sm,
+          'md': $tabs-outlined-button-default-gap-md,
+          'xs': $tabs-outlined-button-default-gap-xs
+        )
       ),
       'minimal': (
-        'sm-gap': $tabs-outlined-button-minimal-sm-gap,
-        'md-gap': $tabs-outlined-button-minimal-md-gap,
-        'xs-gap': $tabs-outlined-button-minimal-xs-gap
+        'gap': (
+          'sm': $tabs-outlined-button-minimal-gap-sm,
+          'md': $tabs-outlined-button-minimal-gap-md,
+          'xs': $tabs-outlined-button-minimal-gap-xs
+        )
       )
     ),
     'content-gap': (
@@ -3249,32 +3303,42 @@ $tokens: (
     ),
     'underline-button': (
       'button-spacing': (
-        'sm-padding-x': $tabs-underline-button-button-spacing-sm-padding-x,
-        'sm-padding-bottom': $tabs-underline-button-button-spacing-sm-padding-bottom,
-        'md-padding-x': $tabs-underline-button-button-spacing-md-padding-x,
-        'md-padding-bottom': $tabs-underline-button-button-spacing-md-padding-bottom,
-        'xs-padding-x': $tabs-underline-button-button-spacing-xs-padding-x,
-        'xs-padding-bottom': $tabs-underline-button-button-spacing-xs-padding-bottom
+        'padding': (
+          'sm-x': $tabs-underline-button-button-spacing-padding-sm-x,
+          'sm-bottom': $tabs-underline-button-button-spacing-padding-sm-bottom,
+          'md-x': $tabs-underline-button-button-spacing-padding-md-x,
+          'md-bottom': $tabs-underline-button-button-spacing-padding-md-bottom,
+          'xs-x': $tabs-underline-button-button-spacing-padding-xs-x,
+          'xs-bottom': $tabs-underline-button-button-spacing-padding-xs-bottom
+        )
       ),
-      'sm-gap': $tabs-underline-button-sm-gap,
-      'md-gap': $tabs-underline-button-md-gap,
-      'xs-gap': $tabs-underline-button-xs-gap
+      'gap': (
+        'sm': $tabs-underline-button-gap-sm,
+        'md': $tabs-underline-button-gap-md,
+        'xs': $tabs-underline-button-gap-xs
+      )
     ),
     'vertical-line-button': (
-      'sm-gap': $tabs-vertical-line-button-sm-gap,
-      'md-gap': $tabs-vertical-line-button-md-gap,
-      'button-spacing': (
-        'sm-gap': $tabs-vertical-line-button-button-spacing-sm-gap,
-        'sm-padding-x': $tabs-vertical-line-button-button-spacing-sm-padding-x,
-        'sm-padding-y': $tabs-vertical-line-button-button-spacing-sm-padding-y,
-        'md-gap': $tabs-vertical-line-button-button-spacing-md-gap,
-        'md-padding-x': $tabs-vertical-line-button-button-spacing-md-padding-x,
-        'md-padding-y': $tabs-vertical-line-button-button-spacing-md-padding-y,
-        'xs-gap': $tabs-vertical-line-button-button-spacing-xs-gap,
-        'xs-padding-x': $tabs-vertical-line-button-button-spacing-xs-padding-x,
-        'xs-padding-y': $tabs-vertical-line-button-button-spacing-xs-padding-y
+      'gap': (
+        'sm': $tabs-vertical-line-button-gap-sm,
+        'md': $tabs-vertical-line-button-gap-md,
+        'xs': $tabs-vertical-line-button-gap-xs
       ),
-      'xs-gap': $tabs-vertical-line-button-xs-gap
+      'button-spacing': (
+        'gap': (
+          'sm': $tabs-vertical-line-button-button-spacing-gap-sm,
+          'md': $tabs-vertical-line-button-button-spacing-gap-md,
+          'xs': $tabs-vertical-line-button-button-spacing-gap-xs
+        ),
+        'padding': (
+          'sm-x': $tabs-vertical-line-button-button-spacing-padding-sm-x,
+          'sm-y': $tabs-vertical-line-button-button-spacing-padding-sm-y,
+          'md-x': $tabs-vertical-line-button-button-spacing-padding-md-x,
+          'md-y': $tabs-vertical-line-button-button-spacing-padding-md-y,
+          'xs-x': $tabs-vertical-line-button-button-spacing-padding-xs-x,
+          'xs-y': $tabs-vertical-line-button-button-spacing-padding-xs-y
+        )
+      )
     )
   ),
   'dropdown-list': (
