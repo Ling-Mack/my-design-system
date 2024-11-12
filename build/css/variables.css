@@ -1268,8 +1268,12 @@
   --button-group-active-text-hover: #101828;
   --button-group-active-text-focused: #344054;
   --button-group-active-text-disabled: #667085;
-  --inputs-label-text: #344054;
+  --inputs-input-text: #101828;
   --inputs-label-required: #0086c9;
+  --inputs-label-icon: #667085;
+  --inputs-label-text: #344054;
+  --inputs-input-text-disabled: #667085;
+  --inputs-placeholder-text: #667085;
   --inputs-default-bg: #ffffff;
   --inputs-default-fg: #98a2b3;
   --inputs-default-border: #d0d5dd;
@@ -1277,14 +1281,14 @@
   --inputs-default-description: #475467;
   --inputs-default-border-focused: #0086c9;
   --inputs-default-bg-disabled: #f2f4f7;
-  --inputs-input-text: #101828;
-  --inputs-input-text-disabled: #667085;
   --inputs-error-bg: #fef3f2;
   --inputs-error-fg: #d92d20;
   --inputs-error-border: #fda29b;
   --inputs-error-description: #d92d20;
   --inputs-error-border-focused: #f04438;
-  --inputs-placeholder-text: #667085;
+  --inputs-border-stoke: 0.0625rem;
+  --inputs-border-stoke-focused: 0.125rem;
+  --inputs-input-radius: 0.5rem;
   --card-bg: #ffffff;
   --card-border: #d0d5dd;
   --card-title: #101828;
@@ -1458,4 +1462,11 @@
   --tabs-vertical-line-button-button-spacing-xs-padding-x: 0.5rem;
   --tabs-vertical-line-button-button-spacing-xs-padding-y: 0.1875rem;
   --tabs-vertical-line-button-xs-gap: 0.25rem;
+  --dropdown-list-item-bg-hover: #f9fafb;
+  --dropdown-list-item-fg: #667085;
+  --dropdown-list-item-text: #344054;
+  --dropdown-list-item-text-hover: #182230;
+  --dropdown-list-item-text-disabled: #667085;
+  --dropdown-list-item-description: #667085;
+  --dropdown-list-item-description-disabled: #667085;
 }
