@@ -457,6 +457,7 @@
   --text-placeholder: #667085;
   --text-placeholder-subtle: #d0d5dd;
   --text-brand-tertiary: #0086c9;
+  --text-brand-on-accent: #0ba5ec;
   --text-quaternary: #667085;
   --text-brand-primary: #0b4a6f;
   --text-primary-on-brand: #ffffff;
@@ -472,11 +473,12 @@
   --border-error-subtle: #fda29b;
   --border-primary: #d0d5dd;
   --border-brand: #0086c9;
+  --border-brand-hover: #026aa2;
+  --border-brand-on-accent: #0ba5ec;
   --border-disabled: #d0d5dd;
   --border-error: #f04438;
   --border-disabled-subtle: #e4e7ec;
   --border-tertiary: #f2f4f7;
-  --border-brand-hover: #026aa2;
   --border-primary-hover: #98a2b3;
   --border-error-subtle-hover: #f97066;
   --border-success-muted: #dcfae6;
@@ -1269,7 +1271,7 @@
   --button-group-active-text-focused: #344054;
   --button-group-active-text-disabled: #667085;
   --inputs-input-text: #101828;
-  --inputs-label-required: #0086c9;
+  --inputs-label-required: #0ba5ec;
   --inputs-label-icon: #667085;
   --inputs-label-text: #344054;
   --inputs-input-text-disabled: #667085;
@@ -1279,7 +1281,7 @@
   --inputs-default-border: #d0d5dd;
   --inputs-default-border-disabled: #d0d5dd;
   --inputs-default-description: #475467;
-  --inputs-default-border-focused: #0086c9;
+  --inputs-default-border-focused: #0ba5ec;
   --inputs-default-bg-disabled: #f2f4f7;
   --inputs-error-bg: #fef3f2;
   --inputs-error-fg: #d92d20;
