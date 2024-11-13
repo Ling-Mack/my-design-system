@@ -1466,6 +1466,7 @@
   --tabs-vertical-line-button-button-spacing-padding-xs-y: var(--padding-2xs, 0.1875rem);
   --dropdown-list-item-bg-hover: var(--background-primary-hover, #f9fafb);
   --dropdown-list-item-fg: var(--foreground-quaternary, #667085);
+  --dropdown-list-item-fg-disabled: var(--foreground-disabled, #98a2b3);
   --dropdown-list-item-text: var(--text-secondary, #344054);
   --dropdown-list-item-text-hover: var(--text-secondary-hover, #182230);
   --dropdown-list-item-text-disabled: var(--text-disabled, #667085);

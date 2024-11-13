@@ -1460,6 +1460,7 @@ $tabs-vertical-line-button-button-spacing-padding-xs-x: $padding-md !default;
 $tabs-vertical-line-button-button-spacing-padding-xs-y: $padding-2xs !default;
 $dropdown-list-item-bg-hover: $background-primary-hover !default;
 $dropdown-list-item-fg: $foreground-quaternary !default;
+$dropdown-list-item-fg-disabled: $foreground-disabled !default;
 $dropdown-list-item-text: $text-secondary !default;
 $dropdown-list-item-text-hover: $text-secondary-hover !default;
 $dropdown-list-item-text-disabled: $text-disabled !default;
@@ -3345,6 +3346,7 @@ $tokens: (
     'item': (
       'bg-hover': $dropdown-list-item-bg-hover,
       'fg': $dropdown-list-item-fg,
+      'fg-disabled': $dropdown-list-item-fg-disabled,
       'text': $dropdown-list-item-text,
       'text-hover': $dropdown-list-item-text-hover,
       'text-disabled': $dropdown-list-item-text-disabled,
