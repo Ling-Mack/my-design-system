@@ -782,27 +782,28 @@ $gap-11xl: $52 !default;
 $gap-12xl: $56 !default;
 $gap-13xl: $64 !default;
 $gap-14xl: $80 !default;
+$width-7xs: $14 !default;
+$width-6xs: $16 !default;
+$width-5xs: $18 !default;
+$width-4xs: $20 !default;
+$width-3xs: $22 !default;
 $width-2xs: $24 !default;
 $width-xs: $28 !default;
 $width-sm: $36 !default;
 $width-md: $40 !default;
 $width-lg: $44 !default;
+$width-xl: $48 !default;
 $width-2xl: $80 !default;
 $width-3xl: $96 !default;
-$width-4xl: $160 !default;
-$width-5xl: $320 !default;
-$width-6xl: $480 !default;
-$width-7xl: $720 !default;
-$width-8xl: $1024 !default;
-$width-9xl: $1280 !default;
-$width-10xl: $1440 !default;
-$width-11xl: $1920 !default;
-$width-xl: $48 !default;
-$width-3xs: $22 !default;
-$width-4xs: $20 !default;
-$width-5xs: $18 !default;
-$width-6xs: $16 !default;
-$width-7xs: $14 !default;
+$width-34xl: $128 !default;
+$width-5xl: $160 !default;
+$width-6xl: $320 !default;
+$width-7xl: $480 !default;
+$width-8xl: $720 !default;
+$width-9xl: $1024 !default;
+$width-10xl: $1280 !default;
+$width-11xl: $1440 !default;
+$width-12xl: $1920 !default;
 $height-2xs: $24 !default;
 $height-xs: $28 !default;
 $height-sm: $36 !default;
@@ -2371,14 +2372,20 @@ $tokens: (
     '14xl': $gap-14xl
   ),
   'width': (
+    '7xs': $width-7xs,
+    '6xs': $width-6xs,
+    '5xs': $width-5xs,
+    '4xs': $width-4xs,
+    '3xs': $width-3xs,
     '2xs': $width-2xs,
     'xs': $width-xs,
     'sm': $width-sm,
     'md': $width-md,
     'lg': $width-lg,
+    'xl': $width-xl,
     '2xl': $width-2xl,
     '3xl': $width-3xl,
-    '4xl': $width-4xl,
+    '34xl': $width-34xl,
     '5xl': $width-5xl,
     '6xl': $width-6xl,
     '7xl': $width-7xl,
@@ -2386,12 +2393,7 @@ $tokens: (
     '9xl': $width-9xl,
     '10xl': $width-10xl,
     '11xl': $width-11xl,
-    'xl': $width-xl,
-    '3xs': $width-3xs,
-    '4xs': $width-4xs,
-    '5xs': $width-5xs,
-    '6xs': $width-6xs,
-    '7xs': $width-7xs
+    '12xl': $width-12xl
   ),
   'height': (
     '2xs': $height-2xs,
