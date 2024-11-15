@@ -928,6 +928,7 @@ $buttons-text-error-fg-focused: $foreground-error-primary !default;
 $buttons-text-error-fg-disabled: $foreground-disabled !default;
 $buttons-text-error-bg-hover: $background-error-primary !default;
 $buttons-text-error-bg-focused: $background-primary !default;
+$buttons-button-radius-xs: $radius-md !default;
 $buttons-button-radius-sm: $radius-md !default;
 $buttons-button-radius-md: $radius-md !default;
 $buttons-button-radius-lg: $radius-md !default;
@@ -964,6 +965,7 @@ $buttons-button-dot-leading-padding-xl-y: $padding-xl !default;
 $buttons-button-dot-leading-padding-2xl-x: $padding-7xl !default;
 $buttons-button-dot-leading-padding-2xl-y: $padding-3xl !default;
 $buttons-button-icon-only-padding-sm: $padding-md !default;
+$buttons-button-icon-only-padding-xs: $padding-sm !default;
 $buttons-button-icon-only-padding-md: $padding-lg !default;
 $buttons-button-icon-only-padding-lg: $padding-xl !default;
 $buttons-button-icon-only-padding-xl: $padding-2xl !default;
@@ -2556,6 +2558,7 @@ $tokens: (
     ),
     'button': (
       'radius': (
+        'xs': $buttons-button-radius-xs,
         'sm': $buttons-button-radius-sm,
         'md': $buttons-button-radius-md,
         'lg': $buttons-button-radius-lg,
@@ -2607,6 +2610,7 @@ $tokens: (
       'icon-only': (
         'padding': (
           'sm': $buttons-button-icon-only-padding-sm,
+          'xs': $buttons-button-icon-only-padding-xs,
           'md': $buttons-button-icon-only-padding-md,
           'lg': $buttons-button-icon-only-padding-lg,
           'xl': $buttons-button-icon-only-padding-xl,
