@@ -42,6 +42,7 @@ $256: 16rem !default;
 $288: 18rem !default;
 $320: 20rem !default;
 $384: 24rem !default;
+$440: 27.5rem !default;
 $480: 30rem !default;
 $560: 35rem !default;
 $640: 40rem !default;
@@ -795,15 +796,16 @@ $width-lg: $44 !default;
 $width-xl: $48 !default;
 $width-2xl: $80 !default;
 $width-3xl: $96 !default;
-$width-34xl: $128 !default;
+$width-4xl: $128 !default;
 $width-5xl: $160 !default;
 $width-6xl: $320 !default;
-$width-7xl: $480 !default;
-$width-8xl: $720 !default;
-$width-9xl: $1024 !default;
-$width-10xl: $1280 !default;
-$width-11xl: $1440 !default;
-$width-12xl: $1920 !default;
+$width-7xl: $440 !default;
+$width-8xl: $480 !default;
+$width-9xl: $720 !default;
+$width-10xl: $1024 !default;
+$width-11xl: $1280 !default;
+$width-12xl: $1440 !default;
+$width-13xl: $1920 !default;
 $height-2xs: $24 !default;
 $height-xs: $28 !default;
 $height-sm: $36 !default;
@@ -1508,6 +1510,7 @@ $tokens: (
   '288': $288,
   '320': $320,
   '384': $384,
+  '440': $440,
   '480': $480,
   '560': $560,
   '640': $640,
@@ -2385,7 +2388,7 @@ $tokens: (
     'xl': $width-xl,
     '2xl': $width-2xl,
     '3xl': $width-3xl,
-    '34xl': $width-34xl,
+    '4xl': $width-4xl,
     '5xl': $width-5xl,
     '6xl': $width-6xl,
     '7xl': $width-7xl,
@@ -2393,7 +2396,8 @@ $tokens: (
     '9xl': $width-9xl,
     '10xl': $width-10xl,
     '11xl': $width-11xl,
-    '12xl': $width-12xl
+    '12xl': $width-12xl,
+    '13xl': $width-13xl
   ),
   'height': (
     '2xs': $height-2xs,
