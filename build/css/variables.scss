@@ -822,10 +822,10 @@ $height-6xs: $16 !default;
 $height-5xs: $18 !default;
 $height-4xs: $20 !default;
 $height-7xs: $14 !default;
-$stoke-md: $2 !default;
-$stoke-sm: $1 !default;
-$stoke-lg: $3 !default;
-$stoke-xs: $05 !default;
+$stroke-md: $2 !default;
+$stroke-sm: $1 !default;
+$stroke-lg: $3 !default;
+$stroke-xs: $05 !default;
 $heading-heading-6xl: 6$letter-spacing-$paragraph-spacing-00 $font-size-text-7xl/$line-heights-leading-7xl $font-family-heading !default;
 $heading-heading-5xl: 6$letter-spacing-$paragraph-spacing-00 $font-size-text-6xl/$line-heights-leading-6xl $font-family-heading !default;
 $heading-heading-4xl: $line-heights-leading-5xl$letter-spacing-$paragraph-spacing-0 $font-size-text-5xl/60 $font-family-heading !default;
@@ -871,8 +871,8 @@ $buttons-filled-error-bg-hover: $background-error-solid-hover !default;
 $buttons-filled-error-bg-focused: $background-error-solid !default;
 $buttons-filled-error-bg-disabled: $background-disabled !default;
 $buttons-filled-error-border-disabled: $border-disabled-subtle !default;
-$buttons-filled-border-stoke: $stoke-md !default;
-$buttons-filled-border-stoke-disabled: $stoke-sm !default;
+$buttons-filled-border-stroke: $stroke-md !default;
+$buttons-filled-border-stroke-disabled: $stroke-sm !default;
 $buttons-outlined-primary-fg: $foreground-primary !default;
 $buttons-outlined-primary-fg-hover: $foreground-primary-hover !default;
 $buttons-outlined-primary-fg-focused: $foreground-primary !default;
@@ -909,7 +909,7 @@ $buttons-outlined-error-border: $border-error-subtle !default;
 $buttons-outlined-error-border-hover: $border-error-subtle-hover !default;
 $buttons-outlined-error-border-focused: $border-error-subtle !default;
 $buttons-outlined-error-button-secondary-outlined-error-border-disabled: $border-disabled-subtle !default;
-$buttons-outlined-border-stoke: $stoke-sm !default;
+$buttons-outlined-border-stroke: $stroke-sm !default;
 $buttons-text-brand-fg: $foreground-brand-primary !default;
 $buttons-text-brand-fg-hover: $foreground-brand-primary-hover !default;
 $buttons-text-brand-fg-focused: $foreground-brand-primary !default;
@@ -1062,7 +1062,7 @@ $badges-filled-orange-border: $utility-orange-200 !default;
 $badges-filled-orange-text: $utility-orange-700 !default;
 $badges-filled-orange-bg: $utility-orange-50 !default;
 $badges-filled-orange-border-hover: $utility-orange-200 !default;
-$badges-filled-border-stoke: $stoke-xs !default;
+$badges-filled-border-stroke: $stroke-xs !default;
 $badges-outlined-neutral-fg: $utility-gray-600 !default;
 $badges-outlined-neutral-fg-hover: $utility-gray-500 !default;
 $badges-outlined-neutral-bg-hover: $utility-gray-50 !default;
@@ -1129,8 +1129,8 @@ $badges-outlined-orange-bg-hover: $utility-orange-50 !default;
 $badges-outlined-orange-border: $utility-orange-600 !default;
 $badges-outlined-orange-badge-outlined-orange-text: $utility-orange-700 !default;
 $badges-outlined-orange-border-hover: $utility-orange-600 !default;
-$badges-outlined-border-stoke: $stoke-sm !default;
-$badges-outlined-border-muted-stoke: $stoke-sm !default;
+$badges-outlined-border-stroke: $stroke-sm !default;
+$badges-outlined-border-muted-stroke: $stroke-sm !default;
 $badges-rectangle-radius-sm: $radius-sm !default;
 $badges-rectangle-radius-md: $radius-sm !default;
 $badges-rectangle-radius-lg: $radius-md !default;
@@ -1287,8 +1287,8 @@ $inputs-error-fg: $foreground-error-primary !default;
 $inputs-error-border: $border-error-subtle !default;
 $inputs-error-description: $text-error-primary !default;
 $inputs-error-border-focused: $border-error !default;
-$inputs-border-stoke: $stoke-sm !default;
-$inputs-border-stoke-focused: $stoke-md !default;
+$inputs-border-stroke: $stroke-sm !default;
+$inputs-border-stroke-focused: $stroke-md !default;
 $inputs-input-radius: $radius-md !default;
 $card-bg: $background-primary !default;
 $card-border: $border-primary !default;
@@ -1297,20 +1297,20 @@ $card-body: $text-tertiary !default;
 $card-body-muted: $text-quaternary !default;
 $card-border-hover: $border-primary-hover !default;
 $card-radius: $radius-2xl !default;
-$card-border-stoke: $stoke-xs !default;
+$card-border-stroke: $stroke-xs !default;
 $card-content-padding: $padding-3xl !default;
 $checkbox-radio-default-border: $border-primary !default;
 $checkbox-radio-default-border-disabled: $border-disabled !default;
 $checkbox-radio-default-bg-disabled: $background-disabled-subtle !default;
 $checkbox-radio-default-bg: $background-primary !default;
-$checkbox-radio-default-border-stoke: $stoke-sm !default;
+$checkbox-radio-default-border-stroke: $stroke-sm !default;
 $checkbox-radio-active-bg: $background-brand-solid !default;
 $checkbox-radio-active-bg-disabled: $background-disabled !default;
 $checkbox-radio-active-fg: $foreground-white !default;
 $checkbox-radio-active-fg-disabled: $foreground-disabled-subtle !default;
 $checkbox-radio-active-border-disabled: $border-disabled !default;
 $checkbox-radio-active-bg-hover: $background-brand-solid-hover !default;
-$checkbox-radio-active-border-stoke-disabled: $stoke-sm !default;
+$checkbox-radio-active-border-stroke-disabled: $stroke-sm !default;
 $checkbox-radio-radius-sm: $radius-xs !default;
 $checkbox-radio-radius-lg: $radius-sm !default;
 $checkbox-radio-radius-radio: $radius-full !default;
@@ -1354,8 +1354,8 @@ $tabs-outlined-primary-active-button-bg: $background-primary !default;
 $tabs-outlined-primary-active-button-border: $border-primary !default;
 $tabs-outlined-primary-active-button-border-hover: $border-primary !default;
 $tabs-outlined-primary-active-button-border-focused: $border-primary !default;
-$tabs-outlined-primary-active-button-border-stoke: $stoke-sm !default;
-$tabs-outlined-primary-border-stoke: $stoke-sm !default;
+$tabs-outlined-primary-active-button-border-stroke: $stroke-sm !default;
+$tabs-outlined-primary-border-stroke: $stroke-sm !default;
 $tabs-text-primary-default-button-text: $text-quaternary !default;
 $tabs-text-primary-default-button-text-hover: $text-primary !default;
 $tabs-text-primary-default-button-text-focused: $text-quaternary !default;
@@ -1382,7 +1382,7 @@ $tabs-line-default-button-text: $text-quaternary !default;
 $tabs-line-default-button-text-hover: $text-brand-tertiary !default;
 $tabs-line-default-button-text-focused: $text-quaternary !default;
 $tabs-line-default-button-border-hover: $border-brand !default;
-$tabs-line-default-button-border-stoke-hover: $stoke-md !default;
+$tabs-line-default-button-border-stroke-hover: $stroke-md !default;
 $tabs-line-border: $border-primary !default;
 $tabs-line-actived-button-text: $text-brand-tertiary !default;
 $tabs-line-actived-button-text-hover: $text-brand-tertiary !default;
@@ -1390,8 +1390,8 @@ $tabs-line-actived-button-text-focused: $text-brand-tertiary !default;
 $tabs-line-actived-button-border-hover: $border-brand !default;
 $tabs-line-actived-button-border: $border-brand !default;
 $tabs-line-actived-button-border-focused: $border-brand !default;
-$tabs-line-actived-button-border-stoke: $stoke-md !default;
-$tabs-line-border-stoke: $stoke-sm !default;
+$tabs-line-actived-button-border-stroke: $stroke-md !default;
+$tabs-line-border-stroke: $stroke-sm !default;
 $tabs-text-button-radius-sm: $radius-sm !default;
 $tabs-text-button-radius-md: $radius-sm !default;
 $tabs-text-button-radius-xs: $radius-xs !default;
@@ -2419,11 +2419,11 @@ $tokens: (
     '4xs': $height-4xs,
     '7xs': $height-7xs
   ),
-  'stoke': (
-    'md': $stoke-md,
-    'sm': $stoke-sm,
-    'lg': $stoke-lg,
-    'xs': $stoke-xs
+  'stroke': (
+    'md': $stroke-md,
+    'sm': $stroke-sm,
+    'lg': $stroke-lg,
+    'xs': $stroke-xs
   ),
   'Heading': (
     'heading-6xl': $heading-heading-6xl,
@@ -2482,8 +2482,8 @@ $tokens: (
         'bg-disabled': $buttons-filled-error-bg-disabled,
         'border-disabled': $buttons-filled-error-border-disabled
       ),
-      'border_stoke': $buttons-filled-border-stoke,
-      'border_stoke-disabled': $buttons-filled-border-stoke-disabled
+      'border-stroke': $buttons-filled-border-stroke,
+      'border-stroke-disabled': $buttons-filled-border-stroke-disabled
     ),
     'outlined': (
       'primary': (
@@ -2528,7 +2528,7 @@ $tokens: (
         'border-focused': $buttons-outlined-error-border-focused,
         'button_secondary_outlined_error_border-disabled': $buttons-outlined-error-button-secondary-outlined-error-border-disabled
       ),
-      'border_stoke': $buttons-outlined-border-stoke
+      'border-stroke': $buttons-outlined-border-stroke
     ),
     'text': (
       'brand': (
@@ -2747,7 +2747,7 @@ $tokens: (
         'bg': $badges-filled-orange-bg,
         'border-hover': $badges-filled-orange-border-hover
       ),
-      'border-stoke': $badges-filled-border-stoke
+      'border-stroke': $badges-filled-border-stroke
     ),
     'outlined': (
       'neutral': (
@@ -2838,8 +2838,8 @@ $tokens: (
         'badge_outlined_orange_text': $badges-outlined-orange-badge-outlined-orange-text,
         'border-hover': $badges-outlined-orange-border-hover
       ),
-      'border-stoke': $badges-outlined-border-stoke,
-      'border-muted-stoke': $badges-outlined-border-muted-stoke
+      'border-stroke': $badges-outlined-border-stroke,
+      'border-muted-stroke': $badges-outlined-border-muted-stroke
     ),
     'rectangle': (
       'radius': (
@@ -3069,8 +3069,8 @@ $tokens: (
       'description': $inputs-error-description,
       'border-focused': $inputs-error-border-focused
     ),
-    'border-stoke': $inputs-border-stoke,
-    'border-stoke-focused': $inputs-border-stoke-focused,
+    'border-stroke': $inputs-border-stroke,
+    'border-stroke-focused': $inputs-border-stroke-focused,
     'input-radius': $inputs-input-radius
   ),
   'card': (
@@ -3081,7 +3081,7 @@ $tokens: (
     'body-muted': $card-body-muted,
     'border-hover': $card-border-hover,
     'radius': $card-radius,
-    'border-stoke': $card-border-stoke,
+    'border-stroke': $card-border-stroke,
     'content-padding': $card-content-padding
   ),
   'checkbox-radio': (
@@ -3090,7 +3090,7 @@ $tokens: (
       'border-disabled': $checkbox-radio-default-border-disabled,
       'bg-disabled': $checkbox-radio-default-bg-disabled,
       'bg': $checkbox-radio-default-bg,
-      'border-stoke': $checkbox-radio-default-border-stoke
+      'border-stroke': $checkbox-radio-default-border-stroke
     ),
     'active': (
       'bg': $checkbox-radio-active-bg,
@@ -3099,7 +3099,7 @@ $tokens: (
       'fg-disabled': $checkbox-radio-active-fg-disabled,
       'border-disabled': $checkbox-radio-active-border-disabled,
       'bg-hover': $checkbox-radio-active-bg-hover,
-      'border-stoke-disabled': $checkbox-radio-active-border-stoke-disabled
+      'border-stroke-disabled': $checkbox-radio-active-border-stroke-disabled
     ),
     'radius': (
       'sm': $checkbox-radio-radius-sm,
@@ -3163,9 +3163,9 @@ $tokens: (
           'button-border': $tabs-outlined-primary-active-button-border,
           'button-border-hover': $tabs-outlined-primary-active-button-border-hover,
           'button-border-focused': $tabs-outlined-primary-active-button-border-focused,
-          'button-border-stoke': $tabs-outlined-primary-active-button-border-stoke
+          'button-border-stroke': $tabs-outlined-primary-active-button-border-stroke
         ),
-        'border-stoke': $tabs-outlined-primary-border-stoke
+        'border-stroke': $tabs-outlined-primary-border-stroke
       )
     ),
     'text': (
@@ -3210,7 +3210,7 @@ $tokens: (
         'button_text-hover': $tabs-line-default-button-text-hover,
         'button-text-focused': $tabs-line-default-button-text-focused,
         'button-border-hover': $tabs-line-default-button-border-hover,
-        'button-border-stoke-hover': $tabs-line-default-button-border-stoke-hover
+        'button-border-stroke-hover': $tabs-line-default-button-border-stroke-hover
       ),
       'border': $tabs-line-border,
       'actived': (
@@ -3220,9 +3220,9 @@ $tokens: (
         'button-border-hover': $tabs-line-actived-button-border-hover,
         'button-border': $tabs-line-actived-button-border,
         'button-border-focused': $tabs-line-actived-button-border-focused,
-        'button-border-stoke': $tabs-line-actived-button-border-stoke
+        'button-border-stroke': $tabs-line-actived-button-border-stroke
       ),
-      'border-stoke': $tabs-line-border-stoke
+      'border-stroke': $tabs-line-border-stroke
     ),
     'text-button': (
       'radius': (
