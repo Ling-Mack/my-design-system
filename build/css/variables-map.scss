@@ -1532,14 +1532,15 @@ $breadcrumb-text-primary-actived-button-bg-hover: $background-primary-hover !def
 $breadcrumb-text-primary-actived-button-bg-focused: $background-active !default;
 $breadcrumb-text-primary-actived-button-border: $border-secondary !default;
 $breadcrumb-text-primary-actived-button-border-stroke: $stroke-sm !default;
-$breadcrumb-radius: $radius-sm !default;
+$breadcrumb-radius-sm: $radius-sm !default;
+$breadcrumb-radius-md: $radius-md !default;
 $breadcrumb-gap-sm: $gap-1 !default;
 $breadcrumb-gap-md: $gap-1 !default;
 $breadcrumb-border-stroke: $stroke-sm !default;
 $breadcrumb-padding-sm-x: $padding-1 !default;
 $breadcrumb-padding-sm-y: $padding-1 !default;
-$breadcrumb-padding-md-x: $padding-2 !default;
-$breadcrumb-padding-md-y: $padding-2 !default;
+$breadcrumb-padding-md-x: $padding-1s !default;
+$breadcrumb-padding-md-y: $padding-1s !default;
 $breadcrumb-bg: $background-primary !default;
 $breadcrumb-border: $border-primary !default;
 
@@ -3529,7 +3530,10 @@ $tokens: (
         )
       )
     ),
-    'radius': $breadcrumb-radius,
+    'radius': (
+      'sm': $breadcrumb-radius-sm,
+      'md': $breadcrumb-radius-md
+    ),
     'gap': (
       'sm': $breadcrumb-gap-sm,
       'md': $breadcrumb-gap-md

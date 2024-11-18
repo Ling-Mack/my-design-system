@@ -1538,14 +1538,15 @@
   --breadcrumb-text-primary-actived-button-bg-focused: var(--background-active, #f9fafb);
   --breadcrumb-text-primary-actived-button-border: var(--border-secondary, #e4e7ec);
   --breadcrumb-text-primary-actived-button-border-stroke: var(--stroke-sm, 1px);
-  --breadcrumb-radius: var(--radius-sm, 0.375rem);
+  --breadcrumb-radius-sm: var(--radius-sm, 0.375rem);
+  --breadcrumb-radius-md: var(--radius-md, 0.5rem);
   --breadcrumb-gap-sm: var(--gap-1, 0.25rem);
   --breadcrumb-gap-md: var(--gap-1, 0.25rem);
   --breadcrumb-border-stroke: var(--stroke-sm, 1px);
   --breadcrumb-padding-sm-x: var(--padding-1, 0.25rem);
   --breadcrumb-padding-sm-y: var(--padding-1, 0.25rem);
-  --breadcrumb-padding-md-x: var(--padding-2, 0.5rem);
-  --breadcrumb-padding-md-y: var(--padding-2, 0.5rem);
+  --breadcrumb-padding-md-x: var(--padding-1s, 0.375rem);
+  --breadcrumb-padding-md-y: var(--padding-1s, 0.375rem);
   --breadcrumb-bg: var(--background-primary, #ffffff);
   --breadcrumb-border: var(--border-primary, #d0d5dd);
 }
