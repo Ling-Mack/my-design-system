@@ -955,8 +955,10 @@ $buttons-text-error-fg-focused: $foreground-error-primary !default;
 $buttons-text-error-fg-disabled: $foreground-disabled !default;
 $buttons-text-error-bg-hover: $background-error-primary !default;
 $buttons-text-error-bg-focused: $background-primary !default;
-$buttons-button-radius-xs: $radius-md !default;
-$buttons-button-radius-sm: $radius-md !default;
+$buttons-button-radius-3xs: $radius-xs !default;
+$buttons-button-radius-2xs: $radius-xs !default;
+$buttons-button-radius-xs: $radius-sm !default;
+$buttons-button-radius-sm: $radius-sm !default;
 $buttons-button-radius-md: $radius-md !default;
 $buttons-button-radius-lg: $radius-md !default;
 $buttons-button-radius-xl: $radius-md !default;
@@ -991,8 +993,10 @@ $buttons-button-dot-leading-padding-xl-x: $padding-5 !default;
 $buttons-button-dot-leading-padding-xl-y: $padding-3 !default;
 $buttons-button-dot-leading-padding-2xl-x: $padding-6 !default;
 $buttons-button-dot-leading-padding-2xl-y: $padding-4 !default;
-$buttons-button-icon-only-padding-sm: $padding-2 !default;
+$buttons-button-icon-only-padding-3xs: $padding-2px !default;
+$buttons-button-icon-only-padding-2xs: $padding-1 !default;
 $buttons-button-icon-only-padding-xs: $padding-1s !default;
+$buttons-button-icon-only-padding-sm: $padding-2 !default;
 $buttons-button-icon-only-padding-md: $padding-2s !default;
 $buttons-button-icon-only-padding-lg: $padding-3 !default;
 $buttons-button-icon-only-padding-xl: $padding-3s !default;
@@ -2618,6 +2622,8 @@ $tokens: (
     ),
     'button': (
       'radius': (
+        '3xs': $buttons-button-radius-3xs,
+        '2xs': $buttons-button-radius-2xs,
         'xs': $buttons-button-radius-xs,
         'sm': $buttons-button-radius-sm,
         'md': $buttons-button-radius-md,
@@ -2669,8 +2675,10 @@ $tokens: (
       ),
       'icon-only': (
         'padding': (
-          'sm': $buttons-button-icon-only-padding-sm,
+          '3xs': $buttons-button-icon-only-padding-3xs,
+          '2xs': $buttons-button-icon-only-padding-2xs,
           'xs': $buttons-button-icon-only-padding-xs,
+          'sm': $buttons-button-icon-only-padding-sm,
           'md': $buttons-button-icon-only-padding-md,
           'lg': $buttons-button-icon-only-padding-lg,
           'xl': $buttons-button-icon-only-padding-xl,
