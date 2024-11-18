@@ -1515,4 +1515,25 @@
   --popup-padding-x: var(--padding-4, 1rem);
   --popup-padding-top: var(--padding-3, 0.75rem);
   --popup-padding-bottom: var(--padding-4, 1rem);
+  --breadcrumb-text-button-radius-sm: var(--radius-sm, 0.375rem);
+  --breadcrumb-text-button-radius-md: var(--radius-sm, 0.375rem);
+  --breadcrumb-text-button-button-spacing-padding-sm-x: var(--padding-2, 0.5rem);
+  --breadcrumb-text-button-button-spacing-padding-sm-y: var(--padding-3px, 3px);
+  --breadcrumb-text-button-button-spacing-padding-md-x: var(--padding-2, 0.5rem);
+  --breadcrumb-text-button-button-spacing-padding-md-y: var(--padding-3px, 3px);
+  --breadcrumb-text-button-button-spacing-gap-sm: var(--gap-1, 0.25rem);
+  --breadcrumb-text-button-button-spacing-gap-md: var(--gap-1, 0.25rem);
+  --breadcrumb-content-gap-sm: var(--gap-1, 0.25rem);
+  --breadcrumb-content-gap-md: var(--gap-1, 0.25rem);
+  --breadcrumb-text-primary-default-button-text: var(--text-quaternary, #667085);
+  --breadcrumb-text-primary-default-button-text-hover: var(--text-primary, #344054);
+  --breadcrumb-text-primary-default-button-text-focused: var(--text-quaternary, #667085);
+  --breadcrumb-text-primary-default-button-bg-hover: var(--background-primary-hover, #f9fafb);
+  --breadcrumb-text-primary-default-button-bg-focused: var(--background-primary, #ffffff);
+  --breadcrumb-text-primary-actived-button-text: var(--text-primary, #344054);
+  --breadcrumb-text-primary-actived-button-text-hover: var(--text-primary, #344054);
+  --breadcrumb-text-primary-actived-button-text-focused: var(--text-primary, #344054);
+  --breadcrumb-text-primary-actived-button-bg: var(--background-active, #f9fafb);
+  --breadcrumb-text-primary-actived-button-bg-hover: var(--background-primary-hover, #f9fafb);
+  --breadcrumb-text-primary-actived-button-bg-focused: var(--background-active, #f9fafb);
 }

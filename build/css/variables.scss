@@ -1509,6 +1509,27 @@ $popup-divider-stroke: $stroke-sm !default;
 $popup-padding-x: $padding-4 !default;
 $popup-padding-top: $padding-3 !default;
 $popup-padding-bottom: $padding-4 !default;
+$breadcrumb-text-button-radius-sm: $radius-sm !default;
+$breadcrumb-text-button-radius-md: $radius-sm !default;
+$breadcrumb-text-button-button-spacing-padding-sm-x: $padding-2 !default;
+$breadcrumb-text-button-button-spacing-padding-sm-y: $padding-3px !default;
+$breadcrumb-text-button-button-spacing-padding-md-x: $padding-2 !default;
+$breadcrumb-text-button-button-spacing-padding-md-y: $padding-3px !default;
+$breadcrumb-text-button-button-spacing-gap-sm: $gap-1 !default;
+$breadcrumb-text-button-button-spacing-gap-md: $gap-1 !default;
+$breadcrumb-content-gap-sm: $gap-1 !default;
+$breadcrumb-content-gap-md: $gap-1 !default;
+$breadcrumb-text-primary-default-button-text: $text-quaternary !default;
+$breadcrumb-text-primary-default-button-text-hover: $text-primary !default;
+$breadcrumb-text-primary-default-button-text-focused: $text-quaternary !default;
+$breadcrumb-text-primary-default-button-bg-hover: $background-primary-hover !default;
+$breadcrumb-text-primary-default-button-bg-focused: $background-primary !default;
+$breadcrumb-text-primary-actived-button-text: $text-primary !default;
+$breadcrumb-text-primary-actived-button-text-hover: $text-primary !default;
+$breadcrumb-text-primary-actived-button-text-focused: $text-primary !default;
+$breadcrumb-text-primary-actived-button-bg: $background-active !default;
+$breadcrumb-text-primary-actived-button-bg-hover: $background-primary-hover !default;
+$breadcrumb-text-primary-actived-button-bg-focused: $background-active !default;
 
 $tokens: (
   'colors': (
@@ -3448,6 +3469,49 @@ $tokens: (
       'x': $popup-padding-x,
       'top': $popup-padding-top,
       'bottom': $popup-padding-bottom
+    )
+  ),
+  'breadcrumb': (
+    'text-button': (
+      'radius': (
+        'sm': $breadcrumb-text-button-radius-sm,
+        'md': $breadcrumb-text-button-radius-md
+      ),
+      'button-spacing': (
+        'padding': (
+          'sm-x': $breadcrumb-text-button-button-spacing-padding-sm-x,
+          'sm-y': $breadcrumb-text-button-button-spacing-padding-sm-y,
+          'md-x': $breadcrumb-text-button-button-spacing-padding-md-x,
+          'md-y': $breadcrumb-text-button-button-spacing-padding-md-y
+        ),
+        'gap': (
+          'sm': $breadcrumb-text-button-button-spacing-gap-sm,
+          'md': $breadcrumb-text-button-button-spacing-gap-md
+        )
+      )
+    ),
+    'content-gap': (
+      'sm': $breadcrumb-content-gap-sm,
+      'md': $breadcrumb-content-gap-md
+    ),
+    'text': (
+      'primary': (
+        'default': (
+          'button-text': $breadcrumb-text-primary-default-button-text,
+          'button-text-hover': $breadcrumb-text-primary-default-button-text-hover,
+          'button-text-focused': $breadcrumb-text-primary-default-button-text-focused,
+          'button-bg-hover': $breadcrumb-text-primary-default-button-bg-hover,
+          'button-bg-focused': $breadcrumb-text-primary-default-button-bg-focused
+        ),
+        'actived': (
+          'button-text': $breadcrumb-text-primary-actived-button-text,
+          'button-text-hover': $breadcrumb-text-primary-actived-button-text-hover,
+          'button-text-focused': $breadcrumb-text-primary-actived-button-text-focused,
+          'button-bg': $breadcrumb-text-primary-actived-button-bg,
+          'button-bg-hover': $breadcrumb-text-primary-actived-button-bg-hover,
+          'button-bg-focused': $breadcrumb-text-primary-actived-button-bg-focused
+        )
+      )
     )
   ),
   'tokenSetOrder': (
