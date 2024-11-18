@@ -999,7 +999,7 @@
   --buttons-button-dot-leading-padding-xl-y: var(--padding-3, 0.75rem);
   --buttons-button-dot-leading-padding-2xl-x: var(--padding-6, 1.5rem);
   --buttons-button-dot-leading-padding-2xl-y: var(--padding-4, 1rem);
-  --buttons-button-icon-only-padding-3xs: var(--padding-2px, 2px);
+  --buttons-button-icon-only-padding-3xs: var(--padding-1, 0.25rem);
   --buttons-button-icon-only-padding-2xs: var(--padding-1, 0.25rem);
   --buttons-button-icon-only-padding-xs: var(--padding-1s, 0.375rem);
   --buttons-button-icon-only-padding-sm: var(--padding-2, 0.5rem);
