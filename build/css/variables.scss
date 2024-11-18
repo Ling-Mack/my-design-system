@@ -1509,8 +1509,8 @@ $popup-divider-stroke: $stroke-sm !default;
 $popup-padding-x: $padding-4 !default;
 $popup-padding-top: $padding-3 !default;
 $popup-padding-bottom: $padding-4 !default;
-$breadcrumb-text-button-radius-sm: $radius-xs !default;
-$breadcrumb-text-button-radius-md: $radius-sm !default;
+$breadcrumb-text-button-radius-button-sm: $radius-xs !default;
+$breadcrumb-text-button-radius-button-md: $radius-sm !default;
 $breadcrumb-text-button-button-spacing-padding-sm-x: $padding-1 !default;
 $breadcrumb-text-button-button-spacing-padding-sm-y: $padding-2px !default;
 $breadcrumb-text-button-button-spacing-padding-md-x: $padding-2 !default;
@@ -1530,6 +1530,16 @@ $breadcrumb-text-primary-actived-button-text-focused: $text-primary !default;
 $breadcrumb-text-primary-actived-button-bg: $background-active !default;
 $breadcrumb-text-primary-actived-button-bg-hover: $background-primary-hover !default;
 $breadcrumb-text-primary-actived-button-bg-focused: $background-active !default;
+$breadcrumb-radius: $radius-sm !default;
+$breadcrumb-gap-sm: $gap-1 !default;
+$breadcrumb-gap-md: $gap-1 !default;
+$breadcrumb-border-stroke: $stroke-sm !default;
+$breadcrumb-padding-sm-x: $padding-1 !default;
+$breadcrumb-padding-sm-y: $padding-1 !default;
+$breadcrumb-padding-md-x: $padding-2 !default;
+$breadcrumb-padding-md-y: $padding-2 !default;
+$breadcrumb-bg: $background-primary !default;
+$breadcrumb-border: $border-primary !default;
 
 $tokens: (
   'colors': (
@@ -3474,8 +3484,10 @@ $tokens: (
   'breadcrumb': (
     'text-button': (
       'radius': (
-        'sm': $breadcrumb-text-button-radius-sm,
-        'md': $breadcrumb-text-button-radius-md
+        'button': (
+          'sm': $breadcrumb-text-button-radius-button-sm,
+          'md': $breadcrumb-text-button-radius-button-md
+        )
       ),
       'button-spacing': (
         'padding': (
@@ -3512,7 +3524,21 @@ $tokens: (
           'button-bg-focused': $breadcrumb-text-primary-actived-button-bg-focused
         )
       )
-    )
+    ),
+    'radius': $breadcrumb-radius,
+    'gap': (
+      'sm': $breadcrumb-gap-sm,
+      'md': $breadcrumb-gap-md
+    ),
+    'border-stroke': $breadcrumb-border-stroke,
+    'padding': (
+      'sm-x': $breadcrumb-padding-sm-x,
+      'sm-y': $breadcrumb-padding-sm-y,
+      'md-x': $breadcrumb-padding-md-x,
+      'md-y': $breadcrumb-padding-md-y
+    ),
+    'bg': $breadcrumb-bg,
+    'border': $breadcrumb-border
   ),
   'tokenSetOrder': (
     '0': 'foundation/colors',
