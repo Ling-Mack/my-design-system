@@ -1519,17 +1519,19 @@ $breadcrumb-text-button-button-spacing-gap-sm: $gap-1 !default;
 $breadcrumb-text-button-button-spacing-gap-md: $gap-1 !default;
 $breadcrumb-content-gap-sm: $gap-1 !default;
 $breadcrumb-content-gap-md: $gap-1 !default;
-$breadcrumb-text-primary-default-button-text: $text-quaternary !default;
-$breadcrumb-text-primary-default-button-text-hover: $text-primary !default;
-$breadcrumb-text-primary-default-button-text-focused: $text-quaternary !default;
+$breadcrumb-text-primary-default-button-text: $text-primary !default;
+$breadcrumb-text-primary-default-button-text-hover: $text-primary-hover !default;
+$breadcrumb-text-primary-default-button-text-focused: $text-primary !default;
 $breadcrumb-text-primary-default-button-bg-hover: $background-primary-hover !default;
 $breadcrumb-text-primary-default-button-bg-focused: $background-primary !default;
-$breadcrumb-text-primary-actived-button-text: $text-primary !default;
-$breadcrumb-text-primary-actived-button-text-hover: $text-primary !default;
-$breadcrumb-text-primary-actived-button-text-focused: $text-primary !default;
+$breadcrumb-text-primary-actived-button-text: $text-tertiary !default;
+$breadcrumb-text-primary-actived-button-text-hover: $text-tertiary !default;
+$breadcrumb-text-primary-actived-button-text-focused: $text-tertiary !default;
 $breadcrumb-text-primary-actived-button-bg: $background-active !default;
 $breadcrumb-text-primary-actived-button-bg-hover: $background-primary-hover !default;
 $breadcrumb-text-primary-actived-button-bg-focused: $background-active !default;
+$breadcrumb-text-primary-actived-button-border: $border-secondary !default;
+$breadcrumb-text-primary-actived-button-border-stroke: $stroke-sm !default;
 $breadcrumb-radius: $radius-sm !default;
 $breadcrumb-gap-sm: $gap-1 !default;
 $breadcrumb-gap-md: $gap-1 !default;
@@ -3521,7 +3523,9 @@ $tokens: (
           'button-text-focused': $breadcrumb-text-primary-actived-button-text-focused,
           'button-bg': $breadcrumb-text-primary-actived-button-bg,
           'button-bg-hover': $breadcrumb-text-primary-actived-button-bg-hover,
-          'button-bg-focused': $breadcrumb-text-primary-actived-button-bg-focused
+          'button-bg-focused': $breadcrumb-text-primary-actived-button-bg-focused,
+          'button-border': $breadcrumb-text-primary-actived-button-border,
+          'button-border-stroke': $breadcrumb-text-primary-actived-button-border-stroke
         )
       )
     ),
