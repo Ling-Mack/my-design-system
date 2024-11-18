@@ -1,0 +1,17 @@
+{
+  "name": "@ling-mack/trbo-design-tokens",
+  "version": "0.0.7",
+  "description": "design tokens library for web-applications",
+  "main": "variables.css",
+  "style": "variables.css",
+  "files": [
+    "LICENSE.md",
+    "variables.css",
+    "variables.scss",
+    "variables-map.scss"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ling-mack"
+  },
+  "license": "MIT"
+}
