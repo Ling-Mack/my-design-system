@@ -445,16 +445,16 @@ $typography-text-case-none: none !default;
 $typography-text-case-uppercase: uppercase !default;
 $typography-letter-spacing-0: 0 !default;
 $effects-shadows-xs: rgba(16, 24, 40, 0.05) !default;
-$effects-shadows-sm-02: rgba(16, 24, 40, 0.06) !default;
-$effects-shadows-lg-01: rgba(16, 24, 40, 0.08) !default;
-$effects-shadows-lg-02: rgba(16, 24, 40, 0.03) !default;
 $effects-shadows-sm-01: rgba(16, 24, 40, 0.1) !default;
-$effects-shadows-3xl: rgba(16, 24, 40, 0.14) !default;
-$effects-shadows-2xl: rgba(16, 24, 40, 0.18) !default;
+$effects-shadows-sm-02: rgba(16, 24, 40, 0.06) !default;
 $effects-shadows-md-01: rgba(16, 24, 40, 0.1) !default;
 $effects-shadows-md-02: rgba(16, 24, 40, 0.06) !default;
+$effects-shadows-lg-01: rgba(16, 24, 40, 0.08) !default;
+$effects-shadows-lg-02: rgba(16, 24, 40, 0.03) !default;
 $effects-shadows-xl-01: rgba(16, 24, 40, 0.08) !default;
 $effects-shadows-xl-02: rgba(16, 24, 40, 0.03) !default;
+$effects-shadows-2xl: rgba(16, 24, 40, 0.18) !default;
+$effects-shadows-3xl: rgba(16, 24, 40, 0.14) !default;
 $effects-shadows-skeumorphic-inner: rgba(16, 24, 40, 0.05) !default;
 $effects-shadows-skeumorphic-inner-border: rgba(16, 24, 40, 0.18) !default;
 $shadows-shadow-xs: 0 1px 2px 0 #1018280d !default; // Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
@@ -481,102 +481,102 @@ $focus-rings-focus-ring-error-shadow-xs: 0 1px 2px 0 #1018280d, 0 0 0 2px #fffff
 // 
 // This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
 $focus-rings-focus-ring-error-shadow-xs-skeuomorphic: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default;
+$text-primary-solid: $colors-gray-800 !default;
 $text-primary: $colors-gray-700 !default;
+$text-primary-hover: $colors-gray-900 !default;
+$text-primary-on-brand: $colors-base-white !default;
+$text-secondary: $colors-gray-700 !default;
+$text-secondary-hover: $colors-gray-800 !default;
+$text-secondary-on-brand: $colors-brand-200 !default;
 $text-tertiary: $colors-gray-600 !default;
+$text-tertiary-hover: $colors-gray-700 !default;
+$text-tertiary-on-brand: $colors-brand-200 !default;
+$text-quaternary: $colors-gray-500 !default;
+$text-quaternary-on-brand: $colors-brand-300 !default;
+$text-white: $colors-base-white !default;
+$text-black: $colors-gray-900 !default;
+$text-placeholder: $colors-gray-500 !default;
+$text-disabled: $colors-gray-500 !default;
+$text-placeholder-subtle: $colors-gray-300 !default;
+$text-brand-primary: $colors-brand-900 !default;
+$text-brand-secondary: $colors-brand-800 !default;
+$text-brand-tertiary: $colors-brand-600 !default;
+$text-brand-tertiary-hover: $colors-brand-700 !default;
+$text-brand-on-accent: $colors-brand-500 !default;
 $text-error-primary: $colors-error-600 !default;
+$text-error-primary-hover: $colors-error-800 !default;
 $text-warning-primary: $colors-warning-600 !default;
 $text-success-primary: $colors-success-600 !default;
-$text-white: $colors-base-white !default;
-$text-secondary: $colors-gray-700 !default;
-$text-disabled: $colors-gray-500 !default;
-$text-secondary-hover: $colors-gray-800 !default;
-$text-tertiary-hover: $colors-gray-700 !default;
-$text-brand-secondary: $colors-brand-800 !default;
-$text-placeholder: $colors-gray-500 !default;
-$text-placeholder-subtle: $colors-gray-300 !default;
-$text-brand-tertiary: $colors-brand-600 !default;
-$text-brand-on-accent: $colors-brand-500 !default;
-$text-quaternary: $colors-gray-500 !default;
-$text-brand-primary: $colors-brand-900 !default;
-$text-primary-on-brand: $colors-base-white !default;
-$text-secondary-on-brand: $colors-brand-200 !default;
-$text-tertiary-on-brand: $colors-brand-200 !default;
-$text-quaternary-on-brand: $colors-brand-300 !default;
-$text-brand-tertiary-hover: $colors-brand-700 !default;
-$text-primary-hover: $colors-gray-900 !default;
-$text-primary-solid: $colors-gray-800 !default;
-$text-error-primary-hover: $colors-error-800 !default;
-$text-black: $colors-gray-900 !default;
-$border-secondary: $colors-gray-200 !default;
-$border-error-subtle: $colors-error-300 !default;
 $border-primary: $colors-gray-300 !default;
+$border-primary-hover: $colors-gray-400 !default;
+$border-secondary: $colors-gray-200 !default;
+$border-secondary-hover: $colors-gray-300 !default;
+$border-tertiary: $colors-gray-100 !default;
+$border-disabled: $colors-gray-300 !default;
+$border-disabled-subtle: $colors-gray-200 !default;
 $border-brand: $colors-brand-600 !default;
 $border-brand-hover: $colors-brand-700 !default;
 $border-brand-on-accent: $colors-brand-500 !default;
-$border-disabled: $colors-gray-300 !default;
 $border-error: $colors-error-500 !default;
-$border-disabled-subtle: $colors-gray-200 !default;
-$border-tertiary: $colors-gray-100 !default;
-$border-primary-hover: $colors-gray-400 !default;
+$border-error-subtle: $colors-error-300 !default;
 $border-error-subtle-hover: $colors-error-400 !default;
 $border-success-muted: $colors-success-100 !default;
-$border-secondary-hover: $colors-gray-300 !default;
 $background-primary: $colors-base-white !default;
+$background-primary-hover: $colors-gray-50 !default;
+$background-primary-solid: $colors-gray-950 !default;
+$background-secondary: $colors-gray-50 !default;
+$background-secondary-hover: $colors-gray-100 !default;
+$background-secondary-subtle: $colors-gray-25 !default;
+$background-secondary-solid: $colors-gray-600 !default;
 $background-tertiary: $colors-gray-100 !default;
+$background-quaternary: $colors-gray-200 !default;
+$background-active: $colors-gray-50 !default;
+$background-disabled: $colors-gray-100 !default;
+$background-disabled-subtle: $colors-gray-50 !default;
+$background-overlay: $colors-gray-950 !default;
 $background-brand-primary: $colors-brand-25 !default;
+$background-brand-primary-hover: $colors-brand-50 !default;
+$background-brand-secondary: $colors-brand-100 !default;
+$background-brand-solid: $colors-brand-400 !default;
+$background-brand-solid-hover: $colors-brand-500 !default;
+$background-brand-section-subtle: $colors-brand-700 !default;
+$background-brand-section: $colors-brand-800 !default;
+$background-error-primary: $colors-error-50 !default;
 $background-error-secondary: $colors-error-100 !default;
+$background-error-solid: $colors-error-600 !default;
+$background-error-solid-hover: $colors-error-700 !default;
 $background-warning-primary: $colors-warning-50 !default;
 $background-warning-secondary: $colors-warning-100 !default;
+$background-warning-solid: $colors-warning-600 !default;
 $background-success-primary: $colors-success-50 !default;
 $background-success-secondary: $colors-success-100 !default;
-$background-brand-solid: $colors-brand-400 !default;
-$background-secondary-solid: $colors-gray-600 !default;
-$background-error-solid: $colors-error-600 !default;
-$background-warning-solid: $colors-warning-600 !default;
 $background-success-solid: $colors-success-600 !default;
-$background-secondary-hover: $colors-gray-100 !default;
-$background-primary-hover: $colors-gray-50 !default;
-$background-disabled: $colors-gray-100 !default;
-$background-active: $colors-gray-50 !default;
-$background-brand-solid-hover: $colors-brand-500 !default;
-$background-error-primary: $colors-error-50 !default;
-$background-brand-secondary: $colors-brand-100 !default;
-$background-secondary: $colors-gray-50 !default;
-$background-disabled-subtle: $colors-gray-50 !default;
-$background-quaternary: $colors-gray-200 !default;
-$background-brand-primary-hover: $colors-brand-50 !default;
-$background-overlay: $colors-gray-950 !default;
-$background-secondary-subtle: $colors-gray-25 !default;
-$background-brand-section: $colors-brand-800 !default;
-$background-brand-section-subtle: $colors-brand-700 !default;
-$background-primary-solid: $colors-gray-950 !default;
-$background-error-solid-hover: $colors-error-700 !default;
-$foreground-secondary: $colors-gray-700 !default;
-$foreground-warning-primary: $colors-warning-600 !default;
-$foreground-success-primary: $colors-success-600 !default;
-$foreground-white: $colors-base-white !default;
-$foreground-success-secondary: $colors-success-500 !default;
-$foreground-secondary-hover: $colors-gray-800 !default;
+$foreground-primary-solid: $colors-gray-800 !default;
 $foreground-primary: $colors-gray-700 !default;
-$foreground-disabled: $colors-gray-400 !default;
-$foreground-quaternary: $colors-gray-500 !default;
-$foreground-quaternary-hover: $colors-gray-600 !default;
-$foreground-brand-secondary: $colors-brand-500 !default;
-$foreground-brand-primary: $colors-brand-600 !default;
-$foreground-quinary: $colors-gray-400 !default;
-$foreground-quinary-hover: $colors-gray-500 !default;
-$foreground-error-primary: $colors-error-600 !default;
-$foreground-disabled-subtle: $colors-gray-300 !default;
-$foreground-warning-secondary: $colors-warning-500 !default;
-$foreground-error-secondary: $colors-error-500 !default;
-$foreground-senary: $colors-gray-300 !default;
+$foreground-primary-hover: $colors-gray-900 !default;
+$foreground-secondary: $colors-gray-700 !default;
+$foreground-secondary-hover: $colors-gray-800 !default;
 $foreground-tertiary: $colors-gray-600 !default;
 $foreground-tertiary-hover: $colors-gray-700 !default;
-$foreground-brand-primary-hover: $colors-brand-700 !default;
-$foreground-primary-hover: $colors-gray-900 !default;
-$foreground-primary-solid: $colors-gray-800 !default;
-$foreground-error-primary-hover: $colors-error-800 !default;
+$foreground-quaternary: $colors-gray-500 !default;
+$foreground-quaternary-hover: $colors-gray-600 !default;
+$foreground-quinary: $colors-gray-400 !default;
+$foreground-quinary-hover: $colors-gray-500 !default;
+$foreground-senary: $colors-gray-300 !default;
+$foreground-white: $colors-base-white !default;
+$foreground-disabled: $colors-gray-400 !default;
+$foreground-disabled-subtle: $colors-gray-300 !default;
 $foreground-disabled-muted: $colors-gray-50 !default;
+$foreground-brand-primary: $colors-brand-600 !default;
+$foreground-brand-primary-hover: $colors-brand-700 !default;
+$foreground-brand-secondary: $colors-brand-500 !default;
+$foreground-error-primary: $colors-error-600 !default;
+$foreground-error-primary-hover: $colors-error-800 !default;
+$foreground-error-secondary: $colors-error-500 !default;
+$foreground-warning-primary: $colors-warning-600 !default;
+$foreground-warning-secondary: $colors-warning-500 !default;
+$foreground-success-primary: $colors-success-600 !default;
+$foreground-success-secondary: $colors-success-500 !default;
 $utility-blue-50: $colors-blue-50 !default;
 $utility-blue-100: $colors-blue-100 !default;
 $utility-blue-200: $colors-blue-200 !default;
@@ -695,164 +695,191 @@ $utility-gray-blue-600: $colors-gray-blue-600 !default;
 $utility-gray-blue-700: $colors-gray-blue-700 !default;
 $effects-focus-rings-brand: $colors-brand-500 !default;
 $effects-focus-rings-error: $colors-error-500 !default;
-$radius-xxs: $spacing-2 !default;
+$radius-2xs: $spacing-2 !default;
 $radius-xs: $spacing-4 !default;
 $radius-sm: $spacing-6 !default;
 $radius-md: $spacing-8 !default;
+$radius-lg: $spacing-10 !default;
 $radius-xl: $spacing-12 !default;
 $radius-2xl: $spacing-16 !default;
 $radius-3xl: $spacing-20 !default;
 $radius-4xl: $spacing-24 !default;
-$radius-full: $spacing-full !default;
-$radius-lg: $spacing-10 !default;
 $radius-5xl: $spacing-28 !default;
-$margin-3xs: $spacing-2 !default;
-$margin-xs: $spacing-4 !default;
-$margin-sm: $spacing-6 !default;
-$margin-md: $spacing-8 !default;
-$margin-lg: $spacing-12 !default;
-$margin-xl: $spacing-16 !default;
-$margin-2xl: $spacing-20 !default;
-$margin-3xl: $spacing-24 !default;
-$margin-4xl: $spacing-32 !default;
-$margin-6xl: $spacing-40 !default;
-$margin-8xl: $spacing-48 !default;
-$margin-10xl: $spacing-64 !default;
-$margin-11xl: $spacing-80 !default;
-$margin-12xl: $spacing-96 !default;
-$margin-14xl: $spacing-128 !default;
-$margin-16xl: $spacing-160 !default;
-$margin-2xs: $spacing-3 !default;
-$margin-5xl: $spacing-36 !default;
-$margin-7xl: $spacing-44 !default;
-$margin-9xl: $spacing-56 !default;
-$margin-15xl: $spacing-144 !default;
-$margin-13xl: $spacing-112 !default;
-$padding-3xs: $spacing-2 !default;
-$padding-xs: $spacing-4 !default;
-$padding-sm: $spacing-6 !default;
-$padding-md: $spacing-8 !default;
-$padding-lg: $spacing-10 !default;
-$padding-xl: $spacing-12 !default;
-$padding-2xl: $spacing-14 !default;
-$padding-3xl: $spacing-16 !default;
-$padding-4xl: $spacing-18 !default;
-$padding-5xl: $spacing-20 !default;
-$padding-6xl: $spacing-22 !default;
-$padding-7xl: $spacing-24 !default;
-$padding-8xl: $spacing-28 !default;
-$padding-9xl: $spacing-32 !default;
-$padding-10xl: $spacing-36 !default;
-$padding-11xl: $spacing-40 !default;
-$padding-13xl: $spacing-48 !default;
-$padding-2xs: $spacing-3 !default;
-$padding-12xl: $spacing-44 !default;
-$padding-14xl: $spacing-56 !default;
-$padding-15xl: $spacing-64 !default;
-$padding-16xl: $spacing-80 !default;
-$padding-17xl: $spacing-96 !default;
-$padding-18xl: $spacing-112 !default;
-$padding-19xl: $spacing-128 !default;
-$padding-20xl: $spacing-144 !default;
-$padding-21xl: $spacing-160 !default;
-$padding-22xl: $spacing-176 !default;
-$padding-23xl: $spacing-192 !default;
-$padding-24xl: $spacing-208 !default;
-$padding-25xl: $spacing-224 !default;
-$padding-26xl: $spacing-240 !default;
-$padding-27xl: $spacing-256 !default;
-$padding-28xl: $spacing-288 !default;
-$padding-29xl: $spacing-320 !default;
-$padding-30xl: $spacing-384 !default;
-$gap-xxs: $spacing-2 !default;
-$gap-xs: $spacing-4 !default;
-$gap-sm: $spacing-6 !default;
-$gap-md: $spacing-8 !default;
-$gap-lg: $spacing-10 !default;
-$gap-xl: $spacing-12 !default;
-$gap-2xl: $spacing-16 !default;
-$gap-3xl: $spacing-20 !default;
-$gap-4xl: $spacing-24 !default;
-$gap-6xl: $spacing-32 !default;
-$gap-8xl: $spacing-40 !default;
-$gap-7xl: $spacing-36 !default;
-$gap-5xl: $spacing-28 !default;
-$gap-9xl: $spacing-44 !default;
-$gap-10xl: $spacing-48 !default;
-$gap-11xl: $spacing-52 !default;
-$gap-12xl: $spacing-56 !default;
-$gap-13xl: $spacing-64 !default;
-$gap-14xl: $spacing-80 !default;
-$width-7xs: $spacing-14 !default;
-$width-6xs: $spacing-16 !default;
-$width-5xs: $spacing-18 !default;
-$width-4xs: $spacing-20 !default;
-$width-3xs: $spacing-22 !default;
-$width-2xs: $spacing-24 !default;
-$width-xs: $spacing-28 !default;
-$width-sm: $spacing-36 !default;
-$width-md: $spacing-40 !default;
-$width-lg: $spacing-44 !default;
-$width-xl: $spacing-48 !default;
-$width-2xl: $spacing-80 !default;
-$width-3xl: $spacing-96 !default;
-$width-4xl: $spacing-128 !default;
-$width-5xl: $spacing-160 !default;
-$width-6xl: $spacing-320 !default;
-$width-7xl: $spacing-440 !default;
-$width-8xl: $spacing-480 !default;
-$width-9xl: $spacing-720 !default;
-$width-10xl: $spacing-1024 !default;
-$width-11xl: $spacing-1280 !default;
-$width-12xl: $spacing-1440 !default;
-$width-13xl: $spacing-1920 !default;
-$height-2xs: $spacing-24 !default;
-$height-xs: $spacing-28 !default;
-$height-sm: $spacing-36 !default;
-$height-md: $spacing-40 !default;
-$height-lg: $spacing-44 !default;
-$height-2xl: $spacing-52 !default;
-$height-3xl: $spacing-56 !default;
-$height-4xl: $spacing-64 !default;
-$height-5xl: $spacing-80 !default;
-$height-6xl: $spacing-160 !default;
-$height-xl: $spacing-48 !default;
-$height-3xs: $spacing-22 !default;
-$height-6xs: $spacing-16 !default;
-$height-5xs: $spacing-18 !default;
-$height-4xs: $spacing-20 !default;
-$height-7xs: $spacing-14 !default;
-$stroke-md: $spacing-2 !default;
-$stroke-sm: $spacing-1 !default;
-$stroke-lg: $spacing-3 !default;
+$radius-full: $spacing-full !default;
+$margin-1: $spacing-4 !default;
+$margin-2: $spacing-8 !default;
+$margin-3: $spacing-12 !default;
+$margin-4: $spacing-16 !default;
+$margin-5: $spacing-20 !default;
+$margin-6: $spacing-24 !default;
+$margin-8: $spacing-32 !default;
+$margin-9: $spacing-36 !default;
+$margin-10: $spacing-40 !default;
+$margin-11: $spacing-44 !default;
+$margin-12: $spacing-48 !default;
+$margin-14: $spacing-56 !default;
+$margin-16: $spacing-64 !default;
+$margin-20: $spacing-80 !default;
+$margin-24: $spacing-96 !default;
+$margin-28: $spacing-112 !default;
+$margin-32: $spacing-128 !default;
+$margin-36: $spacing-144 !default;
+$margin-40: $spacing-160 !default;
+$margin-2px: $spacing-2 !default;
+$margin-3px: $spacing-3 !default;
+$margin-1s: $spacing-6 !default;
+$padding-1: $spacing-4 !default;
+$padding-2: $spacing-8 !default;
+$padding-3: $spacing-12 !default;
+$padding-4: $spacing-16 !default;
+$padding-5: $spacing-20 !default;
+$padding-6: $spacing-24 !default;
+$padding-7: $spacing-28 !default;
+$padding-8: $spacing-32 !default;
+$padding-9: $spacing-36 !default;
+$padding-10: $spacing-40 !default;
+$padding-11: $spacing-44 !default;
+$padding-12: $spacing-48 !default;
+$padding-14: $spacing-56 !default;
+$padding-16: $spacing-64 !default;
+$padding-20: $spacing-80 !default;
+$padding-24: $spacing-96 !default;
+$padding-28: $spacing-112 !default;
+$padding-32: $spacing-128 !default;
+$padding-36: $spacing-144 !default;
+$padding-40: $spacing-160 !default;
+$padding-44: $spacing-176 !default;
+$padding-48: $spacing-192 !default;
+$padding-52: $spacing-208 !default;
+$padding-56: $spacing-224 !default;
+$padding-60: $spacing-240 !default;
+$padding-64: $spacing-256 !default;
+$padding-72: $spacing-288 !default;
+$padding-80: $spacing-320 !default;
+$padding-96: $spacing-384 !default;
+$padding-2px: $spacing-2 !default;
+$padding-3px: $spacing-3 !default;
+$padding-1s: $spacing-6 !default;
+$padding-2s: $spacing-10 !default;
+$padding-3s: $spacing-14 !default;
+$padding-4s: $spacing-18 !default;
+$padding-5s: $spacing-22 !default;
+$gap-1: $spacing-4 !default;
+$gap-2: $spacing-8 !default;
+$gap-3: $spacing-12 !default;
+$gap-4: $spacing-16 !default;
+$gap-5: $spacing-20 !default;
+$gap-6: $spacing-24 !default;
+$gap-7: $spacing-28 !default;
+$gap-8: $spacing-32 !default;
+$gap-9: $spacing-36 !default;
+$gap-10: $spacing-40 !default;
+$gap-11: $spacing-44 !default;
+$gap-12: $spacing-48 !default;
+$gap-13: $spacing-52 !default;
+$gap-14: $spacing-56 !default;
+$gap-16: $spacing-64 !default;
+$gap-20: $spacing-80 !default;
+$gap-2px: $spacing-2 !default;
+$gap-1s: $spacing-6 !default;
+$gap-2s: $spacing-10 !default;
+$width-1: $spacing-4 !default;
+$width-2: $spacing-8 !default;
+$width-3: $spacing-12 !default;
+$width-4: $spacing-16 !default;
+$width-5: $spacing-20 !default;
+$width-6: $spacing-24 !default;
+$width-7: $spacing-28 !default;
+$width-8: $spacing-28 !default;
+$width-9: $spacing-36 !default;
+$width-10: $spacing-40 !default;
+$width-11: $spacing-44 !default;
+$width-12: $spacing-48 !default;
+$width-14: $spacing-56 !default;
+$width-16: $spacing-64 !default;
+$width-20: $spacing-80 !default;
+$width-24: $spacing-96 !default;
+$width-28: $spacing-112 !default;
+$width-32: $spacing-128 !default;
+$width-36: $spacing-144 !default;
+$width-40: $spacing-160 !default;
+$width-44: $spacing-176 !default;
+$width-48: $spacing-192 !default;
+$width-52: $spacing-208 !default;
+$width-56: $spacing-224 !default;
+$width-60: $spacing-240 !default;
+$width-64: $spacing-256 !default;
+$width-72: $spacing-288 !default;
+$width-80: $spacing-320 !default;
+$width-110: $spacing-440 !default;
+$width-120: $spacing-480 !default;
+$width-2px: $spacing-2 !default;
+$width-3s: $spacing-14 !default;
+$width-4s: $spacing-18 !default;
+$width-5s: $spacing-22 !default;
+$height-1: $spacing-4 !default;
+$height-2: $spacing-8 !default;
+$height-3: $spacing-12 !default;
+$height-4: $spacing-16 !default;
+$height-5: $spacing-20 !default;
+$height-6: $spacing-24 !default;
+$height-7: $spacing-28 !default;
+$height-8: $spacing-32 !default;
+$height-9: $spacing-36 !default;
+$height-10: $spacing-40 !default;
+$height-11: $spacing-44 !default;
+$height-12: $spacing-48 !default;
+$height-13: $spacing-52 !default;
+$height-14: $spacing-56 !default;
+$height-16: $spacing-64 !default;
+$height-20: $spacing-80 !default;
+$height-24: $spacing-96 !default;
+$height-28: $spacing-112 !default;
+$height-36: $spacing-144 !default;
+$height-40: $spacing-160 !default;
+$height-44: $spacing-176 !default;
+$height-48: $spacing-192 !default;
+$height-52: $spacing-208 !default;
+$height-60: $spacing-240 !default;
+$height-64: $spacing-256 !default;
+$height-72: $spacing-288 !default;
+$height-80: $spacing-320 !default;
+$height-96: $spacing-384 !default;
+$height-2px: $spacing-2 !default;
+$height-3s: $spacing-14 !default;
+$height-4s: $spacing-18 !default;
+$height-5s: $spacing-22 !default;
 $stroke-xs: $spacing-05 !default;
-$heading-heading-6xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-7xl/$typography-line-heights-leading-7xl $typography-font-family-heading !default;
-$heading-heading-5xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-6xl/$typography-line-heights-leading-6xl $typography-font-family-heading !default;
-$heading-heading-4xl: $typography-line-heights-leading-5xl$typography-letter-spacing-$typography-paragraph-spacing-0 $typography-font-size-text-5xl/60 $typography-font-family-heading !default;
-$heading-heading-3xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-4xl/$typography-line-heights-leading-4xl $typography-font-family-heading !default;
-$heading-heading-2xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-3xl/$typography-line-heights-leading-3xl $typography-font-family-heading !default;
-$heading-heading-xl: 6$typography-letter-spacing-00 $typography-font-size-text-2xl/$typography-line-heights-leading-2xl $typography-font-family-heading !default;
-$heading-heading-lg: 6$typography-letter-spacing-00 $typography-font-size-text-xl/$typography-line-heights-leading-xl $typography-font-family-heading !default;
-$heading-heading-md: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-lg/$typography-line-heights-leading-lg $typography-font-family-heading !default;
-$heading-heading-sm: 6$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-heading !default;
-$heading-heading-xs: 6$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-heading !default;
-$heading-heading-xxs: 6$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-heading !default;
-$body-body-2xl: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-lg/$typography-line-heights-leading-lg $typography-font-family-body !default;
-$body-body-xl: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
-$body-body-lg: 4$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
-$body-body-lg-underlined: 4$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
-$body-body-md: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
-$body-body-sm: 4$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
-$body-body-sm-underlined: 4$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
-$body-body-xs: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$body-body-xs-underlined: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-md: 5$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-md-underline: 5$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-md-uppercase: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-sm: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-sm-underline: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-sm-uppercase: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
-$caption-caption-2xs-uppercase: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-3xs/$typography-line-heights-leading-3xs $typography-font-family-body !default;
+$stroke-sm: $spacing-1 !default;
+$stroke-md: $spacing-2 !default;
+$stroke-lg: $spacing-3 !default;
+$heading-2xs: 6$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-heading !default;
+$heading-xs: 6$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-heading !default;
+$heading-sm: 6$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-heading !default;
+$heading-md: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-lg/$typography-line-heights-leading-lg $typography-font-family-heading !default;
+$heading-lg: 6$typography-letter-spacing-00 $typography-font-size-text-xl/$typography-line-heights-leading-xl $typography-font-family-heading !default;
+$heading-xl: 6$typography-letter-spacing-00 $typography-font-size-text-2xl/$typography-line-heights-leading-2xl $typography-font-family-heading !default;
+$heading-2xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-3xl/$typography-line-heights-leading-3xl $typography-font-family-heading !default;
+$heading-3xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-4xl/$typography-line-heights-leading-4xl $typography-font-family-heading !default;
+$heading-4xl: $typography-line-heights-leading-5xl$typography-letter-spacing-$typography-paragraph-spacing-0 $typography-font-size-text-5xl/60 $typography-font-family-heading !default;
+$heading-5xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-6xl/$typography-line-heights-leading-6xl $typography-font-family-heading !default;
+$heading-6xl: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-7xl/$typography-line-heights-leading-7xl $typography-font-family-heading !default;
+$body-xs: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$body-xs-underlined: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$body-sm: 4$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
+$body-sm-underlined: 4$typography-letter-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
+$body-md: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-sm/$typography-line-heights-leading-sm $typography-font-family-body !default;
+$body-lg: 4$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
+$body-lg-underlined: 4$typography-letter-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
+$body-xl: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-md/$typography-line-heights-leading-md $typography-font-family-body !default;
+$body-2xl: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-lg/$typography-line-heights-leading-lg $typography-font-family-body !default;
+$caption-2xs-uppercase: 6$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-3xs/$typography-line-heights-leading-3xs $typography-font-family-body !default;
+$caption-sm: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$caption-sm-uppercase: 4$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$caption-sm-underline: 4$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$caption-md: 5$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$caption-md-uppercase: 5$typography-letter-spacing-$typography-paragraph-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
+$caption-md-underline: 5$typography-letter-spacing-00 $typography-font-size-text-xs/$typography-line-heights-leading-xs $typography-font-family-body !default;
 $buttons-filled-brand-fg: $foreground-primary-solid !default;
 $buttons-filled-brand-fg-hover: $foreground-primary-solid !default;
 $buttons-filled-brand-bg: $background-brand-solid !default;
@@ -934,52 +961,52 @@ $buttons-button-radius-md: $radius-md !default;
 $buttons-button-radius-lg: $radius-md !default;
 $buttons-button-radius-xl: $radius-md !default;
 $buttons-button-radius-2xl: $radius-lg !default;
-$buttons-button-default-gap-sm: $gap-xs !default;
-$buttons-button-default-gap-md: $gap-xs !default;
-$buttons-button-default-gap-lg: $gap-sm !default;
-$buttons-button-default-gap-xl: $gap-sm !default;
-$buttons-button-default-gap-2xl: $gap-lg !default;
-$buttons-button-default-padding-sm-x: $padding-lg !default;
-$buttons-button-default-padding-sm-y: $padding-md !default;
-$buttons-button-default-padding-md-x: $padding-2xl !default;
-$buttons-button-default-padding-md-y: $padding-lg !default;
-$buttons-button-default-padding-lg-x: $padding-3xl !default;
-$buttons-button-default-padding-lg-y: $padding-lg !default;
-$buttons-button-default-padding-xl-x: $padding-4xl !default;
-$buttons-button-default-padding-xl-y: $padding-xl !default;
-$buttons-button-default-padding-2xl-x: $padding-6xl !default;
-$buttons-button-default-padding-2xl-y: $padding-3xl !default;
-$buttons-button-dot-leading-gap-sm: $gap-md !default;
-$buttons-button-dot-leading-gap-md: $gap-md !default;
-$buttons-button-dot-leading-gap-lg: $gap-md !default;
-$buttons-button-dot-leading-gap-xl: $gap-md !default;
-$buttons-button-dot-leading-gap-2xl: $gap-xl !default;
-$buttons-button-dot-leading-padding-sm-x: $padding-2xl !default;
-$buttons-button-dot-leading-padding-sm-y: $padding-md !default;
-$buttons-button-dot-leading-padding-md-x: $padding-3xl !default;
-$buttons-button-dot-leading-padding-md-y: $padding-lg !default;
-$buttons-button-dot-leading-padding-lg-x: $padding-4xl !default;
-$buttons-button-dot-leading-padding-lg-y: $padding-lg !default;
-$buttons-button-dot-leading-padding-xl-x: $padding-5xl !default;
-$buttons-button-dot-leading-padding-xl-y: $padding-xl !default;
-$buttons-button-dot-leading-padding-2xl-x: $padding-7xl !default;
-$buttons-button-dot-leading-padding-2xl-y: $padding-3xl !default;
-$buttons-button-icon-only-padding-sm: $padding-md !default;
-$buttons-button-icon-only-padding-xs: $padding-sm !default;
-$buttons-button-icon-only-padding-md: $padding-lg !default;
-$buttons-button-icon-only-padding-lg: $padding-xl !default;
-$buttons-button-icon-only-padding-xl: $padding-2xl !default;
-$buttons-button-icon-only-padding-2xl: $padding-3xl !default;
-$buttons-link-default-gap-sm: $gap-sm !default;
-$buttons-link-default-gap-md: $gap-sm !default;
-$buttons-link-default-gap-lg: $gap-md !default;
-$buttons-link-default-gap-xl: $gap-md !default;
-$buttons-link-default-gap-2xl: $gap-xl !default;
-$buttons-link-dot-leading-gap-sm: $gap-md !default;
-$buttons-link-dot-leading-gap-md: $gap-md !default;
-$buttons-link-dot-leading-gap-lg: $gap-md !default;
-$buttons-link-dot-leading-gap-xl: $gap-md !default;
-$buttons-link-dot-leading-gap-2xl: $gap-xl !default;
+$buttons-button-default-gap-sm: $gap-1 !default;
+$buttons-button-default-gap-md: $gap-1 !default;
+$buttons-button-default-gap-lg: $gap-1s !default;
+$buttons-button-default-gap-xl: $gap-1s !default;
+$buttons-button-default-gap-2xl: $gap-2s !default;
+$buttons-button-default-padding-sm-x: $padding-2s !default;
+$buttons-button-default-padding-sm-y: $padding-2 !default;
+$buttons-button-default-padding-md-x: $padding-3s !default;
+$buttons-button-default-padding-md-y: $padding-2s !default;
+$buttons-button-default-padding-lg-x: $padding-4 !default;
+$buttons-button-default-padding-lg-y: $padding-2s !default;
+$buttons-button-default-padding-xl-x: $padding-4s !default;
+$buttons-button-default-padding-xl-y: $padding-3 !default;
+$buttons-button-default-padding-2xl-x: $padding-5s !default;
+$buttons-button-default-padding-2xl-y: $padding-4 !default;
+$buttons-button-dot-leading-gap-sm: $gap-2 !default;
+$buttons-button-dot-leading-gap-md: $gap-2 !default;
+$buttons-button-dot-leading-gap-lg: $gap-2 !default;
+$buttons-button-dot-leading-gap-xl: $gap-2 !default;
+$buttons-button-dot-leading-gap-2xl: $gap-3 !default;
+$buttons-button-dot-leading-padding-sm-x: $padding-3s !default;
+$buttons-button-dot-leading-padding-sm-y: $padding-2 !default;
+$buttons-button-dot-leading-padding-md-x: $padding-4 !default;
+$buttons-button-dot-leading-padding-md-y: $padding-2s !default;
+$buttons-button-dot-leading-padding-lg-x: $padding-4s !default;
+$buttons-button-dot-leading-padding-lg-y: $padding-2s !default;
+$buttons-button-dot-leading-padding-xl-x: $padding-5 !default;
+$buttons-button-dot-leading-padding-xl-y: $padding-3 !default;
+$buttons-button-dot-leading-padding-2xl-x: $padding-6 !default;
+$buttons-button-dot-leading-padding-2xl-y: $padding-4 !default;
+$buttons-button-icon-only-padding-sm: $padding-2 !default;
+$buttons-button-icon-only-padding-xs: $padding-1s !default;
+$buttons-button-icon-only-padding-md: $padding-2s !default;
+$buttons-button-icon-only-padding-lg: $padding-3 !default;
+$buttons-button-icon-only-padding-xl: $padding-3s !default;
+$buttons-button-icon-only-padding-2xl: $padding-4 !default;
+$buttons-link-default-gap-sm: $gap-1s !default;
+$buttons-link-default-gap-md: $gap-1s !default;
+$buttons-link-default-gap-lg: $gap-2 !default;
+$buttons-link-default-gap-xl: $gap-2 !default;
+$buttons-link-default-gap-2xl: $gap-3 !default;
+$buttons-link-dot-leading-gap-sm: $gap-2 !default;
+$buttons-link-dot-leading-gap-md: $gap-2 !default;
+$buttons-link-dot-leading-gap-lg: $gap-2 !default;
+$buttons-link-dot-leading-gap-xl: $gap-2 !default;
+$buttons-link-dot-leading-gap-2xl: $gap-3 !default;
 $buttons-link-radius-sm: $radius-xs !default;
 $buttons-link-radius-md: $radius-xs !default;
 $buttons-link-radius-lg: $radius-xs !default;
@@ -1135,114 +1162,114 @@ $badges-rectangle-radius-sm: $radius-sm !default;
 $badges-rectangle-radius-md: $radius-sm !default;
 $badges-rectangle-radius-lg: $radius-md !default;
 $badges-rectangle-radius-pill: $radius-full !default;
-$badges-rectangle-dafault-padding-sm-x: $padding-sm !default;
-$badges-rectangle-dafault-padding-sm-y: $padding-3xs !default;
-$badges-rectangle-dafault-padding-md-x: $padding-md !default;
-$badges-rectangle-dafault-padding-md-y: $padding-3xs !default;
-$badges-rectangle-dafault-padding-lg-x: $padding-lg !default;
-$badges-rectangle-dafault-padding-lg-y: $padding-xs !default;
-$badges-rectangle-dot-leading-padding-sm-y: $padding-3xs !default;
-$badges-rectangle-dot-leading-padding-sm-x: $padding-sm !default;
-$badges-rectangle-dot-leading-padding-md-x: $padding-md !default;
-$badges-rectangle-dot-leading-padding-md-y: $padding-3xs !default;
-$badges-rectangle-dot-leading-padding-lg-x: $padding-lg !default;
-$badges-rectangle-dot-leading-padding-lg-y: $padding-xs !default;
-$badges-rectangle-dot-leading-gap-sm: $gap-xs !default;
-$badges-rectangle-dot-leading-gap-md: $gap-sm !default;
-$badges-rectangle-dot-leading-gap-lg: $gap-sm !default;
-$badges-rectangle-x-close-gap-sm: $gap-xxs !default;
-$badges-rectangle-x-close-gap-md: $gap-xxs !default;
-$badges-rectangle-x-close-gap-lg: $gap-xxs !default;
-$badges-rectangle-x-close-padding-sm-left: $padding-sm !default;
-$badges-rectangle-x-close-padding-sm-right: $padding-xs !default;
-$badges-rectangle-x-close-padding-sm-y: $padding-3xs !default;
-$badges-rectangle-x-close-padding-md-left: $padding-md !default;
-$badges-rectangle-x-close-padding-md-right: $padding-xs !default;
-$badges-rectangle-x-close-padding-md-y: $padding-3xs !default;
-$badges-rectangle-x-close-padding-lg-left: $padding-lg !default;
-$badges-rectangle-x-close-padding-lg-right: $padding-sm !default;
-$badges-rectangle-x-close-padding-lg-y: $padding-xs !default;
-$badges-rectangle-x-close-padding-close-icon: $padding-3xs !default;
-$badges-rectangle-icon-trailing-gap-sm: $gap-xs !default;
-$badges-rectangle-icon-trailing-gap-md: $gap-xs !default;
-$badges-rectangle-icon-trailing-gap-lg: $gap-xs !default;
-$badges-rectangle-icon-trailing-padding-sm-left: $padding-sm !default;
-$badges-rectangle-icon-trailing-padding-sm-right: $padding-xs !default;
-$badges-rectangle-icon-trailing-padding-sm-y: $padding-3xs !default;
-$badges-rectangle-icon-trailing-padding-md-left: $padding-md !default;
-$badges-rectangle-icon-trailing-padding-md-right: $padding-sm !default;
-$badges-rectangle-icon-trailing-padding-md-y: $padding-3xs !default;
-$badges-rectangle-icon-trailing-padding-lg-left: $padding-lg !default;
-$badges-rectangle-icon-trailing-padding-lg-right: $padding-md !default;
-$badges-rectangle-icon-trailing-padding-lg-y: $padding-xs !default;
-$badges-rectangle-icon-leading-gap-sm: $gap-xs !default;
-$badges-rectangle-icon-leading-gap-md: $gap-xs !default;
-$badges-rectangle-icon-leading-gap-lg: $gap-xs !default;
-$badges-rectangle-icon-leading-padding-sm-left: $padding-xs !default;
-$badges-rectangle-icon-leading-padding-sm-right: $padding-sm !default;
-$badges-rectangle-icon-leading-padding-sm-y: $padding-3xs !default;
-$badges-rectangle-icon-leading-padding-md-left: $padding-sm !default;
-$badges-rectangle-icon-leading-padding-md-right: $padding-md !default;
-$badges-rectangle-icon-leading-padding-md-y: $padding-3xs !default;
-$badges-rectangle-icon-leading-padding-lg-left: $padding-md !default;
-$badges-rectangle-icon-leading-padding-lg-right: $padding-lg !default;
-$badges-rectangle-icon-leading-padding-lg-y: $padding-xs !default;
-$badges-rectangle-icon-only-sm-width: $width-3xs !default;
-$badges-rectangle-icon-only-sm-height: $height-3xs !default;
-$badges-rectangle-icon-only-md-width: $width-2xs !default;
-$badges-rectangle-icon-only-md-height: $height-2xs !default;
-$badges-rectangle-icon-only-lg-width: $width-xs !default;
-$badges-rectangle-icon-only-lg-height: $height-xs !default;
+$badges-rectangle-dafault-padding-sm-x: $padding-1s !default;
+$badges-rectangle-dafault-padding-sm-y: $padding-2px !default;
+$badges-rectangle-dafault-padding-md-x: $padding-2 !default;
+$badges-rectangle-dafault-padding-md-y: $padding-2px !default;
+$badges-rectangle-dafault-padding-lg-x: $padding-2s !default;
+$badges-rectangle-dafault-padding-lg-y: $padding-1 !default;
+$badges-rectangle-dot-leading-padding-sm-y: $padding-2px !default;
+$badges-rectangle-dot-leading-padding-sm-x: $padding-1s !default;
+$badges-rectangle-dot-leading-padding-md-x: $padding-2 !default;
+$badges-rectangle-dot-leading-padding-md-y: $padding-2px !default;
+$badges-rectangle-dot-leading-padding-lg-x: $padding-2s !default;
+$badges-rectangle-dot-leading-padding-lg-y: $padding-1 !default;
+$badges-rectangle-dot-leading-gap-sm: $gap-1 !default;
+$badges-rectangle-dot-leading-gap-md: $gap-1s !default;
+$badges-rectangle-dot-leading-gap-lg: $gap-1s !default;
+$badges-rectangle-x-close-gap-sm: $gap-2px !default;
+$badges-rectangle-x-close-gap-md: $gap-2px !default;
+$badges-rectangle-x-close-gap-lg: $gap-2px !default;
+$badges-rectangle-x-close-padding-sm-left: $padding-1s !default;
+$badges-rectangle-x-close-padding-sm-right: $padding-1 !default;
+$badges-rectangle-x-close-padding-sm-y: $padding-2px !default;
+$badges-rectangle-x-close-padding-md-left: $padding-2 !default;
+$badges-rectangle-x-close-padding-md-right: $padding-1 !default;
+$badges-rectangle-x-close-padding-md-y: $padding-2px !default;
+$badges-rectangle-x-close-padding-lg-left: $padding-2s !default;
+$badges-rectangle-x-close-padding-lg-right: $padding-1s !default;
+$badges-rectangle-x-close-padding-lg-y: $padding-1 !default;
+$badges-rectangle-x-close-padding-close-icon: $padding-2px !default;
+$badges-rectangle-icon-trailing-gap-sm: $gap-1 !default;
+$badges-rectangle-icon-trailing-gap-md: $gap-1 !default;
+$badges-rectangle-icon-trailing-gap-lg: $gap-1 !default;
+$badges-rectangle-icon-trailing-padding-sm-left: $padding-1s !default;
+$badges-rectangle-icon-trailing-padding-sm-right: $padding-1 !default;
+$badges-rectangle-icon-trailing-padding-sm-y: $padding-2px !default;
+$badges-rectangle-icon-trailing-padding-md-left: $padding-2 !default;
+$badges-rectangle-icon-trailing-padding-md-right: $padding-1s !default;
+$badges-rectangle-icon-trailing-padding-md-y: $padding-2px !default;
+$badges-rectangle-icon-trailing-padding-lg-left: $padding-2s !default;
+$badges-rectangle-icon-trailing-padding-lg-right: $padding-2 !default;
+$badges-rectangle-icon-trailing-padding-lg-y: $padding-1 !default;
+$badges-rectangle-icon-leading-gap-sm: $gap-1 !default;
+$badges-rectangle-icon-leading-gap-md: $gap-1 !default;
+$badges-rectangle-icon-leading-gap-lg: $gap-1 !default;
+$badges-rectangle-icon-leading-padding-sm-left: $padding-1 !default;
+$badges-rectangle-icon-leading-padding-sm-right: $padding-1s !default;
+$badges-rectangle-icon-leading-padding-sm-y: $padding-2px !default;
+$badges-rectangle-icon-leading-padding-md-left: $padding-1s !default;
+$badges-rectangle-icon-leading-padding-md-right: $padding-2 !default;
+$badges-rectangle-icon-leading-padding-md-y: $padding-2px !default;
+$badges-rectangle-icon-leading-padding-lg-left: $padding-2 !default;
+$badges-rectangle-icon-leading-padding-lg-right: $padding-2s !default;
+$badges-rectangle-icon-leading-padding-lg-y: $padding-1 !default;
+$badges-rectangle-icon-only-sm-width: $width-5s !default;
+$badges-rectangle-icon-only-sm-height: $height-5s !default;
+$badges-rectangle-icon-only-md-width: $width-6 !default;
+$badges-rectangle-icon-only-md-height: $height-6 !default;
+$badges-rectangle-icon-only-lg-width: $width-7 !default;
+$badges-rectangle-icon-only-lg-height: $height-7 !default;
 $badges-pill-radius-radius: $radius-xs !default;
 $badges-pill-radius-pill-button: $radius-full !default;
-$badges-pill-default-padding-sm-x: $padding-md !default;
-$badges-pill-default-padding-sm-y: $padding-3xs !default;
-$badges-pill-default-padding-md-x: $padding-lg !default;
-$badges-pill-default-padding-md-y: $padding-3xs !default;
-$badges-pill-default-padding-lg-x: $padding-xl !default;
-$badges-pill-default-padding-lg-y: $padding-xs !default;
-$badges-pill-dot-leading-padding-sm-left: $padding-sm !default;
-$badges-pill-dot-leading-padding-sm-right: $padding-md !default;
-$badges-pill-dot-leading-padding-sm-y: $padding-3xs !default;
-$badges-pill-dot-leading-padding-md-left: $padding-md !default;
-$badges-pill-dot-leading-padding-md-right: $padding-lg !default;
-$badges-pill-dot-leading-padding-md-y: $padding-3xs !default;
-$badges-pill-dot-leading-padding-lg-left: $padding-lg !default;
-$badges-pill-dot-leading-padding-lg-right: $padding-xl !default;
-$badges-pill-dot-leading-padding-lg-y: $padding-xs !default;
-$badges-pill-x-close-padding-sm-left: $padding-md !default;
-$badges-pill-x-close-padding-sm-right: $padding-xs !default;
-$badges-pill-x-close-padding-sm-y: $padding-3xs !default;
-$badges-pill-x-close-padding-md-left: $padding-lg !default;
-$badges-pill-x-close-padding-md-right: $padding-xs !default;
-$badges-pill-x-close-padding-md-y: $padding-3xs !default;
-$badges-pill-x-close-padding-lg-left: $padding-xl !default;
-$badges-pill-x-close-padding-lg-right: $padding-sm !default;
-$badges-pill-x-close-padding-lg-y: $padding-xs !default;
-$badges-pill-icon-trailing-padding-sm-left: $padding-md !default;
-$badges-pill-icon-trailing-padding-sm-right: $padding-sm !default;
-$badges-pill-icon-trailing-padding-sm-y: $padding-3xs !default;
-$badges-pill-icon-trailing-padding-md-left: $padding-lg !default;
-$badges-pill-icon-trailing-padding-md-right: $padding-md !default;
-$badges-pill-icon-trailing-padding-md-y: $padding-3xs !default;
-$badges-pill-icon-trailing-padding-lg-left: $padding-xl !default;
-$badges-pill-icon-trailing-padding-lg-right: $padding-lg !default;
-$badges-pill-icon-trailing-padding-lg-y: $padding-xs !default;
-$badges-pill-icon-leading-padding-sm-left: $padding-sm !default;
-$badges-pill-icon-leading-padding-sm-right: $padding-md !default;
-$badges-pill-icon-leading-padding-sm-y: $padding-3xs !default;
-$badges-pill-icon-leading-padding-md-left: $padding-md !default;
-$badges-pill-icon-leading-padding-md-right: $padding-lg !default;
-$badges-pill-icon-leading-padding-md-y: $padding-3xs !default;
-$badges-pill-icon-leading-padding-lg-left: $padding-lg !default;
-$badges-pill-icon-leading-padding-lg-right: $padding-xl !default;
-$badges-pill-icon-leading-padding-lg-y: $padding-xs !default;
-$badges-pill-icon-only-sm-width: $width-3xs !default;
-$badges-pill-icon-only-sm-height: $height-3xs !default;
-$badges-pill-icon-only-md-width: $width-2xs !default;
-$badges-pill-icon-only-md-height: $height-2xs !default;
-$badges-pill-icon-only-lg-width: $width-xs !default;
-$badges-pill-icon-only-lg-height: $height-xs !default;
+$badges-pill-default-padding-sm-x: $padding-2 !default;
+$badges-pill-default-padding-sm-y: $padding-2px !default;
+$badges-pill-default-padding-md-x: $padding-2s !default;
+$badges-pill-default-padding-md-y: $padding-2px !default;
+$badges-pill-default-padding-lg-x: $padding-3 !default;
+$badges-pill-default-padding-lg-y: $padding-1 !default;
+$badges-pill-dot-leading-padding-sm-left: $padding-1s !default;
+$badges-pill-dot-leading-padding-sm-right: $padding-2 !default;
+$badges-pill-dot-leading-padding-sm-y: $padding-2px !default;
+$badges-pill-dot-leading-padding-md-left: $padding-2 !default;
+$badges-pill-dot-leading-padding-md-right: $padding-2s !default;
+$badges-pill-dot-leading-padding-md-y: $padding-2px !default;
+$badges-pill-dot-leading-padding-lg-left: $padding-2s !default;
+$badges-pill-dot-leading-padding-lg-right: $padding-3 !default;
+$badges-pill-dot-leading-padding-lg-y: $padding-1 !default;
+$badges-pill-x-close-padding-sm-left: $padding-2 !default;
+$badges-pill-x-close-padding-sm-right: $padding-1 !default;
+$badges-pill-x-close-padding-sm-y: $padding-2px !default;
+$badges-pill-x-close-padding-md-left: $padding-2s !default;
+$badges-pill-x-close-padding-md-right: $padding-1 !default;
+$badges-pill-x-close-padding-md-y: $padding-2px !default;
+$badges-pill-x-close-padding-lg-left: $padding-3 !default;
+$badges-pill-x-close-padding-lg-right: $padding-1s !default;
+$badges-pill-x-close-padding-lg-y: $padding-1 !default;
+$badges-pill-icon-trailing-padding-sm-left: $padding-2 !default;
+$badges-pill-icon-trailing-padding-sm-right: $padding-1s !default;
+$badges-pill-icon-trailing-padding-sm-y: $padding-2px !default;
+$badges-pill-icon-trailing-padding-md-left: $padding-2s !default;
+$badges-pill-icon-trailing-padding-md-right: $padding-2 !default;
+$badges-pill-icon-trailing-padding-md-y: $padding-2px !default;
+$badges-pill-icon-trailing-padding-lg-left: $padding-3 !default;
+$badges-pill-icon-trailing-padding-lg-right: $padding-2s !default;
+$badges-pill-icon-trailing-padding-lg-y: $padding-1 !default;
+$badges-pill-icon-leading-padding-sm-left: $padding-1s !default;
+$badges-pill-icon-leading-padding-sm-right: $padding-2 !default;
+$badges-pill-icon-leading-padding-sm-y: $padding-2px !default;
+$badges-pill-icon-leading-padding-md-left: $padding-2 !default;
+$badges-pill-icon-leading-padding-md-right: $padding-2s !default;
+$badges-pill-icon-leading-padding-md-y: $padding-2px !default;
+$badges-pill-icon-leading-padding-lg-left: $padding-2s !default;
+$badges-pill-icon-leading-padding-lg-right: $padding-3 !default;
+$badges-pill-icon-leading-padding-lg-y: $padding-1 !default;
+$badges-pill-icon-only-sm-width: $width-5s !default;
+$badges-pill-icon-only-sm-height: $height-5s !default;
+$badges-pill-icon-only-md-width: $width-6 !default;
+$badges-pill-icon-only-md-height: $height-6 !default;
+$badges-pill-icon-only-lg-width: $width-7 !default;
+$badges-pill-icon-only-lg-height: $height-7 !default;
 $button-group-default-fg: $foreground-primary !default;
 $button-group-default-fg-hover: $foreground-primary-hover !default;
 $button-group-default-fg-focused: $foreground-primary !default;
@@ -1298,7 +1325,7 @@ $card-body-muted: $text-quaternary !default;
 $card-border-hover: $border-primary-hover !default;
 $card-radius: $radius-2xl !default;
 $card-border-stroke: $stroke-xs !default;
-$card-content-padding: $padding-3xl !default;
+$card-content-padding: $padding-4 !default;
 $checkbox-radio-default-border: $border-primary !default;
 $checkbox-radio-default-border-disabled: $border-disabled !default;
 $checkbox-radio-default-bg-disabled: $background-disabled-subtle !default;
@@ -1316,14 +1343,14 @@ $checkbox-radio-radius-lg: $radius-sm !default;
 $checkbox-radio-radius-radio: $radius-full !default;
 $checkbox-radio-radius-xs: $radius-xs !default;
 $checkbox-radio-radius-md: $radius-xs !default;
-$checkbox-radio-size-sm-width: $width-6xs !default;
-$checkbox-radio-size-md-height: $height-5xs !default;
-$checkbox-radio-size-lg-width: $width-4xs !default;
-$checkbox-radio-size-lg-height: $height-4xs !default;
-$checkbox-radio-size-xs-width: $width-7xs !default;
-$checkbox-radio-size-xs-height: $height-7xs !default;
-$checkbox-radio-size-sm-height: $height-6xs !default;
-$checkbox-radio-size-md-width: $width-5xs !default;
+$checkbox-radio-size-sm-width: $width-4 !default;
+$checkbox-radio-size-md-height: $height-4s !default;
+$checkbox-radio-size-lg-width: $width-5 !default;
+$checkbox-radio-size-lg-height: $height-5 !default;
+$checkbox-radio-size-xs-width: $width-3s !default;
+$checkbox-radio-size-xs-height: $height-3s !default;
+$checkbox-radio-size-sm-height: $height-4 !default;
+$checkbox-radio-size-md-width: $width-4s !default;
 $toggle-default-bg: $background-tertiary !default;
 $toggle-default-bg-disabled: $background-disabled !default;
 $toggle-default-control: $foreground-white !default;
@@ -1334,10 +1361,10 @@ $toggle-active-control: $foreground-white !default;
 $toggle-active-control-disabled: $foreground-disabled-muted !default;
 $toggle-active-bg-hover: $background-brand-solid-hover !default;
 $toggle-radius: $radius-full !default;
-$toggle-size-sm-width: $width-sm !default;
-$toggle-size-sm-height: $height-4xs !default;
-$toggle-size-md-width: $width-lg !default;
-$toggle-size-md-height: $height-2xs !default;
+$toggle-size-sm-width: $width-9 !default;
+$toggle-size-sm-height: $height-5 !default;
+$toggle-size-md-width: $width-11 !default;
+$toggle-size-md-height: $height-6 !default;
 $tabs-outlined-primary-default-button-text: $text-quaternary !default;
 $tabs-outlined-primary-default-button-text-focused: $text-quaternary !default;
 $tabs-outlined-primary-default-button-bg-focused: $background-primary !default;
@@ -1395,74 +1422,74 @@ $tabs-line-border-stroke: $stroke-sm !default;
 $tabs-text-button-radius-sm: $radius-sm !default;
 $tabs-text-button-radius-md: $radius-sm !default;
 $tabs-text-button-radius-xs: $radius-xs !default;
-$tabs-text-button-button-spacing-padding-sm-x: $padding-xl !default;
-$tabs-text-button-button-spacing-padding-sm-y: $padding-sm !default;
-$tabs-text-button-button-spacing-padding-md-x: $padding-3xl !default;
-$tabs-text-button-button-spacing-padding-md-y: $padding-lg !default;
-$tabs-text-button-button-spacing-padding-xs-x: $padding-md !default;
-$tabs-text-button-button-spacing-padding-xs-y: $padding-2xs !default;
-$tabs-text-button-button-spacing-gap-sm: $gap-xs !default;
-$tabs-text-button-button-spacing-gap-md: $gap-xs !default;
-$tabs-text-button-button-spacing-gap-xs: $gap-xs !default;
-$tabs-text-button-icon-only-xs-width: $width-xs !default;
-$tabs-text-button-icon-only-xs-height: $height-xs !default;
-$tabs-text-button-icon-only-sm-width: $width-sm !default;
-$tabs-text-button-icon-only-sm-height: $height-sm !default;
-$tabs-text-button-icon-only-md-width: $width-lg !default;
-$tabs-text-button-icon-only-md-height: $height-lg !default;
+$tabs-text-button-button-spacing-padding-sm-x: $padding-3 !default;
+$tabs-text-button-button-spacing-padding-sm-y: $padding-1s !default;
+$tabs-text-button-button-spacing-padding-md-x: $padding-4 !default;
+$tabs-text-button-button-spacing-padding-md-y: $padding-2s !default;
+$tabs-text-button-button-spacing-padding-xs-x: $padding-2 !default;
+$tabs-text-button-button-spacing-padding-xs-y: $padding-3px !default;
+$tabs-text-button-button-spacing-gap-sm: $gap-1 !default;
+$tabs-text-button-button-spacing-gap-md: $gap-1 !default;
+$tabs-text-button-button-spacing-gap-xs: $gap-1 !default;
+$tabs-text-button-icon-only-xs-width: $width-7 !default;
+$tabs-text-button-icon-only-xs-height: $height-7 !default;
+$tabs-text-button-icon-only-sm-width: $width-9 !default;
+$tabs-text-button-icon-only-sm-height: $height-9 !default;
+$tabs-text-button-icon-only-md-width: $width-11 !default;
+$tabs-text-button-icon-only-md-height: $height-11 !default;
 $tabs-outlined-button-radius-sm: $radius-md !default;
 $tabs-outlined-button-radius-md: $radius-md !default;
 $tabs-outlined-button-radius-minimal-sm: $radius-lg !default;
 $tabs-outlined-button-radius-minimal-md: $radius-lg !default;
 $tabs-outlined-button-radius-xs: $radius-sm !default;
-$tabs-outlined-button-button-spacing-padding-sm-x: $padding-xl !default;
-$tabs-outlined-button-button-spacing-padding-sm-y: $padding-sm !default;
-$tabs-outlined-button-button-spacing-padding-md-x: $padding-3xl !default;
-$tabs-outlined-button-button-spacing-padding-md-y: $padding-md !default;
-$tabs-outlined-button-button-spacing-padding-xs-x: $padding-md !default;
-$tabs-outlined-button-button-spacing-padding-xs-y: $padding-2xs !default;
-$tabs-outlined-button-default-padding-sm-x: $padding-xs !default;
-$tabs-outlined-button-default-padding-sm-y: $padding-xs !default;
-$tabs-outlined-button-default-padding-md-x: $padding-sm !default;
-$tabs-outlined-button-default-padding-md-y: $padding-sm !default;
-$tabs-outlined-button-default-padding-xs-x: $padding-xs !default;
-$tabs-outlined-button-default-padding-xs-y: $padding-xs !default;
-$tabs-outlined-button-default-gap-sm: $gap-xs !default;
-$tabs-outlined-button-default-gap-md: $gap-xs !default;
-$tabs-outlined-button-default-gap-xs: $gap-xs !default;
-$tabs-outlined-button-minimal-gap-sm: $gap-xxs !default;
-$tabs-outlined-button-minimal-gap-md: $gap-xxs !default;
-$tabs-outlined-button-minimal-gap-xs: $gap-xxs !default;
-$tabs-content-gap-with-badge-sm: $gap-md !default;
-$tabs-content-gap-with-badge-md: $gap-md !default;
-$tabs-content-gap-with-badge-xs: $gap-md !default;
-$tabs-content-gap-with-icon-sm: $gap-xs !default;
-$tabs-content-gap-with-icon-md: $gap-xs !default;
-$tabs-content-gap-with-icon-xs: $gap-xs !default;
-$tabs-content-gap-with-tag-sm: $gap-xs !default;
-$tabs-content-gap-with-tag-md: $gap-xs !default;
-$tabs-content-gap-with-tag-xs: $gap-xs !default;
-$tabs-underline-button-button-spacing-padding-sm-x: $padding-xl !default;
-$tabs-underline-button-button-spacing-padding-sm-bottom: $padding-xl !default;
-$tabs-underline-button-button-spacing-padding-md-x: $padding-3xl !default;
-$tabs-underline-button-button-spacing-padding-md-bottom: $padding-2xl !default;
-$tabs-underline-button-button-spacing-padding-xs-x: $padding-md !default;
-$tabs-underline-button-button-spacing-padding-xs-bottom: $padding-md !default;
-$tabs-underline-button-gap-sm: $gap-md !default;
-$tabs-underline-button-gap-md: $gap-md !default;
-$tabs-underline-button-gap-xs: $gap-md !default;
-$tabs-vertical-line-button-gap-sm: $gap-xs !default;
-$tabs-vertical-line-button-gap-md: $gap-xs !default;
-$tabs-vertical-line-button-gap-xs: $gap-xs !default;
-$tabs-vertical-line-button-button-spacing-gap-sm: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-gap-md: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-gap-xs: $gap-md !default;
-$tabs-vertical-line-button-button-spacing-padding-sm-x: $padding-xl !default;
-$tabs-vertical-line-button-button-spacing-padding-sm-y: $padding-sm !default;
-$tabs-vertical-line-button-button-spacing-padding-md-x: $padding-2xl !default;
-$tabs-vertical-line-button-button-spacing-padding-md-y: $padding-md !default;
-$tabs-vertical-line-button-button-spacing-padding-xs-x: $padding-md !default;
-$tabs-vertical-line-button-button-spacing-padding-xs-y: $padding-2xs !default;
+$tabs-outlined-button-button-spacing-padding-sm-x: $padding-3 !default;
+$tabs-outlined-button-button-spacing-padding-sm-y: $padding-1s !default;
+$tabs-outlined-button-button-spacing-padding-md-x: $padding-4 !default;
+$tabs-outlined-button-button-spacing-padding-md-y: $padding-2 !default;
+$tabs-outlined-button-button-spacing-padding-xs-x: $padding-2 !default;
+$tabs-outlined-button-button-spacing-padding-xs-y: $padding-3px !default;
+$tabs-outlined-button-default-padding-sm-x: $padding-1 !default;
+$tabs-outlined-button-default-padding-sm-y: $padding-1 !default;
+$tabs-outlined-button-default-padding-md-x: $padding-1s !default;
+$tabs-outlined-button-default-padding-md-y: $padding-1s !default;
+$tabs-outlined-button-default-padding-xs-x: $padding-1 !default;
+$tabs-outlined-button-default-padding-xs-y: $padding-1 !default;
+$tabs-outlined-button-default-gap-sm: $gap-1 !default;
+$tabs-outlined-button-default-gap-md: $gap-1 !default;
+$tabs-outlined-button-default-gap-xs: $gap-1 !default;
+$tabs-outlined-button-minimal-gap-sm: $gap-2px !default;
+$tabs-outlined-button-minimal-gap-md: $gap-2px !default;
+$tabs-outlined-button-minimal-gap-xs: $gap-2px !default;
+$tabs-content-gap-with-badge-sm: $gap-2 !default;
+$tabs-content-gap-with-badge-md: $gap-2 !default;
+$tabs-content-gap-with-badge-xs: $gap-2 !default;
+$tabs-content-gap-with-icon-sm: $gap-1 !default;
+$tabs-content-gap-with-icon-md: $gap-1 !default;
+$tabs-content-gap-with-icon-xs: $gap-1 !default;
+$tabs-content-gap-with-tag-sm: $gap-1 !default;
+$tabs-content-gap-with-tag-md: $gap-1 !default;
+$tabs-content-gap-with-tag-xs: $gap-1 !default;
+$tabs-underline-button-button-spacing-padding-sm-x: $padding-3 !default;
+$tabs-underline-button-button-spacing-padding-sm-bottom: $padding-3 !default;
+$tabs-underline-button-button-spacing-padding-md-x: $padding-4 !default;
+$tabs-underline-button-button-spacing-padding-md-bottom: $padding-3s !default;
+$tabs-underline-button-button-spacing-padding-xs-x: $padding-2 !default;
+$tabs-underline-button-button-spacing-padding-xs-bottom: $padding-2 !default;
+$tabs-underline-button-gap-sm: $gap-2 !default;
+$tabs-underline-button-gap-md: $gap-2 !default;
+$tabs-underline-button-gap-xs: $gap-2 !default;
+$tabs-vertical-line-button-gap-sm: $gap-1 !default;
+$tabs-vertical-line-button-gap-md: $gap-1 !default;
+$tabs-vertical-line-button-gap-xs: $gap-1 !default;
+$tabs-vertical-line-button-button-spacing-gap-sm: $gap-2 !default;
+$tabs-vertical-line-button-button-spacing-gap-md: $gap-2 !default;
+$tabs-vertical-line-button-button-spacing-gap-xs: $gap-2 !default;
+$tabs-vertical-line-button-button-spacing-padding-sm-x: $padding-3 !default;
+$tabs-vertical-line-button-button-spacing-padding-sm-y: $padding-1s !default;
+$tabs-vertical-line-button-button-spacing-padding-md-x: $padding-3s !default;
+$tabs-vertical-line-button-button-spacing-padding-md-y: $padding-2 !default;
+$tabs-vertical-line-button-button-spacing-padding-xs-x: $padding-2 !default;
+$tabs-vertical-line-button-button-spacing-padding-xs-y: $padding-3px !default;
 $dropdown-list-item-bg-hover: $background-primary-hover !default;
 $dropdown-list-item-fg: $foreground-quaternary !default;
 $dropdown-list-item-fg-disabled: $foreground-disabled !default;
@@ -1997,108 +2024,108 @@ $tokens: (
     )
   ),
   'text': (
-    'primary': $text-primary,
-    'tertiary': $text-tertiary,
-    'error-primary': $text-error-primary,
-    'warning-primary': $text-warning-primary,
-    'success-primary': $text-success-primary,
-    'white': $text-white,
-    'secondary': $text-secondary,
-    'disabled': $text-disabled,
-    'secondary-hover': $text-secondary-hover,
-    'tertiary-hover': $text-tertiary-hover,
-    'brand-secondary': $text-brand-secondary,
-    'placeholder': $text-placeholder,
-    'placeholder-subtle': $text-placeholder-subtle,
-    'brand-tertiary': $text-brand-tertiary,
-    'brand-on-accent': $text-brand-on-accent,
-    'quaternary': $text-quaternary,
-    'brand-primary': $text-brand-primary,
-    'primary-on-brand': $text-primary-on-brand,
-    'secondary-on-brand': $text-secondary-on-brand,
-    'tertiary-on-brand': $text-tertiary-on-brand,
-    'quaternary-on-brand': $text-quaternary-on-brand,
-    'brand-tertiary-hover': $text-brand-tertiary-hover,
-    'primary-hover': $text-primary-hover,
     'primary-solid': $text-primary-solid,
+    'primary': $text-primary,
+    'primary-hover': $text-primary-hover,
+    'primary-on-brand': $text-primary-on-brand,
+    'secondary': $text-secondary,
+    'secondary-hover': $text-secondary-hover,
+    'secondary-on-brand': $text-secondary-on-brand,
+    'tertiary': $text-tertiary,
+    'tertiary-hover': $text-tertiary-hover,
+    'tertiary-on-brand': $text-tertiary-on-brand,
+    'quaternary': $text-quaternary,
+    'quaternary-on-brand': $text-quaternary-on-brand,
+    'white': $text-white,
+    'black': $text-black,
+    'placeholder': $text-placeholder,
+    'disabled': $text-disabled,
+    'placeholder-subtle': $text-placeholder-subtle,
+    'brand-primary': $text-brand-primary,
+    'brand-secondary': $text-brand-secondary,
+    'brand-tertiary': $text-brand-tertiary,
+    'brand-tertiary-hover': $text-brand-tertiary-hover,
+    'brand-on-accent': $text-brand-on-accent,
+    'error-primary': $text-error-primary,
     'error-primary-hover': $text-error-primary-hover,
-    'black': $text-black
+    'warning-primary': $text-warning-primary,
+    'success-primary': $text-success-primary
   ),
   'border': (
-    'secondary': $border-secondary,
-    'error-subtle': $border-error-subtle,
     'primary': $border-primary,
+    'primary-hover': $border-primary-hover,
+    'secondary': $border-secondary,
+    'secondary-hover': $border-secondary-hover,
+    'tertiary': $border-tertiary,
+    'disabled': $border-disabled,
+    'disabled-subtle': $border-disabled-subtle,
     'brand': $border-brand,
     'brand-hover': $border-brand-hover,
     'brand-on-accent': $border-brand-on-accent,
-    'disabled': $border-disabled,
     'error': $border-error,
-    'disabled-subtle': $border-disabled-subtle,
-    'tertiary': $border-tertiary,
-    'primary-hover': $border-primary-hover,
+    'error-subtle': $border-error-subtle,
     'error-subtle-hover': $border-error-subtle-hover,
-    'success-muted': $border-success-muted,
-    'secondary-hover': $border-secondary-hover
+    'success-muted': $border-success-muted
   ),
   'background': (
     'primary': $background-primary,
+    'primary-hover': $background-primary-hover,
+    'primary-solid': $background-primary-solid,
+    'secondary': $background-secondary,
+    'secondary-hover': $background-secondary-hover,
+    'secondary-subtle': $background-secondary-subtle,
+    'secondary-solid': $background-secondary-solid,
     'tertiary': $background-tertiary,
+    'quaternary': $background-quaternary,
+    'active': $background-active,
+    'disabled': $background-disabled,
+    'disabled-subtle': $background-disabled-subtle,
+    'overlay': $background-overlay,
     'brand-primary': $background-brand-primary,
+    'brand-primary-hover': $background-brand-primary-hover,
+    'brand-secondary': $background-brand-secondary,
+    'brand-solid': $background-brand-solid,
+    'brand-solid-hover': $background-brand-solid-hover,
+    'brand-section-subtle': $background-brand-section-subtle,
+    'brand-section': $background-brand-section,
+    'error-primary': $background-error-primary,
     'error-secondary': $background-error-secondary,
+    'error-solid': $background-error-solid,
+    'error-solid-hover': $background-error-solid-hover,
     'warning-primary': $background-warning-primary,
     'warning-secondary': $background-warning-secondary,
+    'warning-solid': $background-warning-solid,
     'success-primary': $background-success-primary,
     'success-secondary': $background-success-secondary,
-    'brand-solid': $background-brand-solid,
-    'secondary-solid': $background-secondary-solid,
-    'error-solid': $background-error-solid,
-    'warning-solid': $background-warning-solid,
-    'success-solid': $background-success-solid,
-    'secondary-hover': $background-secondary-hover,
-    'primary-hover': $background-primary-hover,
-    'disabled': $background-disabled,
-    'active': $background-active,
-    'brand-solid-hover': $background-brand-solid-hover,
-    'error-primary': $background-error-primary,
-    'brand-secondary': $background-brand-secondary,
-    'secondary': $background-secondary,
-    'disabled-subtle': $background-disabled-subtle,
-    'quaternary': $background-quaternary,
-    'brand-primary-hover': $background-brand-primary-hover,
-    'overlay': $background-overlay,
-    'secondary-subtle': $background-secondary-subtle,
-    'brand-section': $background-brand-section,
-    'brand-section-subtle': $background-brand-section-subtle,
-    'primary-solid': $background-primary-solid,
-    'error-solid-hover': $background-error-solid-hover
+    'success-solid': $background-success-solid
   ),
   'foreground': (
-    'secondary': $foreground-secondary,
-    'warning-primary': $foreground-warning-primary,
-    'success-primary': $foreground-success-primary,
-    'white': $foreground-white,
-    'success-secondary': $foreground-success-secondary,
-    'secondary-hover': $foreground-secondary-hover,
+    'primary-solid': $foreground-primary-solid,
     'primary': $foreground-primary,
-    'disabled': $foreground-disabled,
-    'quaternary': $foreground-quaternary,
-    'quaternary-hover': $foreground-quaternary-hover,
-    'brand-secondary': $foreground-brand-secondary,
-    'brand-primary': $foreground-brand-primary,
-    'quinary': $foreground-quinary,
-    'quinary-hover': $foreground-quinary-hover,
-    'error-primary': $foreground-error-primary,
-    'disabled-subtle': $foreground-disabled-subtle,
-    'warning-secondary': $foreground-warning-secondary,
-    'error-secondary': $foreground-error-secondary,
-    'senary': $foreground-senary,
+    'primary-hover': $foreground-primary-hover,
+    'secondary': $foreground-secondary,
+    'secondary-hover': $foreground-secondary-hover,
     'tertiary': $foreground-tertiary,
     'tertiary-hover': $foreground-tertiary-hover,
+    'quaternary': $foreground-quaternary,
+    'quaternary-hover': $foreground-quaternary-hover,
+    'quinary': $foreground-quinary,
+    'quinary-hover': $foreground-quinary-hover,
+    'senary': $foreground-senary,
+    'white': $foreground-white,
+    'disabled': $foreground-disabled,
+    'disabled-subtle': $foreground-disabled-subtle,
+    'disabled-muted': $foreground-disabled-muted,
+    'brand-primary': $foreground-brand-primary,
     'brand-primary-hover': $foreground-brand-primary-hover,
-    'primary-hover': $foreground-primary-hover,
-    'primary-solid': $foreground-primary-solid,
+    'brand-secondary': $foreground-brand-secondary,
+    'error-primary': $foreground-error-primary,
     'error-primary-hover': $foreground-error-primary-hover,
-    'disabled-muted': $foreground-disabled-muted
+    'error-secondary': $foreground-error-secondary,
+    'warning-primary': $foreground-warning-primary,
+    'warning-secondary': $foreground-warning-secondary,
+    'success-primary': $foreground-success-primary,
+    'success-secondary': $foreground-success-secondary
   ),
   'utility': (
     'blue': (
@@ -2249,16 +2276,16 @@ $tokens: (
   'effects': (
     'shadows': (
       'xs': $effects-shadows-xs,
-      'sm-02': $effects-shadows-sm-02,
-      'lg-01': $effects-shadows-lg-01,
-      'lg-02': $effects-shadows-lg-02,
       'sm-01': $effects-shadows-sm-01,
-      '3xl': $effects-shadows-3xl,
-      '2xl': $effects-shadows-2xl,
+      'sm-02': $effects-shadows-sm-02,
       'md-01': $effects-shadows-md-01,
       'md-02': $effects-shadows-md-02,
+      'lg-01': $effects-shadows-lg-01,
+      'lg-02': $effects-shadows-lg-02,
       'xl-01': $effects-shadows-xl-01,
       'xl-02': $effects-shadows-xl-02,
+      '2xl': $effects-shadows-2xl,
+      '3xl': $effects-shadows-3xl,
       'skeumorphic-inner': $effects-shadows-skeumorphic-inner,
       'skeumorphic-inner-border': $effects-shadows-skeumorphic-inner-border
     ),
@@ -2287,182 +2314,209 @@ $tokens: (
     'focus-ring-error-shadow-xs-skeuomorphic': $focus-rings-focus-ring-error-shadow-xs-skeuomorphic
   ),
   'radius': (
-    'xxs': $radius-xxs,
+    '2xs': $radius-2xs,
     'xs': $radius-xs,
     'sm': $radius-sm,
     'md': $radius-md,
+    'lg': $radius-lg,
     'xl': $radius-xl,
     '2xl': $radius-2xl,
     '3xl': $radius-3xl,
     '4xl': $radius-4xl,
-    'full': $radius-full,
-    'lg': $radius-lg,
-    '5xl': $radius-5xl
+    '5xl': $radius-5xl,
+    'full': $radius-full
   ),
   'margin': (
-    '3xs': $margin-3xs,
-    'xs': $margin-xs,
-    'sm': $margin-sm,
-    'md': $margin-md,
-    'lg': $margin-lg,
-    'xl': $margin-xl,
-    '2xl': $margin-2xl,
-    '3xl': $margin-3xl,
-    '4xl': $margin-4xl,
-    '6xl': $margin-6xl,
-    '8xl': $margin-8xl,
-    '10xl': $margin-10xl,
-    '11xl': $margin-11xl,
-    '12xl': $margin-12xl,
-    '14xl': $margin-14xl,
-    '16xl': $margin-16xl,
-    '2xs': $margin-2xs,
-    '5xl': $margin-5xl,
-    '7xl': $margin-7xl,
-    '9xl': $margin-9xl,
-    '15xl': $margin-15xl,
-    '13xl': $margin-13xl
+    '1': $margin-1,
+    '2': $margin-2,
+    '3': $margin-3,
+    '4': $margin-4,
+    '5': $margin-5,
+    '6': $margin-6,
+    '8': $margin-8,
+    '9': $margin-9,
+    '10': $margin-10,
+    '11': $margin-11,
+    '12': $margin-12,
+    '14': $margin-14,
+    '16': $margin-16,
+    '20': $margin-20,
+    '24': $margin-24,
+    '28': $margin-28,
+    '32': $margin-32,
+    '36': $margin-36,
+    '40': $margin-40,
+    '2px': $margin-2px,
+    '3px': $margin-3px,
+    '1s': $margin-1s
   ),
   'padding': (
-    '3xs': $padding-3xs,
-    'xs': $padding-xs,
-    'sm': $padding-sm,
-    'md': $padding-md,
-    'lg': $padding-lg,
-    'xl': $padding-xl,
-    '2xl': $padding-2xl,
-    '3xl': $padding-3xl,
-    '4xl': $padding-4xl,
-    '5xl': $padding-5xl,
-    '6xl': $padding-6xl,
-    '7xl': $padding-7xl,
-    '8xl': $padding-8xl,
-    '9xl': $padding-9xl,
-    '10xl': $padding-10xl,
-    '11xl': $padding-11xl,
-    '13xl': $padding-13xl,
-    '2xs': $padding-2xs,
-    '12xl': $padding-12xl,
-    '14xl': $padding-14xl,
-    '15xl': $padding-15xl,
-    '16xl': $padding-16xl,
-    '17xl': $padding-17xl,
-    '18xl': $padding-18xl,
-    '19xl': $padding-19xl,
-    '20xl': $padding-20xl,
-    '21xl': $padding-21xl,
-    '22xl': $padding-22xl,
-    '23xl': $padding-23xl,
-    '24xl': $padding-24xl,
-    '25xl': $padding-25xl,
-    '26xl': $padding-26xl,
-    '27xl': $padding-27xl,
-    '28xl': $padding-28xl,
-    '29xl': $padding-29xl,
-    '30xl': $padding-30xl
+    '1': $padding-1,
+    '2': $padding-2,
+    '3': $padding-3,
+    '4': $padding-4,
+    '5': $padding-5,
+    '6': $padding-6,
+    '7': $padding-7,
+    '8': $padding-8,
+    '9': $padding-9,
+    '10': $padding-10,
+    '11': $padding-11,
+    '12': $padding-12,
+    '14': $padding-14,
+    '16': $padding-16,
+    '20': $padding-20,
+    '24': $padding-24,
+    '28': $padding-28,
+    '32': $padding-32,
+    '36': $padding-36,
+    '40': $padding-40,
+    '44': $padding-44,
+    '48': $padding-48,
+    '52': $padding-52,
+    '56': $padding-56,
+    '60': $padding-60,
+    '64': $padding-64,
+    '72': $padding-72,
+    '80': $padding-80,
+    '96': $padding-96,
+    '2px': $padding-2px,
+    '3px': $padding-3px,
+    '1s': $padding-1s,
+    '2s': $padding-2s,
+    '3s': $padding-3s,
+    '4s': $padding-4s,
+    '5s': $padding-5s
   ),
   'gap': (
-    'xxs': $gap-xxs,
-    'xs': $gap-xs,
-    'sm': $gap-sm,
-    'md': $gap-md,
-    'lg': $gap-lg,
-    'xl': $gap-xl,
-    '2xl': $gap-2xl,
-    '3xl': $gap-3xl,
-    '4xl': $gap-4xl,
-    '6xl': $gap-6xl,
-    '8xl': $gap-8xl,
-    '7xl': $gap-7xl,
-    '5xl': $gap-5xl,
-    '9xl': $gap-9xl,
-    '10xl': $gap-10xl,
-    '11xl': $gap-11xl,
-    '12xl': $gap-12xl,
-    '13xl': $gap-13xl,
-    '14xl': $gap-14xl
+    '1': $gap-1,
+    '2': $gap-2,
+    '3': $gap-3,
+    '4': $gap-4,
+    '5': $gap-5,
+    '6': $gap-6,
+    '7': $gap-7,
+    '8': $gap-8,
+    '9': $gap-9,
+    '10': $gap-10,
+    '11': $gap-11,
+    '12': $gap-12,
+    '13': $gap-13,
+    '14': $gap-14,
+    '16': $gap-16,
+    '20': $gap-20,
+    '2px': $gap-2px,
+    '1s': $gap-1s,
+    '2s': $gap-2s
   ),
   'width': (
-    '7xs': $width-7xs,
-    '6xs': $width-6xs,
-    '5xs': $width-5xs,
-    '4xs': $width-4xs,
-    '3xs': $width-3xs,
-    '2xs': $width-2xs,
-    'xs': $width-xs,
-    'sm': $width-sm,
-    'md': $width-md,
-    'lg': $width-lg,
-    'xl': $width-xl,
-    '2xl': $width-2xl,
-    '3xl': $width-3xl,
-    '4xl': $width-4xl,
-    '5xl': $width-5xl,
-    '6xl': $width-6xl,
-    '7xl': $width-7xl,
-    '8xl': $width-8xl,
-    '9xl': $width-9xl,
-    '10xl': $width-10xl,
-    '11xl': $width-11xl,
-    '12xl': $width-12xl,
-    '13xl': $width-13xl
+    '1': $width-1,
+    '2': $width-2,
+    '3': $width-3,
+    '4': $width-4,
+    '5': $width-5,
+    '6': $width-6,
+    '7': $width-7,
+    '8': $width-8,
+    '9': $width-9,
+    '10': $width-10,
+    '11': $width-11,
+    '12': $width-12,
+    '14': $width-14,
+    '16': $width-16,
+    '20': $width-20,
+    '24': $width-24,
+    '28': $width-28,
+    '32': $width-32,
+    '36': $width-36,
+    '40': $width-40,
+    '44': $width-44,
+    '48': $width-48,
+    '52': $width-52,
+    '56': $width-56,
+    '60': $width-60,
+    '64': $width-64,
+    '72': $width-72,
+    '80': $width-80,
+    '110': $width-110,
+    '120': $width-120,
+    '2px': $width-2px,
+    '3s': $width-3s,
+    '4s': $width-4s,
+    '5s': $width-5s
   ),
   'height': (
-    '2xs': $height-2xs,
-    'xs': $height-xs,
-    'sm': $height-sm,
-    'md': $height-md,
-    'lg': $height-lg,
-    '2xl': $height-2xl,
-    '3xl': $height-3xl,
-    '4xl': $height-4xl,
-    '5xl': $height-5xl,
-    '6xl': $height-6xl,
-    'xl': $height-xl,
-    '3xs': $height-3xs,
-    '6xs': $height-6xs,
-    '5xs': $height-5xs,
-    '4xs': $height-4xs,
-    '7xs': $height-7xs
+    '1': $height-1,
+    '2': $height-2,
+    '3': $height-3,
+    '4': $height-4,
+    '5': $height-5,
+    '6': $height-6,
+    '7': $height-7,
+    '8': $height-8,
+    '9': $height-9,
+    '10': $height-10,
+    '11': $height-11,
+    '12': $height-12,
+    '13': $height-13,
+    '14': $height-14,
+    '16': $height-16,
+    '20': $height-20,
+    '24': $height-24,
+    '28': $height-28,
+    '36': $height-36,
+    '40': $height-40,
+    '44': $height-44,
+    '48': $height-48,
+    '52': $height-52,
+    '60': $height-60,
+    '64': $height-64,
+    '72': $height-72,
+    '80': $height-80,
+    '96': $height-96,
+    '2px': $height-2px,
+    '3s': $height-3s,
+    '4s': $height-4s,
+    '5s': $height-5s
   ),
   'stroke': (
-    'md': $stroke-md,
+    'xs': $stroke-xs,
     'sm': $stroke-sm,
-    'lg': $stroke-lg,
-    'xs': $stroke-xs
+    'md': $stroke-md,
+    'lg': $stroke-lg
   ),
-  'Heading': (
-    'heading-6xl': $heading-heading-6xl,
-    'heading-5xl': $heading-heading-5xl,
-    'heading-4xl': $heading-heading-4xl,
-    'heading-3xl': $heading-heading-3xl,
-    'heading-2xl': $heading-heading-2xl,
-    'heading-xl': $heading-heading-xl,
-    'heading-lg': $heading-heading-lg,
-    'heading-md': $heading-heading-md,
-    'heading-sm': $heading-heading-sm,
-    'heading-xs': $heading-heading-xs,
-    'heading-xxs': $heading-heading-xxs
+  'heading': (
+    '2xs': $heading-2xs,
+    'xs': $heading-xs,
+    'sm': $heading-sm,
+    'md': $heading-md,
+    'lg': $heading-lg,
+    'xl': $heading-xl,
+    '2xl': $heading-2xl,
+    '3xl': $heading-3xl,
+    '4xl': $heading-4xl,
+    '5xl': $heading-5xl,
+    '6xl': $heading-6xl
   ),
-  'Body': (
-    'body-2xl': $body-body-2xl,
-    'body-xl': $body-body-xl,
-    'body-lg': $body-body-lg,
-    'body-lg-underlined': $body-body-lg-underlined,
-    'body-md': $body-body-md,
-    'body-sm': $body-body-sm,
-    'body-sm-underlined': $body-body-sm-underlined,
-    'body-xs': $body-body-xs,
-    'body-xs-underlined': $body-body-xs-underlined
+  'body': (
+    'xs': $body-xs,
+    'xs-underlined': $body-xs-underlined,
+    'sm': $body-sm,
+    'sm-underlined': $body-sm-underlined,
+    'md': $body-md,
+    'lg': $body-lg,
+    'lg-underlined': $body-lg-underlined,
+    'xl': $body-xl,
+    '2xl': $body-2xl
   ),
-  'Caption': (
-    'caption-md': $caption-caption-md,
-    'caption-md-underline': $caption-caption-md-underline,
-    'caption-md-uppercase': $caption-caption-md-uppercase,
-    'caption-sm': $caption-caption-sm,
-    'caption-sm-underline': $caption-caption-sm-underline,
-    'caption-sm-uppercase': $caption-caption-sm-uppercase,
-    'caption-2xs-uppercase': $caption-caption-2xs-uppercase
+  'caption': (
+    '2xs-uppercase': $caption-2xs-uppercase,
+    'sm': $caption-sm,
+    'sm-uppercase': $caption-sm-uppercase,
+    'sm-underline': $caption-sm-underline,
+    'md': $caption-md,
+    'md-uppercase': $caption-md-uppercase,
+    'md-underline': $caption-md-underline
   ),
   'buttons': (
     'filled': (
