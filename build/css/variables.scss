@@ -1502,6 +1502,13 @@ $dropdown-list-item-text-hover: $text-secondary-hover !default;
 $dropdown-list-item-text-disabled: $text-disabled !default;
 $dropdown-list-item-description: $text-quaternary !default;
 $dropdown-list-item-description-disabled: $text-disabled !default;
+$popup-background: $background-primary !default;
+$popup-divider: $border-secondary !default;
+$popup-radius: $radius-2xl !default;
+$popup-divider-stroke: $stroke-sm !default;
+$popup-padding-x: $padding-4 !default;
+$popup-padding-top: $padding-3 !default;
+$popup-padding-bottom: $padding-4 !default;
 
 $tokens: (
   'colors': (
@@ -3430,6 +3437,17 @@ $tokens: (
       'text-disabled': $dropdown-list-item-text-disabled,
       'description': $dropdown-list-item-description,
       'description-disabled': $dropdown-list-item-description-disabled
+    )
+  ),
+  'popup': (
+    'background': $popup-background,
+    'divider': $popup-divider,
+    'radius': $popup-radius,
+    'divider-stroke': $popup-divider-stroke,
+    'padding': (
+      'x': $popup-padding-x,
+      'top': $popup-padding-top,
+      'bottom': $popup-padding-bottom
     )
   ),
   'tokenSetOrder': (

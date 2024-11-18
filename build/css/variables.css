@@ -1508,4 +1508,11 @@
   --dropdown-list-item-text-disabled: var(--text-disabled, #667085);
   --dropdown-list-item-description: var(--text-quaternary, #667085);
   --dropdown-list-item-description-disabled: var(--text-disabled, #667085);
+  --popup-background: var(--background-primary, #ffffff);
+  --popup-divider: var(--border-secondary, #e4e7ec);
+  --popup-radius: var(--radius-2xl, 1rem);
+  --popup-divider-stroke: var(--stroke-sm, 1px);
+  --popup-padding-x: var(--padding-4, 1rem);
+  --popup-padding-top: var(--padding-3, 0.75rem);
+  --popup-padding-bottom: var(--padding-4, 1rem);
 }
