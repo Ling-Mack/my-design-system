@@ -380,6 +380,7 @@
   --trbo-spacing-256: 16rem;
   --trbo-spacing-288: 18rem;
   --trbo-spacing-320: 20rem;
+  --trbo-spacing-324: 20.25rem;
   --trbo-spacing-384: 24rem;
   --trbo-spacing-440: 27.5rem;
   --trbo-spacing-480: 30rem;
@@ -817,6 +818,7 @@
   --trbo-width-64: var(--trbo-spacing-256, 16rem);
   --trbo-width-72: var(--trbo-spacing-288, 18rem);
   --trbo-width-80: var(--trbo-spacing-320, 20rem);
+  --trbo-width-81: var(--trbo-spacing-324, 20.25rem);
   --trbo-width-110: var(--trbo-spacing-440, 27.5rem);
   --trbo-width-120: var(--trbo-spacing-480, 30rem);
   --trbo-width-2px: var(--trbo-spacing-2, 2px);
