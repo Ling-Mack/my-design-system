@@ -515,6 +515,7 @@ $trbo-border-secondary-hover: $trbo-colors-gray-300 !default;
 $trbo-border-tertiary: $trbo-colors-gray-100 !default;
 $trbo-border-disabled: $trbo-colors-gray-300 !default;
 $trbo-border-disabled-subtle: $trbo-colors-gray-200 !default;
+$trbo-border-divider: $trbo-colors-gray-200 !default;
 $trbo-border-brand: $trbo-colors-brand-600 !default;
 $trbo-border-brand-hover: $trbo-colors-brand-700 !default;
 $trbo-border-brand-on-accent: $trbo-colors-brand-500 !default;
@@ -1505,7 +1506,7 @@ $trbo-dropdown-list-item-text-disabled: $trbo-text-disabled !default;
 $trbo-dropdown-list-item-description: $trbo-text-quaternary !default;
 $trbo-dropdown-list-item-description-disabled: $trbo-text-disabled !default;
 $trbo-popup-background: $trbo-background-primary !default;
-$trbo-popup-divider: $trbo-border-secondary !default;
+$trbo-popup-divider: $trbo-border-divider !default;
 $trbo-popup-radius: $trbo-radius-2xl !default;
 $trbo-popup-divider-stroke: $trbo-stroke-sm !default;
 $trbo-popup-padding-x: $trbo-padding-4 !default;
@@ -2107,6 +2108,7 @@ $tokens: (
     'tertiary': $trbo-border-tertiary,
     'disabled': $trbo-border-disabled,
     'disabled-subtle': $trbo-border-disabled-subtle,
+    'divider': $trbo-border-divider,
     'brand': $trbo-border-brand,
     'brand-hover': $trbo-border-brand-hover,
     'brand-on-accent': $trbo-border-brand-on-accent,

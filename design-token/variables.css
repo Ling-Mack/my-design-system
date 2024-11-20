@@ -521,6 +521,7 @@
   --trbo-border-tertiary: var(--trbo-colors-gray-100, #f2f4f7);
   --trbo-border-disabled: var(--trbo-colors-gray-300, #d0d5dd);
   --trbo-border-disabled-subtle: var(--trbo-colors-gray-200, #e4e7ec);
+  --trbo-border-divider: var(--trbo-colors-gray-200, #e4e7ec);
   --trbo-border-brand: var(--trbo-colors-brand-600, #0086c9);
   --trbo-border-brand-hover: var(--trbo-colors-brand-700, #026aa2);
   --trbo-border-brand-on-accent: var(--trbo-colors-brand-500, #0ba5ec);
@@ -1511,7 +1512,7 @@
   --trbo-dropdown-list-item-description: var(--trbo-text-quaternary, #667085);
   --trbo-dropdown-list-item-description-disabled: var(--trbo-text-disabled, #667085);
   --trbo-popup-background: var(--trbo-background-primary, #ffffff);
-  --trbo-popup-divider: var(--trbo-border-secondary, #e4e7ec);
+  --trbo-popup-divider: var(--trbo-border-divider, #e4e7ec);
   --trbo-popup-radius: var(--trbo-radius-2xl, 1rem);
   --trbo-popup-divider-stroke: var(--trbo-stroke-sm, 1px);
   --trbo-popup-padding-x: var(--trbo-padding-4, 1rem);
