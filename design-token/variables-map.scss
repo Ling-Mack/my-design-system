@@ -1403,6 +1403,9 @@ $trbo-tabs-outlined-primary-bg: $trbo-background-tertiary !default;
 $trbo-tabs-outlined-primary-active-button-text: $trbo-text-primary !default;
 $trbo-tabs-outlined-primary-active-button-text-hover: $trbo-text-primary !default;
 $trbo-tabs-outlined-primary-active-button-text-focused: $trbo-text-primary !default;
+$trbo-tabs-outlined-primary-active-button-text-brand-hover: $trbo-text-brand-tertiary-hover !default;
+$trbo-tabs-outlined-primary-active-button-text-brand: $trbo-text-brand-tertiary !default;
+$trbo-tabs-outlined-primary-active-button-text-brand-focused: $trbo-text-brand-tertiary !default;
 $trbo-tabs-outlined-primary-active-button-bg-hover: $trbo-background-primary !default;
 $trbo-tabs-outlined-primary-active-button-bg-focused: $trbo-background-primary !default;
 $trbo-tabs-outlined-primary-active-button-bg: $trbo-background-primary !default;
@@ -3320,6 +3323,9 @@ $tokens: (
           'button-text': $trbo-tabs-outlined-primary-active-button-text,
           'button-text-hover': $trbo-tabs-outlined-primary-active-button-text-hover,
           'button-text-focused': $trbo-tabs-outlined-primary-active-button-text-focused,
+          'button-text-brand-hover': $trbo-tabs-outlined-primary-active-button-text-brand-hover,
+          'button-text-brand': $trbo-tabs-outlined-primary-active-button-text-brand,
+          'button-text-brand-focused': $trbo-tabs-outlined-primary-active-button-text-brand-focused,
           'button-bg-hover': $trbo-tabs-outlined-primary-active-button-bg-hover,
           'button-bg-focused': $trbo-tabs-outlined-primary-active-button-bg-focused,
           'button-bg': $trbo-tabs-outlined-primary-active-button-bg,

@@ -1409,6 +1409,9 @@
   --trbo-tabs-outlined-primary-active-button-text: var(--trbo-text-primary, #344054);
   --trbo-tabs-outlined-primary-active-button-text-hover: var(--trbo-text-primary, #344054);
   --trbo-tabs-outlined-primary-active-button-text-focused: var(--trbo-text-primary, #344054);
+  --trbo-tabs-outlined-primary-active-button-text-brand-hover: var(--trbo-text-brand-tertiary-hover, #026aa2);
+  --trbo-tabs-outlined-primary-active-button-text-brand: var(--trbo-text-brand-tertiary, #0086c9);
+  --trbo-tabs-outlined-primary-active-button-text-brand-focused: var(--trbo-text-brand-tertiary, #0086c9);
   --trbo-tabs-outlined-primary-active-button-bg-hover: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-active-button-bg-focused: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-active-button-bg: var(--trbo-background-primary, #ffffff);
