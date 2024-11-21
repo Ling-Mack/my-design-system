@@ -1576,4 +1576,13 @@
   --trbo-breadcrumb-padding-md-y: var(--trbo-padding-1s, 0.375rem);
   --trbo-breadcrumb-bg: var(--trbo-background-primary, #ffffff);
   --trbo-breadcrumb-border: var(--trbo-border-primary, #d0d5dd);
+  --trbo-tooltips-text: var(--trbo-text-white, #ffffff);
+  --trbo-tooltips-supporting-text: var(--trbo-text-placeholder-subtle, #d0d5dd);
+  --trbo-tooltips-bg: var(--trbo-text-primary-solid, #182230);
+  --trbo-tooltips-radius: var(--trbo-radius-md, 0.5rem);
+  --trbo-tooltips-text-only-padding-x: var(--trbo-padding-3, 0.75rem);
+  --trbo-tooltips-text-only-padding-y: var(--trbo-padding-2, 0.5rem);
+  --trbo-tooltips-with-supporting-text-gap: var(--trbo-gap-1, 0.25rem);
+  --trbo-tooltips-with-supporting-padding-x: var(--trbo-padding-3, 0.75rem);
+  --trbo-tooltips-with-supporting-padding-y: var(--trbo-padding-3, 0.75rem);
 }

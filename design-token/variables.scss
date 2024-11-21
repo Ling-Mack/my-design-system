@@ -1570,6 +1570,15 @@ $trbo-breadcrumb-padding-md-x: $trbo-padding-1s !default;
 $trbo-breadcrumb-padding-md-y: $trbo-padding-1s !default;
 $trbo-breadcrumb-bg: $trbo-background-primary !default;
 $trbo-breadcrumb-border: $trbo-border-primary !default;
+$trbo-tooltips-text: $trbo-text-white !default;
+$trbo-tooltips-supporting-text: $trbo-text-placeholder-subtle !default;
+$trbo-tooltips-bg: $trbo-text-primary-solid !default;
+$trbo-tooltips-radius: $trbo-radius-md !default;
+$trbo-tooltips-text-only-padding-x: $trbo-padding-3 !default;
+$trbo-tooltips-text-only-padding-y: $trbo-padding-2 !default;
+$trbo-tooltips-with-supporting-text-gap: $trbo-gap-1 !default;
+$trbo-tooltips-with-supporting-padding-x: $trbo-padding-3 !default;
+$trbo-tooltips-with-supporting-padding-y: $trbo-padding-3 !default;
 
 $tokens: (
   'colors': (
@@ -3607,6 +3616,25 @@ $tokens: (
     ),
     'bg': $trbo-breadcrumb-bg,
     'border': $trbo-breadcrumb-border
+  ),
+  'tooltips': (
+    'text': $trbo-tooltips-text,
+    'supporting-text': $trbo-tooltips-supporting-text,
+    'bg': $trbo-tooltips-bg,
+    'radius': $trbo-tooltips-radius,
+    'text-only': (
+      'padding': (
+        'x': $trbo-tooltips-text-only-padding-x,
+        'y': $trbo-tooltips-text-only-padding-y
+      )
+    ),
+    'with-supporting': (
+      'text-gap': $trbo-tooltips-with-supporting-text-gap,
+      'padding': (
+        'x': $trbo-tooltips-with-supporting-padding-x,
+        'y': $trbo-tooltips-with-supporting-padding-y
+      )
+    )
   ),
   'tokenSetOrder': (
     '0': 'foundation/colors',
