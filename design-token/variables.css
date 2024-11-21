@@ -1010,6 +1010,7 @@
   --trbo-buttons-button-icon-only-padding-lg: var(--trbo-padding-3, 0.75rem);
   --trbo-buttons-button-icon-only-padding-xl: var(--trbo-padding-3s, 0.875rem);
   --trbo-buttons-button-icon-only-padding-2xl: var(--trbo-padding-4, 1rem);
+  --trbo-buttons-button-x-close-gap-text: var(--trbo-gap-2px, 2px);
   --trbo-buttons-button-x-close-gap-sm: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-button-x-close-gap-md: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-button-x-close-gap-lg: var(--trbo-gap-1s, 0.375rem);
