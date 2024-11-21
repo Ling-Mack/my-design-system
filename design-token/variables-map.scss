@@ -1004,6 +1004,24 @@ $trbo-buttons-button-icon-only-padding-md: $trbo-padding-2s !default;
 $trbo-buttons-button-icon-only-padding-lg: $trbo-padding-3 !default;
 $trbo-buttons-button-icon-only-padding-xl: $trbo-padding-3s !default;
 $trbo-buttons-button-icon-only-padding-2xl: $trbo-padding-4 !default;
+$trbo-buttons-button-x-close-gap-sm: $trbo-gap-1 !default;
+$trbo-buttons-button-x-close-gap-md: $trbo-gap-1 !default;
+$trbo-buttons-button-x-close-gap-lg: $trbo-gap-1s !default;
+$trbo-buttons-button-x-close-gap-xl: $trbo-gap-1s !default;
+$trbo-buttons-button-x-close-gap-2xl: $trbo-gap-2s !default;
+$trbo-buttons-button-x-close-padding-sm-x: $trbo-padding-2s !default;
+$trbo-buttons-button-x-close-padding-sm-y: $trbo-padding-2 !default;
+$trbo-buttons-button-x-close-padding-md-left: $trbo-padding-3s !default;
+$trbo-buttons-button-x-close-padding-md-right: $trbo-padding-3 !default;
+$trbo-buttons-button-x-close-padding-md-y: $trbo-padding-2s !default;
+$trbo-buttons-button-x-close-padding-lg-left: $trbo-padding-4 !default;
+$trbo-buttons-button-x-close-padding-lg-right: $trbo-padding-3s !default;
+$trbo-buttons-button-x-close-padding-lg-y: $trbo-padding-2s !default;
+$trbo-buttons-button-x-close-padding-xl-left: $trbo-padding-4s !default;
+$trbo-buttons-button-x-close-padding-xl-right: $trbo-padding-4 !default;
+$trbo-buttons-button-x-close-padding-xl-y: $trbo-padding-3 !default;
+$trbo-buttons-button-x-close-padding-2xl-x: $trbo-padding-5s !default;
+$trbo-buttons-button-x-close-padding-2xl-y: $trbo-padding-4 !default;
 $trbo-buttons-link-default-gap-sm: $trbo-gap-1s !default;
 $trbo-buttons-link-default-gap-md: $trbo-gap-1s !default;
 $trbo-buttons-link-default-gap-lg: $trbo-gap-2 !default;
@@ -2730,6 +2748,30 @@ $tokens: (
           'lg': $trbo-buttons-button-icon-only-padding-lg,
           'xl': $trbo-buttons-button-icon-only-padding-xl,
           '2xl': $trbo-buttons-button-icon-only-padding-2xl
+        )
+      ),
+      'x-close': (
+        'gap': (
+          'sm': $trbo-buttons-button-x-close-gap-sm,
+          'md': $trbo-buttons-button-x-close-gap-md,
+          'lg': $trbo-buttons-button-x-close-gap-lg,
+          'xl': $trbo-buttons-button-x-close-gap-xl,
+          '2xl': $trbo-buttons-button-x-close-gap-2xl
+        ),
+        'padding': (
+          'sm-x': $trbo-buttons-button-x-close-padding-sm-x,
+          'sm-y': $trbo-buttons-button-x-close-padding-sm-y,
+          'md-left': $trbo-buttons-button-x-close-padding-md-left,
+          'md-right': $trbo-buttons-button-x-close-padding-md-right,
+          'md-y': $trbo-buttons-button-x-close-padding-md-y,
+          'lg-left': $trbo-buttons-button-x-close-padding-lg-left,
+          'lg-right': $trbo-buttons-button-x-close-padding-lg-right,
+          'lg-y': $trbo-buttons-button-x-close-padding-lg-y,
+          'xl-left': $trbo-buttons-button-x-close-padding-xl-left,
+          'xl-right': $trbo-buttons-button-x-close-padding-xl-right,
+          'xl-y': $trbo-buttons-button-x-close-padding-xl-y,
+          '2xl-x': $trbo-buttons-button-x-close-padding-2xl-x,
+          '2xl-y': $trbo-buttons-button-x-close-padding-2xl-y
         )
       )
     ),
