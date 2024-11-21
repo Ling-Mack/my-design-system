@@ -1009,7 +1009,8 @@ $trbo-buttons-button-x-close-gap-md: $trbo-gap-1 !default;
 $trbo-buttons-button-x-close-gap-lg: $trbo-gap-1s !default;
 $trbo-buttons-button-x-close-gap-xl: $trbo-gap-1s !default;
 $trbo-buttons-button-x-close-gap-2xl: $trbo-gap-2s !default;
-$trbo-buttons-button-x-close-padding-sm-x: $trbo-padding-2s !default;
+$trbo-buttons-button-x-close-padding-sm-left: $trbo-padding-2s !default;
+$trbo-buttons-button-x-close-padding-sm-right: $trbo-padding-2s !default;
 $trbo-buttons-button-x-close-padding-sm-y: $trbo-padding-2 !default;
 $trbo-buttons-button-x-close-padding-md-left: $trbo-padding-3s !default;
 $trbo-buttons-button-x-close-padding-md-right: $trbo-padding-3 !default;
@@ -1018,9 +1019,10 @@ $trbo-buttons-button-x-close-padding-lg-left: $trbo-padding-4 !default;
 $trbo-buttons-button-x-close-padding-lg-right: $trbo-padding-3s !default;
 $trbo-buttons-button-x-close-padding-lg-y: $trbo-padding-2s !default;
 $trbo-buttons-button-x-close-padding-xl-left: $trbo-padding-4s !default;
-$trbo-buttons-button-x-close-padding-xl-right: $trbo-padding-4 !default;
+$trbo-buttons-button-x-close-padding-xl-right: $trbo-padding-4s !default;
 $trbo-buttons-button-x-close-padding-xl-y: $trbo-padding-3 !default;
-$trbo-buttons-button-x-close-padding-2xl-x: $trbo-padding-5s !default;
+$trbo-buttons-button-x-close-padding-2xl-left: $trbo-padding-5s !default;
+$trbo-buttons-button-x-close-padding-2xl-right: $trbo-padding-5 !default;
 $trbo-buttons-button-x-close-padding-2xl-y: $trbo-padding-4 !default;
 $trbo-buttons-link-default-gap-sm: $trbo-gap-1s !default;
 $trbo-buttons-link-default-gap-md: $trbo-gap-1s !default;
@@ -2759,7 +2761,8 @@ $tokens: (
           '2xl': $trbo-buttons-button-x-close-gap-2xl
         ),
         'padding': (
-          'sm-x': $trbo-buttons-button-x-close-padding-sm-x,
+          'sm-left': $trbo-buttons-button-x-close-padding-sm-left,
+          'sm-right': $trbo-buttons-button-x-close-padding-sm-right,
           'sm-y': $trbo-buttons-button-x-close-padding-sm-y,
           'md-left': $trbo-buttons-button-x-close-padding-md-left,
           'md-right': $trbo-buttons-button-x-close-padding-md-right,
@@ -2770,7 +2773,8 @@ $tokens: (
           'xl-left': $trbo-buttons-button-x-close-padding-xl-left,
           'xl-right': $trbo-buttons-button-x-close-padding-xl-right,
           'xl-y': $trbo-buttons-button-x-close-padding-xl-y,
-          '2xl-x': $trbo-buttons-button-x-close-padding-2xl-x,
+          '2xl-left': $trbo-buttons-button-x-close-padding-2xl-left,
+          '2xl-right': $trbo-buttons-button-x-close-padding-2xl-right,
           '2xl-y': $trbo-buttons-button-x-close-padding-2xl-y
         )
       )
