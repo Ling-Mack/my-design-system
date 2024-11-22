@@ -819,6 +819,7 @@ $trbo-width-64: $trbo-spacing-256 !default;
 $trbo-width-72: $trbo-spacing-288 !default;
 $trbo-width-80: $trbo-spacing-320 !default;
 $trbo-width-81: $trbo-spacing-324 !default;
+$trbo-width-96: $trbo-spacing-384 !default;
 $trbo-width-110: $trbo-spacing-440 !default;
 $trbo-width-120: $trbo-spacing-480 !default;
 $trbo-width-2px: $trbo-spacing-2 !default;
@@ -2541,6 +2542,7 @@ $tokens: (
     '72': $trbo-width-72,
     '80': $trbo-width-80,
     '81': $trbo-width-81,
+    '96': $trbo-width-96,
     '110': $trbo-width-110,
     '120': $trbo-width-120,
     '2px': $trbo-width-2px,
