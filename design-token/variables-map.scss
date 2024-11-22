@@ -734,6 +734,7 @@ $trbo-margin-40: $trbo-spacing-160 !default;
 $trbo-margin-2px: $trbo-spacing-2 !default;
 $trbo-margin-3px: $trbo-spacing-3 !default;
 $trbo-margin-1s: $trbo-spacing-6 !default;
+$trbo-margin-2s: $trbo-spacing-10 !default;
 $trbo-padding-1: $trbo-spacing-4 !default;
 $trbo-padding-2: $trbo-spacing-8 !default;
 $trbo-padding-3: $trbo-spacing-12 !default;
@@ -2439,7 +2440,8 @@ $tokens: (
     '40': $trbo-margin-40,
     '2px': $trbo-margin-2px,
     '3px': $trbo-margin-3px,
-    '1s': $trbo-margin-1s
+    '1s': $trbo-margin-1s,
+    '2s': $trbo-margin-2s
   ),
   'padding': (
     '1': $trbo-padding-1,
