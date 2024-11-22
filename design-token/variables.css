@@ -1037,6 +1037,7 @@
   --trbo-buttons-button-filter-padding-2xl-right: var(--trbo-padding-5, 1.25rem);
   --trbo-buttons-button-filter-padding-2xl-y: var(--trbo-padding-4, 1rem);
   --trbo-buttons-button-close-x-padding-sm: var(--trbo-padding-2, 0.5rem);
+  --trbo-buttons-button-close-x-padding-xs: var(--trbo-padding-1s, 0.375rem);
   --trbo-buttons-button-close-x-padding-md: var(--trbo-padding-2s, 0.625rem);
   --trbo-buttons-button-close-x-padding-lg: var(--trbo-padding-2s, 0.625rem);
   --trbo-buttons-link-default-gap-sm: var(--trbo-gap-1s, 0.375rem);

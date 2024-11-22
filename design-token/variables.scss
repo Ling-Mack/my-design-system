@@ -1031,6 +1031,7 @@ $trbo-buttons-button-filter-padding-2xl-left: $trbo-padding-5s !default;
 $trbo-buttons-button-filter-padding-2xl-right: $trbo-padding-5 !default;
 $trbo-buttons-button-filter-padding-2xl-y: $trbo-padding-4 !default;
 $trbo-buttons-button-close-x-padding-sm: $trbo-padding-2 !default;
+$trbo-buttons-button-close-x-padding-xs: $trbo-padding-1s !default;
 $trbo-buttons-button-close-x-padding-md: $trbo-padding-2s !default;
 $trbo-buttons-button-close-x-padding-lg: $trbo-padding-2s !default;
 $trbo-buttons-link-default-gap-sm: $trbo-gap-1s !default;
@@ -2813,6 +2814,7 @@ $tokens: (
       'close-x': (
         'padding': (
           'sm': $trbo-buttons-button-close-x-padding-sm,
+          'xs': $trbo-buttons-button-close-x-padding-xs,
           'md': $trbo-buttons-button-close-x-padding-md,
           'lg': $trbo-buttons-button-close-x-padding-lg
         )
