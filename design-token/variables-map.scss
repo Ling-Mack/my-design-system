@@ -572,13 +572,17 @@ $trbo-foreground-disabled-muted: $trbo-colors-gray-50 !default;
 $trbo-foreground-brand-primary: $trbo-colors-brand-600 !default;
 $trbo-foreground-brand-primary-hover: $trbo-colors-brand-700 !default;
 $trbo-foreground-brand-secondary: $trbo-colors-brand-500 !default;
+$trbo-foreground-brand-muted: $trbo-colors-brand-200 !default;
 $trbo-foreground-error-primary: $trbo-colors-error-600 !default;
 $trbo-foreground-error-primary-hover: $trbo-colors-error-800 !default;
 $trbo-foreground-error-secondary: $trbo-colors-error-500 !default;
+$trbo-foreground-error-muted: $trbo-colors-error-200 !default;
 $trbo-foreground-warning-primary: $trbo-colors-warning-600 !default;
 $trbo-foreground-warning-secondary: $trbo-colors-warning-500 !default;
+$trbo-foreground-warning-muted: $trbo-colors-warning-200 !default;
 $trbo-foreground-success-primary: $trbo-colors-success-600 !default;
 $trbo-foreground-success-secondary: $trbo-colors-success-500 !default;
+$trbo-foreground-success-muted: $trbo-colors-success-200 !default;
 $trbo-utility-blue-50: $trbo-colors-blue-50 !default;
 $trbo-utility-blue-100: $trbo-colors-blue-100 !default;
 $trbo-utility-blue-200: $trbo-colors-blue-200 !default;
@@ -2202,13 +2206,17 @@ $tokens: (
     'brand-primary': $trbo-foreground-brand-primary,
     'brand-primary-hover': $trbo-foreground-brand-primary-hover,
     'brand-secondary': $trbo-foreground-brand-secondary,
+    'brand-muted': $trbo-foreground-brand-muted,
     'error-primary': $trbo-foreground-error-primary,
     'error-primary-hover': $trbo-foreground-error-primary-hover,
     'error-secondary': $trbo-foreground-error-secondary,
+    'error-muted': $trbo-foreground-error-muted,
     'warning-primary': $trbo-foreground-warning-primary,
     'warning-secondary': $trbo-foreground-warning-secondary,
+    'warning-muted': $trbo-foreground-warning-muted,
     'success-primary': $trbo-foreground-success-primary,
-    'success-secondary': $trbo-foreground-success-secondary
+    'success-secondary': $trbo-foreground-success-secondary,
+    'success-muted': $trbo-foreground-success-muted
   ),
   'utility': (
     'blue': (

@@ -578,13 +578,17 @@
   --trbo-foreground-brand-primary: var(--trbo-colors-brand-600, #0086c9);
   --trbo-foreground-brand-primary-hover: var(--trbo-colors-brand-700, #026aa2);
   --trbo-foreground-brand-secondary: var(--trbo-colors-brand-500, #0ba5ec);
+  --trbo-foreground-brand-muted: var(--trbo-colors-brand-200, #b9e6fe);
   --trbo-foreground-error-primary: var(--trbo-colors-error-600, #d92d20);
   --trbo-foreground-error-primary-hover: var(--trbo-colors-error-800, #912018);
   --trbo-foreground-error-secondary: var(--trbo-colors-error-500, #f04438);
+  --trbo-foreground-error-muted: var(--trbo-colors-error-200, #fecdca);
   --trbo-foreground-warning-primary: var(--trbo-colors-warning-600, #dc6803);
   --trbo-foreground-warning-secondary: var(--trbo-colors-warning-500, #f79009);
+  --trbo-foreground-warning-muted: var(--trbo-colors-warning-200, #fedf89);
   --trbo-foreground-success-primary: var(--trbo-colors-success-600, #079455);
   --trbo-foreground-success-secondary: var(--trbo-colors-success-500, #17b26a);
+  --trbo-foreground-success-muted: var(--trbo-colors-success-200, #abefc6);
   --trbo-utility-blue-50: var(--trbo-colors-blue-50, #eff8ff);
   --trbo-utility-blue-100: var(--trbo-colors-blue-100, #d1e9ff);
   --trbo-utility-blue-200: var(--trbo-colors-blue-200, #b2ddff);
