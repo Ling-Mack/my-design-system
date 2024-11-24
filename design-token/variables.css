@@ -488,6 +488,7 @@
    * This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
    */
   --trbo-focus-rings-focus-ring-error-shadow-xs-skeuomorphic: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438;
+  --trbo-test: #ffffff;
   --trbo-text-primary-solid: var(--trbo-colors-gray-800, #182230);
   --trbo-text-primary: var(--trbo-colors-gray-700, #344054);
   --trbo-text-primary-hover: var(--trbo-colors-gray-900, #101828);
