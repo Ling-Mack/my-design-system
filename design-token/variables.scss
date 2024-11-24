@@ -482,7 +482,6 @@ $trbo-focus-rings-focus-ring-error-shadow-xs: 0 1px 2px 0 #1018280d, 0 0 0 2px #
 // 
 // This can be replaced with focus-ring-error-shadow-xs if you prefer a flat style.
 $trbo-focus-rings-focus-ring-error-shadow-xs-skeuomorphic: inset 0 0 0 1px #1018282e, inset 0 -2px 0 0 #1018280d, 0 1px 2px 0 #1018280d, 0 0 0 2px #ffffff, 0 0 0 4px #f04438 !default;
-$trbo-test: #ffffff !default;
 $trbo-text-primary-solid: $trbo-colors-gray-800 !default;
 $trbo-text-primary: $trbo-colors-gray-700 !default;
 $trbo-text-primary-hover: $trbo-colors-gray-900 !default;
@@ -3673,7 +3672,6 @@ $tokens: (
       )
     )
   ),
-  'test': $trbo-test,
   'tokenSetOrder': (
     '0': 'foundation/colors',
     '1': 'foundation/spacing',
