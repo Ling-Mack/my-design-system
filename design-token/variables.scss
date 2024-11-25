@@ -374,6 +374,7 @@ $trbo-spacing-144: 9rem !default;
 $trbo-spacing-160: 10rem !default;
 $trbo-spacing-176: 11rem !default;
 $trbo-spacing-192: 12rem !default;
+$trbo-spacing-200: 12.5rem !default;
 $trbo-spacing-208: 13rem !default;
 $trbo-spacing-224: 14rem !default;
 $trbo-spacing-240: 15rem !default;
@@ -731,6 +732,8 @@ $trbo-margin-28: $trbo-spacing-112 !default;
 $trbo-margin-32: $trbo-spacing-128 !default;
 $trbo-margin-36: $trbo-spacing-144 !default;
 $trbo-margin-40: $trbo-spacing-160 !default;
+$trbo-margin-50: $trbo-spacing-200 !default;
+$trbo-margin-60: $trbo-spacing-240 !default;
 $trbo-margin-2px: $trbo-spacing-2 !default;
 $trbo-margin-3px: $trbo-spacing-3 !default;
 $trbo-margin-1s: $trbo-spacing-6 !default;
@@ -1347,6 +1350,9 @@ $trbo-inputs-input-text-disabled: $trbo-text-disabled !default;
 $trbo-inputs-placeholder-text: $trbo-text-placeholder !default;
 $trbo-inputs-default-bg: $trbo-background-primary !default;
 $trbo-inputs-default-fg: $trbo-foreground-quinary !default;
+$trbo-inputs-default-button-fg: $trbo-foreground-quaternary !default;
+$trbo-inputs-default-button-fg-focused: $trbo-foreground-brand-secondary !default;
+$trbo-inputs-default-button-fg-disabled: $trbo-foreground-disabled-subtle !default;
 $trbo-inputs-default-border: $trbo-border-primary !default;
 $trbo-inputs-default-border-disabled: $trbo-border-disabled !default;
 $trbo-inputs-default-description: $trbo-text-tertiary !default;
@@ -1358,8 +1364,12 @@ $trbo-inputs-error-border: $trbo-border-error-subtle !default;
 $trbo-inputs-error-description: $trbo-text-error-primary !default;
 $trbo-inputs-error-border-focused: $trbo-border-error !default;
 $trbo-inputs-border-stroke: $trbo-stroke-sm !default;
+$trbo-inputs-border-stroke-hover: $trbo-stroke-md !default;
 $trbo-inputs-border-stroke-focused: $trbo-stroke-md !default;
 $trbo-inputs-input-radius: $trbo-radius-md !default;
+$trbo-inputs-input-height-xs: $trbo-height-9 !default;
+$trbo-inputs-input-height-sm: $trbo-height-10 !default;
+$trbo-inputs-input-height-md: $trbo-height-11 !default;
 $trbo-card-bg: $trbo-background-primary !default;
 $trbo-card-border: $trbo-border-primary !default;
 $trbo-card-title: $trbo-text-black !default;
@@ -2028,6 +2038,7 @@ $tokens: (
     '160': $trbo-spacing-160,
     '176': $trbo-spacing-176,
     '192': $trbo-spacing-192,
+    '200': $trbo-spacing-200,
     '208': $trbo-spacing-208,
     '224': $trbo-spacing-224,
     '240': $trbo-spacing-240,
@@ -2448,6 +2459,8 @@ $tokens: (
     '32': $trbo-margin-32,
     '36': $trbo-margin-36,
     '40': $trbo-margin-40,
+    '50': $trbo-margin-50,
+    '60': $trbo-margin-60,
     '2px': $trbo-margin-2px,
     '3px': $trbo-margin-3px,
     '1s': $trbo-margin-1s,
@@ -3267,6 +3280,9 @@ $tokens: (
     'default': (
       'bg': $trbo-inputs-default-bg,
       'fg': $trbo-inputs-default-fg,
+      'button-fg': $trbo-inputs-default-button-fg,
+      'button-fg-focused': $trbo-inputs-default-button-fg-focused,
+      'button-fg-disabled': $trbo-inputs-default-button-fg-disabled,
       'border': $trbo-inputs-default-border,
       'border-disabled': $trbo-inputs-default-border-disabled,
       'description': $trbo-inputs-default-description,
@@ -3281,8 +3297,14 @@ $tokens: (
       'border-focused': $trbo-inputs-error-border-focused
     ),
     'border-stroke': $trbo-inputs-border-stroke,
+    'border-stroke-hover': $trbo-inputs-border-stroke-hover,
     'border-stroke-focused': $trbo-inputs-border-stroke-focused,
-    'input-radius': $trbo-inputs-input-radius
+    'input-radius': $trbo-inputs-input-radius,
+    'input-height': (
+      'xs': $trbo-inputs-input-height-xs,
+      'sm': $trbo-inputs-input-height-sm,
+      'md': $trbo-inputs-input-height-md
+    )
   ),
   'card': (
     'bg': $trbo-card-bg,
