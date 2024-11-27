@@ -981,11 +981,17 @@
   --trbo-buttons-button-radius-lg: var(--trbo-radius-md, 0.5rem);
   --trbo-buttons-button-radius-xl: var(--trbo-radius-md, 0.5rem);
   --trbo-buttons-button-radius-2xl: var(--trbo-radius-lg, 0.625rem);
+  --trbo-buttons-button-default-gap-2xs: var(--trbo-gap-1, 0.25rem);
+  --trbo-buttons-button-default-gap-xs: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-button-default-gap-sm: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-button-default-gap-md: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-button-default-gap-lg: var(--trbo-gap-1s, 0.375rem);
   --trbo-buttons-button-default-gap-xl: var(--trbo-gap-1s, 0.375rem);
   --trbo-buttons-button-default-gap-2xl: var(--trbo-gap-2s, 0.625rem);
+  --trbo-buttons-button-default-padding-2xs-x: var(--trbo-padding-1s, 0.375rem);
+  --trbo-buttons-button-default-padding-2xs-y: var(--trbo-padding-1, 0.25rem);
+  --trbo-buttons-button-default-padding-xs-x: var(--trbo-padding-2, 0.5rem);
+  --trbo-buttons-button-default-padding-xs-y: var(--trbo-padding-1s, 0.375rem);
   --trbo-buttons-button-default-padding-sm-x: var(--trbo-padding-2s, 0.625rem);
   --trbo-buttons-button-default-padding-sm-y: var(--trbo-padding-2, 0.5rem);
   --trbo-buttons-button-default-padding-md-x: var(--trbo-padding-3s, 0.875rem);
@@ -1044,6 +1050,8 @@
   --trbo-buttons-button-close-x-padding-xs: var(--trbo-padding-1s, 0.375rem);
   --trbo-buttons-button-close-x-padding-md: var(--trbo-padding-2s, 0.625rem);
   --trbo-buttons-button-close-x-padding-lg: var(--trbo-padding-2s, 0.625rem);
+  --trbo-buttons-link-default-gap-2xs: var(--trbo-gap-1, 0.25rem);
+  --trbo-buttons-link-default-gap-xs: var(--trbo-gap-1, 0.25rem);
   --trbo-buttons-link-default-gap-sm: var(--trbo-gap-1s, 0.375rem);
   --trbo-buttons-link-default-gap-md: var(--trbo-gap-1s, 0.375rem);
   --trbo-buttons-link-default-gap-lg: var(--trbo-gap-2, 0.5rem);
@@ -1054,6 +1062,8 @@
   --trbo-buttons-link-dot-leading-gap-lg: var(--trbo-gap-2, 0.5rem);
   --trbo-buttons-link-dot-leading-gap-xl: var(--trbo-gap-2, 0.5rem);
   --trbo-buttons-link-dot-leading-gap-2xl: var(--trbo-gap-3, 0.75rem);
+  --trbo-buttons-link-radius-xs: var(--trbo-radius-xs, 0.25rem);
+  --trbo-buttons-link-radius-2xs: var(--trbo-radius-xs, 0.25rem);
   --trbo-buttons-link-radius-sm: var(--trbo-radius-xs, 0.25rem);
   --trbo-buttons-link-radius-md: var(--trbo-radius-xs, 0.25rem);
   --trbo-buttons-link-radius-lg: var(--trbo-radius-xs, 0.25rem);

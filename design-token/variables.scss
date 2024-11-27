@@ -975,11 +975,17 @@ $trbo-buttons-button-radius-md: $trbo-radius-md !default;
 $trbo-buttons-button-radius-lg: $trbo-radius-md !default;
 $trbo-buttons-button-radius-xl: $trbo-radius-md !default;
 $trbo-buttons-button-radius-2xl: $trbo-radius-lg !default;
+$trbo-buttons-button-default-gap-2xs: $trbo-gap-1 !default;
+$trbo-buttons-button-default-gap-xs: $trbo-gap-1 !default;
 $trbo-buttons-button-default-gap-sm: $trbo-gap-1 !default;
 $trbo-buttons-button-default-gap-md: $trbo-gap-1 !default;
 $trbo-buttons-button-default-gap-lg: $trbo-gap-1s !default;
 $trbo-buttons-button-default-gap-xl: $trbo-gap-1s !default;
 $trbo-buttons-button-default-gap-2xl: $trbo-gap-2s !default;
+$trbo-buttons-button-default-padding-2xs-x: $trbo-padding-1s !default;
+$trbo-buttons-button-default-padding-2xs-y: $trbo-padding-1 !default;
+$trbo-buttons-button-default-padding-xs-x: $trbo-padding-2 !default;
+$trbo-buttons-button-default-padding-xs-y: $trbo-padding-1s !default;
 $trbo-buttons-button-default-padding-sm-x: $trbo-padding-2s !default;
 $trbo-buttons-button-default-padding-sm-y: $trbo-padding-2 !default;
 $trbo-buttons-button-default-padding-md-x: $trbo-padding-3s !default;
@@ -1038,6 +1044,8 @@ $trbo-buttons-button-close-x-padding-sm: $trbo-padding-2 !default;
 $trbo-buttons-button-close-x-padding-xs: $trbo-padding-1s !default;
 $trbo-buttons-button-close-x-padding-md: $trbo-padding-2s !default;
 $trbo-buttons-button-close-x-padding-lg: $trbo-padding-2s !default;
+$trbo-buttons-link-default-gap-2xs: $trbo-gap-1 !default;
+$trbo-buttons-link-default-gap-xs: $trbo-gap-1 !default;
 $trbo-buttons-link-default-gap-sm: $trbo-gap-1s !default;
 $trbo-buttons-link-default-gap-md: $trbo-gap-1s !default;
 $trbo-buttons-link-default-gap-lg: $trbo-gap-2 !default;
@@ -1048,6 +1056,8 @@ $trbo-buttons-link-dot-leading-gap-md: $trbo-gap-2 !default;
 $trbo-buttons-link-dot-leading-gap-lg: $trbo-gap-2 !default;
 $trbo-buttons-link-dot-leading-gap-xl: $trbo-gap-2 !default;
 $trbo-buttons-link-dot-leading-gap-2xl: $trbo-gap-3 !default;
+$trbo-buttons-link-radius-xs: $trbo-radius-xs !default;
+$trbo-buttons-link-radius-2xs: $trbo-radius-xs !default;
 $trbo-buttons-link-radius-sm: $trbo-radius-xs !default;
 $trbo-buttons-link-radius-md: $trbo-radius-xs !default;
 $trbo-buttons-link-radius-lg: $trbo-radius-xs !default;
@@ -2747,6 +2757,8 @@ $tokens: (
       ),
       'default': (
         'gap': (
+          '2xs': $trbo-buttons-button-default-gap-2xs,
+          'xs': $trbo-buttons-button-default-gap-xs,
           'sm': $trbo-buttons-button-default-gap-sm,
           'md': $trbo-buttons-button-default-gap-md,
           'lg': $trbo-buttons-button-default-gap-lg,
@@ -2754,6 +2766,10 @@ $tokens: (
           '2xl': $trbo-buttons-button-default-gap-2xl
         ),
         'padding': (
+          '2xs-x': $trbo-buttons-button-default-padding-2xs-x,
+          '2xs-y': $trbo-buttons-button-default-padding-2xs-y,
+          'xs-x': $trbo-buttons-button-default-padding-xs-x,
+          'xs-y': $trbo-buttons-button-default-padding-xs-y,
           'sm-x': $trbo-buttons-button-default-padding-sm-x,
           'sm-y': $trbo-buttons-button-default-padding-sm-y,
           'md-x': $trbo-buttons-button-default-padding-md-x,
@@ -2838,6 +2854,8 @@ $tokens: (
     'link': (
       'default': (
         'gap': (
+          '2xs': $trbo-buttons-link-default-gap-2xs,
+          'xs': $trbo-buttons-link-default-gap-xs,
           'sm': $trbo-buttons-link-default-gap-sm,
           'md': $trbo-buttons-link-default-gap-md,
           'lg': $trbo-buttons-link-default-gap-lg,
@@ -2855,6 +2873,8 @@ $tokens: (
         )
       ),
       'radius': (
+        'xs': $trbo-buttons-link-radius-xs,
+        '2xs': $trbo-buttons-link-radius-2xs,
         'sm': $trbo-buttons-link-radius-sm,
         'md': $trbo-buttons-link-radius-md,
         'lg': $trbo-buttons-link-radius-lg,
