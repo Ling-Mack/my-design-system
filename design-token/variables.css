@@ -1435,10 +1435,10 @@
   --trbo-toggle-size-md-width: var(--trbo-width-11, 2.75rem);
   --trbo-toggle-size-md-height: var(--trbo-height-6, 1.5rem);
   --trbo-tabs-outlined-primary-default-button-text: var(--trbo-text-quaternary, #667085);
-  --trbo-tabs-outlined-primary-default-button-text-focused: var(--trbo-text-quaternary, #667085);
-  --trbo-tabs-outlined-primary-default-button-bg-focused: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-default-button-text-hover: var(--trbo-text-primary, #344054);
-  --trbo-tabs-outlined-primary-default-button-bg-hover: var(--trbo-background-primary, #ffffff);
+  --trbo-tabs-outlined-primary-default-button-text-focused: var(--trbo-text-quaternary, #667085);
+  --trbo-tabs-outlined-primary-default-button-bg-hover: var(--trbo-background-primary-hover, #f9fafb);
+  --trbo-tabs-outlined-primary-default-button-bg-focused: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-border: var(--trbo-border-primary, #d0d5dd);
   --trbo-tabs-outlined-primary-bg: var(--trbo-background-tertiary, #f2f4f7);
   --trbo-tabs-outlined-primary-active-button-text: var(--trbo-text-primary, #344054);
@@ -1447,9 +1447,9 @@
   --trbo-tabs-outlined-primary-active-button-text-brand-hover: var(--trbo-text-brand-tertiary-hover, #026aa2);
   --trbo-tabs-outlined-primary-active-button-text-brand: var(--trbo-text-brand-tertiary, #0086c9);
   --trbo-tabs-outlined-primary-active-button-text-brand-focused: var(--trbo-text-brand-tertiary, #0086c9);
-  --trbo-tabs-outlined-primary-active-button-bg-hover: var(--trbo-background-primary, #ffffff);
-  --trbo-tabs-outlined-primary-active-button-bg-focused: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-active-button-bg: var(--trbo-background-primary, #ffffff);
+  --trbo-tabs-outlined-primary-active-button-bg-hover: var(--trbo-background-primary-hover, #f9fafb);
+  --trbo-tabs-outlined-primary-active-button-bg-focused: var(--trbo-background-primary, #ffffff);
   --trbo-tabs-outlined-primary-active-button-border: var(--trbo-border-primary, #d0d5dd);
   --trbo-tabs-outlined-primary-active-button-border-hover: var(--trbo-border-primary, #d0d5dd);
   --trbo-tabs-outlined-primary-active-button-border-focused: var(--trbo-border-primary, #d0d5dd);
