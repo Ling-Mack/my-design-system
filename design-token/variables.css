@@ -1435,7 +1435,7 @@
   --trbo-toggle-size-md-width: var(--trbo-width-11, 2.75rem);
   --trbo-toggle-size-md-height: var(--trbo-height-6, 1.5rem);
   --trbo-tabs-outlined-primary-default-button-text: var(--trbo-text-quaternary, #667085);
-  --trbo-tabs-outlined-primary-default-button-text-hover: var(--trbo-text-primary, #344054);
+  --trbo-tabs-outlined-primary-default-button-text-hover: var(--trbo-text-quaternary, #667085);
   --trbo-tabs-outlined-primary-default-button-text-focused: var(--trbo-text-quaternary, #667085);
   --trbo-tabs-outlined-primary-default-button-bg-hover: var(--trbo-background-primary-hover, #f9fafb);
   --trbo-tabs-outlined-primary-default-button-bg-focused: var(--trbo-background-primary, #ffffff);
@@ -1456,7 +1456,7 @@
   --trbo-tabs-outlined-primary-active-button-border-stroke: var(--trbo-stroke-sm, 1px);
   --trbo-tabs-outlined-primary-border-stroke: var(--trbo-stroke-sm, 1px);
   --trbo-tabs-text-primary-default-button-text: var(--trbo-text-quaternary, #667085);
-  --trbo-tabs-text-primary-default-button-text-hover: var(--trbo-text-primary, #344054);
+  --trbo-tabs-text-primary-default-button-text-hover: var(--trbo-text-quaternary, #667085);
   --trbo-tabs-text-primary-default-button-text-focused: var(--trbo-text-quaternary, #667085);
   --trbo-tabs-text-primary-default-button-bg-hover: var(--trbo-background-primary-hover, #f9fafb);
   --trbo-tabs-text-primary-default-button-bg-focused: var(--trbo-background-primary, #ffffff);
